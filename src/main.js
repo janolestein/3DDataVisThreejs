@@ -1,21 +1,33 @@
-import * as dat from 'dat.gui';
-import * as THREE from 'three';
-import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
+import * as THREE from "three";
+import * as dat from "dat.gui";
+import Stats from "three/examples/jsm/libs/stats.module.js";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
-main();
+const berlinJson = "../assets/planung_conv.geojson";
 
-function main() {
-  // create context
+async function fetchJSONData() {
+  const response = await fetch(berlinJson);
+  const resJson = await response.json();
+
+  return resJson;
+}
+async function main() {
   const canvas = document.querySelector("#c");
   const gl = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
   });
+  gl.shadowMap.enabled = true;
+  const gui = new dat.GUI();
+  let stats = new Stats();
+
+  stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
+  document.body.appendChild(stats.dom);
   // create camera
   const angleOfView = 55;
   const aspectRatio = canvas.clientWidth / canvas.clientHeight;
   const nearPlane = 0.1;
-  const farPlane = 100;
+  const farPlane = 9000;
   const camera = new THREE.PerspectiveCamera(
     angleOfView,
     aspectRatio,
@@ -29,95 +41,57 @@ function main() {
   scene.background = new THREE.Color(0.3, 0.5, 0.8);
 
 
-  // GEOMETRY
-  // create the cube
-  const cubeSize = 4;
-  const cubeGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
+  const berlinGeo = await fetchJSONData();
+  console.log(berlinGeo);
+  console.log(berlinGeo.features[0].geometry.coordinates);
 
-  // Create the Sphere
-  const sphereRadius = 3;
-  const sphereWidthSegments = 32;
-  const sphereHeightSegments = 16;
-  const sphereGeometry = new THREE.SphereGeometry(
-    sphereRadius,
-    sphereWidthSegments,
-    sphereHeightSegments,
-  );
-
-
-
-
-  // MATERIALS
-
-  const cubeMaterial = new THREE.MeshPhongMaterial({
-    color: "pink",
+  const material = new THREE.LineBasicMaterial({
+    color: 0x0000ff,
   });
+  const degreesToRads = deg => (deg * Math.PI) / 180.0;
+  let r = 6371;
+  const geoPoints = [];
+  berlinGeo.features[0].geometry.coordinates[0][0].forEach(element => {
+    let x = r * Math.cos(degreesToRads(element[1]) * Math.cos(degreesToRads(element[0])));
+    let y = r * Math.cos(degreesToRads(element[1]) * Math.sin(degreesToRads(element[0])));
+    let z = r * Math.sin(degreesToRads(element[1]));
+    console.log(x, y, z);
+    console.log(element);
+    geoPoints.push(new THREE.Vector3(x / 1000, y / 1000, z / 1000));
+  }); 
+  
+  const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPoints);
+  console.log(geoPoints);
 
-  const sphereMaterial = new THREE.MeshStandardMaterial({
-    color: "tan",
-  });
+  const outline = new THREE.Line(geoGeometry, material);
+  outline.position.set(0,0,0);
 
+  scene.add(outline);
+  const points = [];
+  points.push(new THREE.Vector3(-10, 0, 0));
+  points.push(new THREE.Vector3(0, 10, 0));
+  points.push(new THREE.Vector3(10, 0, 0));
 
+  const geometry = new THREE.BufferGeometry().setFromPoints(points);
 
-  // MESHES
-  const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
-  cube.position.set(cubeSize + 1, cubeSize + 1, 0);
-  scene.add(cube);
-  console.log(cube);
-
-  const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-  sphere.position.set(-sphereRadius - 1, sphereRadius + 2, 0);
-  scene.add(sphere);
-
-
-
-  //LIGHTS
-  const color = 0xffffff;
-  const intensity = 0.7;
-  const light = new THREE.DirectionalLight(color, intensity);
-  light.target = cube;
-  light.position.set(0, 30, 30);
-  scene.add(light);
-  scene.add(light.target);
-
+  const line = new THREE.Line(geometry, material);
+  scene.add(line);
   const ambientColor = 0xffffff;
   const ambientIntensity = 0.2;
   const ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
   scene.add(ambientLight);
-
-
-
-  var controls = new (function () {
-    this.rotationSpeed = 0.02;
-  })();
-
-  var gui = new dat.GUI();
-  gui.add(controls, "rotationSpeed", 0, 0.5);
-
-  var trackballControls = new TrackballControls(camera, gl.domElement);
+  const controls = new OrbitControls(camera, gl.domElement);
   var clock = new THREE.Clock();
-  // DRAW
   function draw(time) {
     time *= 0.001;
-
     if (resizeGLToDisplaySize(gl)) {
       const canvas = gl.domElement;
       camera.aspect = canvas.clientWidth / canvas.clientHeight;
       camera.updateProjectionMatrix();
     }
-    trackballControls.update(clock.getDelta());
+    controls.update();
+    stats.update();
 
-    // rotate the cube around its axes
-    cube.rotation.x += controls.rotationSpeed;
-    cube.rotation.y += controls.rotationSpeed;
-    cube.rotation.z += controls.rotationSpeed;
-
-    sphere.rotation.x += controls.rotationSpeed;
-    sphere.rotation.y += controls.rotationSpeed;
-    sphere.rotation.y += controls.rotationSpeed;
-
-    light.position.x = 20 * Math.cos(time);
-    light.position.y = 20 * Math.sin(time);
     gl.render(scene, camera);
     requestAnimationFrame(draw);
   }
@@ -136,4 +110,4 @@ function resizeGLToDisplaySize(gl) {
   }
   return needResize;
 }
-
+main();

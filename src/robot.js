@@ -1,4 +1,4 @@
-import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader";
+import { MTLLoader } from "three/examples/jsm/loaders/MTLLoadeh";
 main();
 
 function main() {
