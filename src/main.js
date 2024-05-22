@@ -2,6 +2,7 @@ import * as THREE from "three";
 import * as dat from "dat.gui";
 import Stats from "three/examples/jsm/libs/stats.module.js";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { GeoJsonGeometry } from 'three-geojson-geometry';
 
 const berlinJson = "../assets/planung_conv.geojson";
 
@@ -49,7 +50,7 @@ async function main() {
     color: 0x0000ff,
   });
   const degreesToRads = deg => (deg * Math.PI) / 180.0;
-  let r = 6371;
+  let r = 1;
   const geoPoints = [];
   berlinGeo.features[0].geometry.coordinates[0][0].forEach(element => {
     let x = r * Math.cos(degreesToRads(element[1]) * Math.cos(degreesToRads(element[0])));
@@ -57,7 +58,7 @@ async function main() {
     let z = r * Math.sin(degreesToRads(element[1]));
     console.log(x, y, z);
     console.log(element);
-    geoPoints.push(new THREE.Vector3(x / 1000, y / 1000, z / 1000));
+    geoPoints.push(new THREE.Vector3(x, y, z));
   }); 
   
   const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPoints);
@@ -65,17 +66,24 @@ async function main() {
 
   const outline = new THREE.Line(geoGeometry, material);
   outline.position.set(0,0,0);
+  outline.scale.set(1000, 1000, 1000);
 
   scene.add(outline);
   const points = [];
-  points.push(new THREE.Vector3(-10, 0, 0));
-  points.push(new THREE.Vector3(0, 10, 0));
-  points.push(new THREE.Vector3(10, 0, 0));
+  points.push(new THREE.Vector3(geoPoints[0].x, geoPoints[0].y, geoPoints[0].z));
+  points.push(new THREE.Vector3(geoPoints[1].x, geoPoints[1].y, geoPoints[1].z));
+  points.push(new THREE.Vector3(1, 1, 1));
 
   const geometry = new THREE.BufferGeometry().setFromPoints(points);
 
   const line = new THREE.Line(geometry, material);
   scene.add(line);
+
+  const myLine = new THREE.Line(
+  new GeoJsonGeometry(berlinJson),
+  new THREE.LineBasicMaterial({ color: 'blue' })
+);
+  scene.add(myLine);
   const ambientColor = 0xffffff;
   const ambientIntensity = 0.2;
   const ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
