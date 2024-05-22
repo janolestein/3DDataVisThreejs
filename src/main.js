@@ -27,7 +27,7 @@ async function main() {
   // create camera
   const angleOfView = 55;
   const aspectRatio = canvas.clientWidth / canvas.clientHeight;
-  const nearPlane = 0.1;
+  const nearPlane = 0.000000000000000000001;
   const farPlane = 9000;
   const camera = new THREE.PerspectiveCamera(
     angleOfView,
@@ -41,7 +41,6 @@ async function main() {
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0.3, 0.5, 0.8);
 
-
   const berlinGeo = await fetchJSONData();
   console.log(berlinGeo);
   console.log(berlinGeo.features[0].geometry.coordinates);
@@ -52,21 +51,27 @@ async function main() {
   const degreesToRads = deg => (deg * Math.PI) / 180.0;
   let r = 1;
   const geoPoints = [];
-  berlinGeo.features[0].geometry.coordinates[0][0].forEach(element => {
-    let x = r * Math.cos(degreesToRads(element[1]) * Math.cos(degreesToRads(element[0])));
-    let y = r * Math.cos(degreesToRads(element[1]) * Math.sin(degreesToRads(element[0])));
+  berlinGeo.features[0].geometry.coordinates[0][0].forEach((element) => {
+    let x =
+      r *
+      Math.cos(degreesToRads(element[1]) * Math.cos(degreesToRads(element[0])));
+    let y =
+      r *
+      Math.cos(degreesToRads(element[1]) * Math.sin(degreesToRads(element[0])));
     let z = r * Math.sin(degreesToRads(element[1]));
     console.log(x, y, z);
     console.log(element);
-    geoPoints.push(new THREE.Vector3(x, y, z));
-  }); 
-  
+    let vec3 = new THREE.Vector3(x, y, z);
+    console.log(vec3);
+    geoPoints.push(vec3);
+  });
+
   const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPoints);
   console.log(geoPoints);
 
   const outline = new THREE.Line(geoGeometry, material);
-  outline.position.set(0,0,0);
-  outline.scale.set(1000, 1000, 1000);
+  outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
+  outline.position.set(0, 0, 0);
 
   scene.add(outline);
   const points = [];
@@ -88,8 +93,15 @@ async function main() {
   const ambientIntensity = 0.2;
   const ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
   scene.add(ambientLight);
-  const controls = new OrbitControls(camera, gl.domElement);
+  const orbitControls = new OrbitControls(camera, gl.domElement);
   var clock = new THREE.Clock();
+
+  var controls = new (function () {
+    this.x = 0.1;
+  })();
+
+  gui.add(controls, "x", 0, 10000);
+  let scaleVector = new THREE.Vector3();
   function draw(time) {
     time *= 0.001;
     if (resizeGLToDisplaySize(gl)) {
@@ -97,8 +109,13 @@ async function main() {
       camera.aspect = canvas.clientWidth / canvas.clientHeight;
       camera.updateProjectionMatrix();
     }
-    controls.update();
+    orbitControls.update();
     stats.update();
+
+    scaleVector.x = controls.x;
+    scaleVector.y = controls.x;
+    scaleVector.z = controls.x;
+    outline.scale.set(controls.x, controls.x, controls.x);
 
     gl.render(scene, camera);
     requestAnimationFrame(draw);
