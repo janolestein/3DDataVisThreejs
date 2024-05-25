@@ -4,12 +4,27 @@ import Stats from "three/examples/jsm/libs/stats.module.js";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const berlinJson = "../assets/planung_conv.geojson";
+const berlinFwDaten = "../assets/BFw_planning_room_data_2023.json";
 
-async function fetchJSONData() {
-  const response = await fetch(berlinJson);
+async function fetchJSONData(inputJson) {
+  const response = await fetch(inputJson);
   const resJson = await response.json();
 
   return resJson;
+}
+let missionCountMax = 0;
+async function convertJsonToMapWithLorKey(jsonData) {
+  const lorKeyMap = new Map();
+  jsonData.forEach((element) => {
+    lorKeyMap.set(element.planning_room_id, {
+      mission_count_all: element.mission_count_all,
+    });
+    if (element.mission_count_all < missionCountMax) {
+      missionCountMax = element.mission_count_all;
+    }
+  });
+  console.log(lorKeyMap);
+  return lorKeyMap;
 }
 async function main() {
   const canvas = document.querySelector("#c");
@@ -26,8 +41,8 @@ async function main() {
   // create camera
   const angleOfView = 55;
   const aspectRatio = canvas.clientWidth / canvas.clientHeight;
-  const nearPlane = 0.1;
-  const farPlane = 9000000;
+  const nearPlane = 1;
+  const farPlane = 900;
   const camera = new THREE.PerspectiveCamera(
     angleOfView,
     aspectRatio,
@@ -40,7 +55,12 @@ async function main() {
   const scene = new THREE.Scene();
   scene.background = new THREE.Color("white");
 
-  const berlinGeo = await fetchJSONData();
+  const berlinGeo = await fetchJSONData(berlinJson);
+
+  const fwData = await fetchJSONData(berlinFwDaten);
+  let lorMap = await convertJsonToMapWithLorKey(fwData);
+  console.log(lorMap.keys());
+  console.log(fwData);
   console.log(berlinGeo);
   console.log(berlinGeo.features[0].geometry.coordinates);
 
@@ -83,11 +103,12 @@ async function main() {
     bevelSegments: 1,
   };
   const centerInMercator = gpsToCart(centerLat, centerLon);
-  console.log;
   berlinGeo.features.forEach((element) => {
     const geoPointsVec3 = [];
     const geoPointsArray = [];
 
+    let lor = element.properties.PLR_ID;
+    console.log(lor);
     element.geometry.coordinates[0][0].forEach((elementNest) => {
       // let x =
       //   r *
@@ -113,8 +134,12 @@ async function main() {
       geoPointsVec3.push(vec3);
 
       geoPointsArray.push(geoMinusCenter);
-    });
 
+
+
+    });
+      console.log(lorMap.get(lor));
+      // let heightData = lorMap.get(lor);
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
 
     const outline = new THREE.Line(geoGeometry, material);

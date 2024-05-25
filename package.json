@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "convert-csv-to-json": "^2.47.0",
     "cube.gl": "^1.0.19",
     "dat.gui": "^0.7.9",
     "epsg": "^0.5.0",
