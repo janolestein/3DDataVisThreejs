@@ -12,15 +12,41 @@ async function fetchJSONData(inputJson) {
 
   return resJson;
 }
-let missionCountMax = 0;
+let mission_count_all_max = 0;
+let mission_count_ems_max = 0;
+let mission_count_ems_critical_max = 0;
+let mission_count_ems_critical_cpr_max = 0;
+let mission_count_fire_max = 0;
+let mission_count_technical_rescue_max = 0;
 async function convertJsonToMapWithLorKey(jsonData) {
   const lorKeyMap = new Map();
   jsonData.forEach((element) => {
     lorKeyMap.set(element.planning_room_id, {
       mission_count_all: element.mission_count_all,
+      mission_count_ems: element.mission_count_ems,
+      mission_count_ems_critical: element.mission_count_ems_critical,
+      mission_count_ems_critical_cpr: element.mission_count_ems_critical_cpr,
+      mission_count_fire: element.mission_count_fire,
+      mission_count_technical_rescue: element.mission_count_technical_rescue
+
     });
-    if (element.mission_count_all < missionCountMax) {
-      missionCountMax = element.mission_count_all;
+    if (element.mission_count_all > mission_count_all_max) {
+      mission_count_all_max = element.mission_count_all;
+    }
+    if (element.mission_count_ems > mission_count_ems_max) {
+      mission_count_ems_max = element.mission_count_ems;
+    }
+    if (element.mission_count_ems_critical > mission_count_ems_critical_max) {
+      mission_count_ems_critical_max = element.mission_count_ems_critical;
+    }
+    if (element.mission_count_ems_critical_cpr > mission_count_ems_critical_cpr_max) {
+      mission_count_ems_critical_cpr_max = element.mission_count_ems_critical_cpr;
+    }
+    if (element.mission_count_fire > mission_count_fire_max) {
+      mission_count_fire_max = element.mission_count_fire;
+    }
+    if (element.mission_count_technical_rescue > mission_count_technical_rescue_max) {
+      mission_count_technical_rescue_max = element.mission_count_technical_rescue;
     }
   });
   console.log(lorKeyMap);
@@ -49,7 +75,8 @@ async function main() {
     nearPlane,
     farPlane,
   );
-  camera.position.set(0, 8, 30);
+  camera.position.set(0, 200, 120);
+  
 
   // create the scene
   const scene = new THREE.Scene();
@@ -69,30 +96,20 @@ async function main() {
   });
   const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
   function gpsToCart(lat, lon) {
-    const mercator = { x: 0, y: 0 };
-    const earthRad = 6378.137;
+    const cart = { x: 0, y: 0 };
+    const earthRad = 6378;
 
-    mercator.x = degreesToRads(lon) * earthRad;
-    mercator.y =
+    cart.x = degreesToRads(lon) * earthRad;
+    cart.y =
       (earthRad / 2) *
       Math.log(
         (1.0 + Math.sin(degreesToRads(lat))) /
           (1.0 - Math.sin(degreesToRads(lat))),
       );
-    return mercator;
+    return cart;
   }
   let centerLat = 52.51772;
   let centerLon = 13.399207;
-  let tempHeightTest = 1;
-  function testHight() {
-    if (tempHeightTest % 2 === 0) {
-      tempHeightTest += 1;
-      return 3;
-    } else {
-      tempHeightTest += 1;
-      return 0;
-    }
-  }
   const extrudeSettings = {
     steps: 2,
     depth: 2,
@@ -102,27 +119,16 @@ async function main() {
     bevelOffset: 0,
     bevelSegments: 1,
   };
+
+  const exmaterial = new THREE.MeshNormalMaterial({transparent: true, opacity: 0.8});
+
   const centerInMercator = gpsToCart(centerLat, centerLon);
   berlinGeo.features.forEach((element) => {
     const geoPointsVec3 = [];
     const geoPointsArray = [];
 
     let lor = element.properties.PLR_ID;
-    console.log(lor);
     element.geometry.coordinates[0][0].forEach((elementNest) => {
-      // let x =
-      //   r *
-      //   Math.cos(degreesToRads(element[1]) * Math.cos(degreesToRads(element[0])));
-      // let y =
-      //   r *
-      //   Math.cos(degreesToRads(element[1]) * Math.sin(degreesToRads(element[0])));
-      // let z = r * Math.sin(degreesToRads(element[1]));
-      // console.log(x, y, z);
-      // console.log(element);
-      // let vec3 = new THREE.Vector3(x, y, z);
-      // console.log(vec3);
-      // geoPoints.push(vec3);
-
       let lat = elementNest[1];
       let lon = elementNest[0];
       let berlinGeoInMercator = gpsToCart(lat, lon);
@@ -134,25 +140,30 @@ async function main() {
       geoPointsVec3.push(vec3);
 
       geoPointsArray.push(geoMinusCenter);
-
-
-
     });
-      console.log(lorMap.get(lor));
-      // let heightData = lorMap.get(lor);
+
+    let height = lorMap.get(parseInt(lor)).mission_count_ems_critical_cpr;
+
+    if (height) {
+      let depth = (height / mission_count_ems_critical_cpr_max) * 100;
+      extrudeSettings.depth = depth;
+    } else {
+      extrudeSettings.height = 0.1;
+    }
+    // let heightData = lorMap.get(lor);
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
 
     const outline = new THREE.Line(geoGeometry, material);
+    outline.rotation.x = - (Math.PI / 2);
     // outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
-    outline.position.set(0, 0, 3);
 
     scene.add(outline);
     let polyShape = new THREE.Shape(
       geoPointsArray.map((points) => new THREE.Vector2(points.x, points.y)),
     );
     const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
-    const exmaterial = new THREE.MeshBasicMaterial({ color: "grey" });
     const mesh = new THREE.Mesh(geometry, exmaterial);
+    mesh.rotation.x = - (Math.PI / 2);
     scene.add(mesh);
 
     // const polyGeometry = new THREE.ShapeGeometry(polyShape);
