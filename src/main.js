@@ -3,15 +3,19 @@ import * as dat from "dat.gui";
 import Stats from "three/examples/jsm/libs/stats.module.js";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
+const gui = new dat.GUI();
+let stats = new Stats();
+
 const berlinJson = "../assets/planung_conv.geojson";
 const berlinFwDaten = "../assets/BFw_planning_room_data_2023.json";
+let berlinGeo;
+let fwData;
+let lorMap;
 
-async function fetchJSONData(inputJson) {
-  const response = await fetch(inputJson);
-  const resJson = await response.json();
+//global Data Variables
+let maxValueToDivideBy;
+let scale = 10;
 
-  return resJson;
-}
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
 let mission_count_ems_critical_max = 0;
@@ -27,8 +31,7 @@ async function convertJsonToMapWithLorKey(jsonData) {
       mission_count_ems_critical: element.mission_count_ems_critical,
       mission_count_ems_critical_cpr: element.mission_count_ems_critical_cpr,
       mission_count_fire: element.mission_count_fire,
-      mission_count_technical_rescue: element.mission_count_technical_rescue
-
+      mission_count_technical_rescue: element.mission_count_technical_rescue,
     });
     if (element.mission_count_all > mission_count_all_max) {
       mission_count_all_max = element.mission_count_all;
@@ -39,28 +42,57 @@ async function convertJsonToMapWithLorKey(jsonData) {
     if (element.mission_count_ems_critical > mission_count_ems_critical_max) {
       mission_count_ems_critical_max = element.mission_count_ems_critical;
     }
-    if (element.mission_count_ems_critical_cpr > mission_count_ems_critical_cpr_max) {
-      mission_count_ems_critical_cpr_max = element.mission_count_ems_critical_cpr;
+    if (
+      element.mission_count_ems_critical_cpr >
+      mission_count_ems_critical_cpr_max
+    ) {
+      mission_count_ems_critical_cpr_max =
+        element.mission_count_ems_critical_cpr;
     }
     if (element.mission_count_fire > mission_count_fire_max) {
       mission_count_fire_max = element.mission_count_fire;
     }
-    if (element.mission_count_technical_rescue > mission_count_technical_rescue_max) {
-      mission_count_technical_rescue_max = element.mission_count_technical_rescue;
+    if (
+      element.mission_count_technical_rescue >
+      mission_count_technical_rescue_max
+    ) {
+      mission_count_technical_rescue_max =
+        element.mission_count_technical_rescue;
     }
   });
   console.log(lorKeyMap);
   return lorKeyMap;
 }
-async function main() {
+
+let controls = {
+  scale: 10,
+  isTransparent: true,
+  opacity: 0.9,
+  isWireframe: false,
+};
+const meshNormal = new THREE.MeshNormalMaterial({
+  transparent: controls.isTransparent,
+  opacity: controls.opacity,
+  wireframe: controls.isWireframe,
+});
+
+let exMaterial = meshNormal;
+
+async function fetchJSONData(inputJson) {
+  const response = await fetch(inputJson);
+  const resJson = await response.json();
+
+  return resJson;
+}
+
+async function visData() {
   const canvas = document.querySelector("#c");
   const gl = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
   });
   gl.shadowMap.enabled = true;
-  const gui = new dat.GUI();
-  let stats = new Stats();
+  gl.shadowMap.type = THREE.PCFSoftShadowMap;
 
   stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
   document.body.appendChild(stats.dom);
@@ -76,16 +108,11 @@ async function main() {
     farPlane,
   );
   camera.position.set(0, 200, 120);
-  
 
   // create the scene
   const scene = new THREE.Scene();
   scene.background = new THREE.Color("white");
 
-  const berlinGeo = await fetchJSONData(berlinJson);
-
-  const fwData = await fetchJSONData(berlinFwDaten);
-  let lorMap = await convertJsonToMapWithLorKey(fwData);
   console.log(lorMap.keys());
   console.log(fwData);
   console.log(berlinGeo);
@@ -120,8 +147,6 @@ async function main() {
     bevelSegments: 1,
   };
 
-  const exmaterial = new THREE.MeshNormalMaterial({transparent: true, opacity: 0.8});
-
   const centerInMercator = gpsToCart(centerLat, centerLon);
   berlinGeo.features.forEach((element) => {
     const geoPointsVec3 = [];
@@ -145,7 +170,7 @@ async function main() {
     let height = lorMap.get(parseInt(lor)).mission_count_ems_critical_cpr;
 
     if (height) {
-      let depth = (height / mission_count_ems_critical_cpr_max) * 100;
+      let depth = (height / maxValueToDivideBy) * controls.scale;
       extrudeSettings.depth = depth;
     } else {
       extrudeSettings.height = 0.1;
@@ -154,7 +179,8 @@ async function main() {
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
 
     const outline = new THREE.Line(geoGeometry, material);
-    outline.rotation.x = - (Math.PI / 2);
+    outline.rotation.x = -(Math.PI / 2);
+    outline.castShadow = true;
     // outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
 
     scene.add(outline);
@@ -162,37 +188,48 @@ async function main() {
       geoPointsArray.map((points) => new THREE.Vector2(points.x, points.y)),
     );
     const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
-    const mesh = new THREE.Mesh(geometry, exmaterial);
-    mesh.rotation.x = - (Math.PI / 2);
+    const mesh = new THREE.Mesh(geometry, exMaterial);
+    mesh.castShadow = true;
+    mesh.rotation.x = -(Math.PI / 2);
     scene.add(mesh);
-
-    // const polyGeometry = new THREE.ShapeGeometry(polyShape);
-    // let polygon = new THREE.Mesh(
-    //   polyGeometry,
-    //   new THREE.MeshBasicMaterial({
-    //     color: "grey",
-    //     side: THREE.DoubleSide,
-    //   }),
-    // );
-    // // polygon.position.set(0,0, testHight());
-    // scene.add(polygon);
   });
-
+  const geometry = new THREE.PlaneGeometry(250, 250);
+  const planeMaterial = new THREE.MeshStandardMaterial({
+    color: 0xffffff,
+        toneMapped: false
+  });
+  const plane = new THREE.Mesh(geometry, planeMaterial);
+  plane.rotation.x = -(Math.PI / 2);
+  plane.position.set(0, -25, 0);
+  plane.receiveShadow = true;
+  scene.add(plane);
   const ambientColor = 0xffffff;
   const ambientIntensity = 0.2;
   const ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
   scene.add(ambientLight);
+  const directionalLight = new THREE.DirectionalLight(0xffffff, Math.PI);
+  directionalLight.castShadow = true;
+
+  directionalLight.shadow.mapSize.width = 2048;
+  directionalLight.shadow.mapSize.height = 2048;
+  directionalLight.shadow.camera = new THREE.OrthographicCamera(
+    -100,
+    100,
+    100,
+    -100,
+    0.5,
+    1000,
+  );
+
+  directionalLight.position.set(0, 30, 0);
+  directionalLight.target = plane;
+  scene.add(directionalLight.target);
+
+  scene.add(directionalLight);
+
   const orbitControls = new OrbitControls(camera, gl.domElement);
-  var clock = new THREE.Clock();
 
-  var controls = new (function () {
-    this.x = 1;
-  })();
-
-  gui.add(controls, "x", 0, 2);
-  let scaleVector = new THREE.Vector3();
-  function draw(time) {
-    time *= 0.001;
+  function draw() {
     if (resizeGLToDisplaySize(gl)) {
       const canvas = gl.domElement;
       camera.aspect = canvas.clientWidth / canvas.clientHeight;
@@ -200,11 +237,6 @@ async function main() {
     }
     orbitControls.update();
     stats.update();
-
-    scaleVector.x = controls.x;
-    scaleVector.y = controls.x;
-    scaleVector.z = controls.x;
-    // outline.scale.set(controls.x, controls.x, controls.x);
 
     gl.render(scene, camera);
     requestAnimationFrame(draw);
@@ -224,4 +256,84 @@ function resizeGLToDisplaySize(gl) {
   }
   return needResize;
 }
+
+async function main() {
+  berlinGeo = await fetchJSONData(berlinJson);
+
+  fwData = await fetchJSONData(berlinFwDaten);
+  lorMap = await convertJsonToMapWithLorKey(fwData);
+
+  maxValueToDivideBy = mission_count_ems_critical_cpr_max;
+  visData();
+}
 main();
+
+document.getElementById("reloadButton").addEventListener("click", () => {
+  main();
+});
+let materials = {
+  material: "normal",
+};
+
+gui.add(controls, "scale", 1, 100);
+gui
+  .add(controls, "isTransparent")
+  .listen()
+  .onChange(function () {
+    exMaterial.transparent = controls.isTransparent;
+  });
+gui
+  .add(controls, "isWireframe")
+  .listen()
+  .onChange(function () {
+    exMaterial.wireframe = controls.isWireframe;
+  });
+gui
+  .add(controls, "opacity", 0.0, 1.0)
+  .listen()
+  .onChange(function () {
+    exMaterial.opacity = controls.opacity;
+  });
+let folderMaterial = gui.addFolder("Material");
+folderMaterial
+  .add(materials, "material", {
+    Normal: "normal",
+    Phong: "phong",
+    Physical: "physical",
+    Standard: "standard",
+    Toon: "toon",
+  })
+  .onChange(function () {
+    changeMaterial();
+  });
+
+function changeMaterial() {
+  switch (materials.material) {
+    case "normal":
+      exMaterial = new THREE.MeshNormalMaterial({
+        transparent: controls.isTransparent,
+        opacity: controls.opacity,
+        wireframe: controls.isWireframe,
+      });
+      break;
+
+    case "phong":
+      exMaterial = new THREE.MeshPhongMaterial({
+        transparent: controls.isTransparent,
+        opacity: controls.opacity,
+        color: "lightblue",
+      });
+      break;
+    case "toon":
+      exMaterial = new THREE.MeshToonMaterial({ color: "lightblue" });
+      break;
+    case "physical":
+      exMaterial = new THREE.MeshPhysicalMaterial({});
+      break;
+    case "standard":
+      exMaterial = new THREE.MeshStandardMaterial({});
+      break;
+    default:
+      break;
+  }
+}
