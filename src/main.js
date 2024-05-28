@@ -11,10 +11,7 @@ const berlinFwDaten = "../assets/BFw_planning_room_data_2023.json";
 let berlinGeo;
 let fwData;
 let lorMap;
-
-//global Data Variables
-let maxValueToDivideBy;
-let scale = 10;
+let dataSubsetToDisplay = "mission_count_all";
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -22,6 +19,10 @@ let mission_count_ems_critical_max = 0;
 let mission_count_ems_critical_cpr_max = 0;
 let mission_count_fire_max = 0;
 let mission_count_technical_rescue_max = 0;
+
+//global Data Variables
+let maxValueToDivideBy;
+let whichMaxValue = "mission_count_all";
 async function convertJsonToMapWithLorKey(jsonData) {
   const lorKeyMap = new Map();
   jsonData.forEach((element) => {
@@ -100,7 +101,7 @@ async function visData() {
   const angleOfView = 55;
   const aspectRatio = canvas.clientWidth / canvas.clientHeight;
   const nearPlane = 1;
-  const farPlane = 900;
+  const farPlane = 400;
   const camera = new THREE.PerspectiveCamera(
     angleOfView,
     aspectRatio,
@@ -143,7 +144,7 @@ async function visData() {
     bevelEnabled: false,
     bevelThickness: 1,
     bevelSize: 1,
-    bevelOffset: 0,
+    bevelOffset: 1,
     bevelSegments: 1,
   };
 
@@ -166,8 +167,7 @@ async function visData() {
 
       geoPointsArray.push(geoMinusCenter);
     });
-
-    let height = lorMap.get(parseInt(lor)).mission_count_ems_critical_cpr;
+    let height = getDataFromLorMap(lor);
 
     if (height) {
       let depth = (height / maxValueToDivideBy) * controls.scale;
@@ -196,7 +196,7 @@ async function visData() {
   const geometry = new THREE.PlaneGeometry(250, 250);
   const planeMaterial = new THREE.MeshStandardMaterial({
     color: 0xffffff,
-        toneMapped: false
+    toneMapped: false,
   });
   const plane = new THREE.Mesh(geometry, planeMaterial);
   plane.rotation.x = -(Math.PI / 2);
@@ -262,8 +262,7 @@ async function main() {
 
   fwData = await fetchJSONData(berlinFwDaten);
   lorMap = await convertJsonToMapWithLorKey(fwData);
-
-  maxValueToDivideBy = mission_count_ems_critical_cpr_max;
+    setMaxValueToDivideBy();
   visData();
 }
 main();
@@ -333,6 +332,70 @@ function changeMaterial() {
     case "standard":
       exMaterial = new THREE.MeshStandardMaterial({});
       break;
+    default:
+      break;
+  }
+}
+
+let dataSubset = {
+  subset: "allMissions",
+};
+let dataSubsetFolder = gui.addFolder("Data Subset");
+dataSubsetFolder
+  .add(dataSubset, "subset", {
+    Alle_Einsätze: "allMissions",
+    RTW_Einsätze: "countEms",
+    RTW_Kritische_Einsätze: "countEmsCritical",
+    RTW_Reanimation: "countEmsCpr",
+    Feuer: "fire",
+    Technische_Rettung: "technical",
+  })
+  .onChange(function () {
+    changeSubData();
+  });
+
+function changeSubData() {
+  switch (dataSubset.subset) {
+    case "allMissions":
+      dataSubsetToDisplay = "mission_count_all";
+      whichMaxValue = "mission_count_all";
+      console.log(maxValueToDivideBy);
+      break;
+    case "countEms":
+      dataSubsetToDisplay = "mission_count_ems";
+      whichMaxValue = "mission_count_ems_max";
+      break;
+    case "countEmsCritical":
+      dataSubsetToDisplay = "mission_count_ems_critical";
+      whichMaxValue = "mission_count_ems_critical_max";
+      break;
+
+    default:
+      break;
+  }
+}
+function getDataFromLorMap(key) {
+  switch (dataSubsetToDisplay) {
+    case "mission_count_all":
+      return lorMap.get(parseInt(key)).mission_count_all;
+    case "mission_count_ems":
+      return lorMap.get(parseInt(key)).mission_count_ems;
+    case "mission_count_ems_critical":
+        return lorMap.get(parseInt(key)).mission_count_ems_critical;
+    default:
+      break;
+  }
+}
+function setMaxValueToDivideBy() {
+  switch (whichMaxValue) {
+    case "mission_count_all":
+      maxValueToDivideBy = mission_count_all_max;
+      break;
+    case "mission_count_ems":
+      maxValueToDivideBy = mission_count_ems_max;
+      break;
+    case "mission_count_ems_critical":
+        maxValueToDivideBy = mission_count_ems_critical_max;
     default:
       break;
   }
