@@ -12,6 +12,7 @@ let berlinGeo;
 let fwData;
 let lorMap;
 let dataSubsetToDisplay = "mission_count_all";
+let scene;
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -22,7 +23,7 @@ let mission_count_technical_rescue_max = 0;
 
 //global Data Variables
 let maxValueToDivideBy;
-let whichMaxValue = "mission_count_all";
+let whichMaxValue = "mission_count_all_max";
 async function convertJsonToMapWithLorKey(jsonData) {
   const lorKeyMap = new Map();
   jsonData.forEach((element) => {
@@ -64,7 +65,20 @@ async function convertJsonToMapWithLorKey(jsonData) {
   console.log(lorKeyMap);
   return lorKeyMap;
 }
+  const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
+  function gpsToCart(lat, lon) {
+    const cart = { x: 0, y: 0 };
+    const earthRad = 6378;
 
+    cart.x = degreesToRads(lon) * earthRad;
+    cart.y =
+      (earthRad / 2) *
+      Math.log(
+        (1.0 + Math.sin(degreesToRads(lat))) /
+          (1.0 - Math.sin(degreesToRads(lat))),
+      );
+    return cart;
+  }
 let controls = {
   scale: 10,
   isTransparent: true,
@@ -76,7 +90,7 @@ const meshNormal = new THREE.MeshNormalMaterial({
   opacity: controls.opacity,
   wireframe: controls.isWireframe,
 });
-
+let materialLine;
 let exMaterial = meshNormal;
 
 async function fetchJSONData(inputJson) {
@@ -85,15 +99,26 @@ async function fetchJSONData(inputJson) {
 
   return resJson;
 }
+const canvas = document.querySelector("#c");
+const gl = new THREE.WebGLRenderer({
+  canvas,
+  antialias: true,
+});
+gl.shadowMap.enabled = true;
+gl.shadowMap.type = THREE.PCFSoftShadowMap;
 
+let geometryArray = [];
+let meshArray = [];
+
+
+
+
+let ambientLight;
+let directionalLight;
 async function visData() {
-  const canvas = document.querySelector("#c");
-  const gl = new THREE.WebGLRenderer({
-    canvas,
-    antialias: true,
+  materialLine = new THREE.LineBasicMaterial({
+    color: "black",
   });
-  gl.shadowMap.enabled = true;
-  gl.shadowMap.type = THREE.PCFSoftShadowMap;
 
   stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
   document.body.appendChild(stats.dom);
@@ -111,31 +136,14 @@ async function visData() {
   camera.position.set(0, 200, 120);
 
   // create the scene
-  const scene = new THREE.Scene();
+  scene = new THREE.Scene();
   scene.background = new THREE.Color("white");
-
   console.log(lorMap.keys());
   console.log(fwData);
   console.log(berlinGeo);
   console.log(berlinGeo.features[0].geometry.coordinates);
 
-  const material = new THREE.LineBasicMaterial({
-    color: "black",
-  });
-  const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
-  function gpsToCart(lat, lon) {
-    const cart = { x: 0, y: 0 };
-    const earthRad = 6378;
 
-    cart.x = degreesToRads(lon) * earthRad;
-    cart.y =
-      (earthRad / 2) *
-      Math.log(
-        (1.0 + Math.sin(degreesToRads(lat))) /
-          (1.0 - Math.sin(degreesToRads(lat))),
-      );
-    return cart;
-  }
   let centerLat = 52.51772;
   let centerLon = 13.399207;
   const extrudeSettings = {
@@ -177,8 +185,10 @@ async function visData() {
     }
     // let heightData = lorMap.get(lor);
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
+    geometryArray.push(geoGeometry);
 
-    const outline = new THREE.Line(geoGeometry, material);
+    const outline = new THREE.Line(geoGeometry, materialLine);
+    meshArray.push(outline);
     outline.rotation.x = -(Math.PI / 2);
     outline.castShadow = true;
     // outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
@@ -188,7 +198,9 @@ async function visData() {
       geoPointsArray.map((points) => new THREE.Vector2(points.x, points.y)),
     );
     const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
+    geometryArray.push(geometry);
     const mesh = new THREE.Mesh(geometry, exMaterial);
+    meshArray.push(mesh);
     mesh.castShadow = true;
     mesh.rotation.x = -(Math.PI / 2);
     scene.add(mesh);
@@ -205,9 +217,9 @@ async function visData() {
   scene.add(plane);
   const ambientColor = 0xffffff;
   const ambientIntensity = 0.2;
-  const ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
+  ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
   scene.add(ambientLight);
-  const directionalLight = new THREE.DirectionalLight(0xffffff, Math.PI);
+  directionalLight = new THREE.DirectionalLight(0xffffff, Math.PI);
   directionalLight.castShadow = true;
 
   directionalLight.shadow.mapSize.width = 2048;
@@ -262,12 +274,13 @@ async function main() {
 
   fwData = await fetchJSONData(berlinFwDaten);
   lorMap = await convertJsonToMapWithLorKey(fwData);
-    setMaxValueToDivideBy();
+  setMaxValueToDivideBy();
   visData();
 }
 main();
 
 document.getElementById("reloadButton").addEventListener("click", () => {
+  clearGeometries();
   main();
 });
 let materials = {
@@ -358,8 +371,7 @@ function changeSubData() {
   switch (dataSubset.subset) {
     case "allMissions":
       dataSubsetToDisplay = "mission_count_all";
-      whichMaxValue = "mission_count_all";
-      console.log(maxValueToDivideBy);
+      whichMaxValue = "mission_count_all_max";
       break;
     case "countEms":
       dataSubsetToDisplay = "mission_count_ems";
@@ -369,7 +381,18 @@ function changeSubData() {
       dataSubsetToDisplay = "mission_count_ems_critical";
       whichMaxValue = "mission_count_ems_critical_max";
       break;
-
+    case "countEmsCpr":
+      dataSubsetToDisplay = "mission_count_ems_critical_cpr";
+      whichMaxValue = "mission_count_ems_critical_cpr_max";
+      break;
+    case "fire":
+      dataSubsetToDisplay = "mission_count_fire";
+      whichMaxValue = "mission_count_fire_max";
+      break;
+    case "technical":
+      dataSubsetToDisplay = "mission_count_technical_rescue";
+      whichMaxValue = "mission_count_technical_rescue_max";
+      break;
     default:
       break;
   }
@@ -381,22 +404,52 @@ function getDataFromLorMap(key) {
     case "mission_count_ems":
       return lorMap.get(parseInt(key)).mission_count_ems;
     case "mission_count_ems_critical":
-        return lorMap.get(parseInt(key)).mission_count_ems_critical;
+      return lorMap.get(parseInt(key)).mission_count_ems_critical;
+    case "mission_count_ems_critical_cpr":
+      return lorMap.get(parseInt(key)).mission_count_ems_critical_cpr;
+    case "mission_count_fire":
+      return lorMap.get(parseInt(key)).mission_count_fire;
+    case "mission_count_technical_rescue":
+      return lorMap.get(parseInt(key)).mission_count_technical_rescue;
     default:
       break;
   }
 }
 function setMaxValueToDivideBy() {
   switch (whichMaxValue) {
-    case "mission_count_all":
+    case "mission_count_all_max":
       maxValueToDivideBy = mission_count_all_max;
       break;
-    case "mission_count_ems":
+    case "mission_count_ems_max":
       maxValueToDivideBy = mission_count_ems_max;
       break;
-    case "mission_count_ems_critical":
-        maxValueToDivideBy = mission_count_ems_critical_max;
+    case "mission_count_ems_critical_max":
+      maxValueToDivideBy = mission_count_ems_critical_max;
+      break;
+    case "mission_count_ems_critical_cpr_max":
+      maxValueToDivideBy = mission_count_ems_critical_cpr_max;
+      break;
+    case "mission_count_fire_max":
+      maxValueToDivideBy = mission_count_fire_max;
+      break;
+    case "mission_count_technical_rescue_max":
+      maxValueToDivideBy = mission_count_technical_rescue_max;
+      break;
     default:
       break;
   }
+}
+// this trys to clear the meshes and geometries and dispose of them to make the performance better after reload
+function clearGeometries() {
+    scene.remove(ambientLight);
+    scene.remove(directionalLight);
+  meshArray.forEach((elem) => {
+    scene.remove(elem);
+  });
+  meshArray = [];
+  geometryArray.forEach((elem) => {
+    elem.dispose();
+  });
+  geometryArray = [];
+    materialLine.dispose();
 }
