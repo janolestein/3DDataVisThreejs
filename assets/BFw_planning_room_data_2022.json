@@ -1,0 +1,4880 @@
+[
+  {
+    "planning_room_id": 1100101,
+    "mission_count_all": 712,
+    "mission_count_ems": 452,
+    "mission_count_ems_critical": 414,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 1100102,
+    "mission_count_all": 1601,
+    "mission_count_ems": 1382,
+    "mission_count_ems_critical": 1328,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 152,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 1100103,
+    "mission_count_all": 1097,
+    "mission_count_ems": 871,
+    "mission_count_ems_critical": 796,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 1100104,
+    "mission_count_all": 445,
+    "mission_count_ems": 399,
+    "mission_count_ems_critical": 363,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 1100205,
+    "mission_count_all": 924,
+    "mission_count_ems": 798,
+    "mission_count_ems_critical": 754,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 91,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 1100206,
+    "mission_count_all": 2320,
+    "mission_count_ems": 2027,
+    "mission_count_ems_critical": 1974,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 212,
+    "mission_count_technical_rescue": 78
+  },
+  {
+    "planning_room_id": 1100207,
+    "mission_count_all": 1402,
+    "mission_count_ems": 1228,
+    "mission_count_ems_critical": 1125,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 113,
+    "mission_count_technical_rescue": 59
+  },
+  {
+    "planning_room_id": 1100308,
+    "mission_count_all": 2174,
+    "mission_count_ems": 1218,
+    "mission_count_ems_critical": 1147,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 140,
+    "mission_count_technical_rescue": 67
+  },
+  {
+    "planning_room_id": 1100309,
+    "mission_count_all": 2230,
+    "mission_count_ems": 1814,
+    "mission_count_ems_critical": 1702,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 188,
+    "mission_count_technical_rescue": 89
+  },
+  {
+    "planning_room_id": 1100310,
+    "mission_count_all": 5077,
+    "mission_count_ems": 4708,
+    "mission_count_ems_critical": 4504,
+    "mission_count_ems_critical_cpr": 43,
+    "mission_count_fire": 259,
+    "mission_count_technical_rescue": 110
+  },
+  {
+    "planning_room_id": 1100311,
+    "mission_count_all": 1714,
+    "mission_count_ems": 1561,
+    "mission_count_ems_critical": 1437,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 103,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 1100312,
+    "mission_count_all": 1296,
+    "mission_count_ems": 1170,
+    "mission_count_ems_critical": 1068,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 78,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 1100313,
+    "mission_count_all": 1258,
+    "mission_count_ems": 1162,
+    "mission_count_ems_critical": 1056,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 63,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 1100414,
+    "mission_count_all": 541,
+    "mission_count_ems": 483,
+    "mission_count_ems_critical": 427,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 20
+  },
+  {
+    "planning_room_id": 1100415,
+    "mission_count_all": 1233,
+    "mission_count_ems": 1116,
+    "mission_count_ems_critical": 1034,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 63,
+    "mission_count_technical_rescue": 54
+  },
+  {
+    "planning_room_id": 1100416,
+    "mission_count_all": 984,
+    "mission_count_ems": 879,
+    "mission_count_ems_critical": 817,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 69
+  },
+  {
+    "planning_room_id": 1200517,
+    "mission_count_all": 899,
+    "mission_count_ems": 776,
+    "mission_count_ems_critical": 716,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 59,
+    "mission_count_technical_rescue": 63
+  },
+  {
+    "planning_room_id": 1200518,
+    "mission_count_all": 728,
+    "mission_count_ems": 669,
+    "mission_count_ems_critical": 600,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 1200519,
+    "mission_count_all": 1003,
+    "mission_count_ems": 911,
+    "mission_count_ems_critical": 827,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 1200520,
+    "mission_count_all": 1081,
+    "mission_count_ems": 992,
+    "mission_count_ems_critical": 917,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 43,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 1200521,
+    "mission_count_all": 572,
+    "mission_count_ems": 538,
+    "mission_count_ems_critical": 479,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 7,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 1200522,
+    "mission_count_all": 1403,
+    "mission_count_ems": 1323,
+    "mission_count_ems_critical": 1198,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 1200623,
+    "mission_count_all": 1438,
+    "mission_count_ems": 1348,
+    "mission_count_ems_critical": 1219,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 1200624,
+    "mission_count_all": 750,
+    "mission_count_ems": 657,
+    "mission_count_ems_critical": 591,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 58,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 1200625,
+    "mission_count_all": 1016,
+    "mission_count_ems": 951,
+    "mission_count_ems_critical": 858,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 1200626,
+    "mission_count_all": 1074,
+    "mission_count_ems": 998,
+    "mission_count_ems_critical": 938,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 1200627,
+    "mission_count_all": 788,
+    "mission_count_ems": 755,
+    "mission_count_ems_critical": 673,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 1200628,
+    "mission_count_all": 3331,
+    "mission_count_ems": 3066,
+    "mission_count_ems_critical": 2934,
+    "mission_count_ems_critical_cpr": 27,
+    "mission_count_fire": 194,
+    "mission_count_technical_rescue": 71
+  },
+  {
+    "planning_room_id": 1200629,
+    "mission_count_all": 799,
+    "mission_count_ems": 728,
+    "mission_count_ems_critical": 658,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 1300730,
+    "mission_count_all": 1529,
+    "mission_count_ems": 1171,
+    "mission_count_ems_critical": 1078,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 1300731,
+    "mission_count_all": 1116,
+    "mission_count_ems": 1035,
+    "mission_count_ems_critical": 900,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 1300732,
+    "mission_count_all": 1112,
+    "mission_count_ems": 1013,
+    "mission_count_ems_critical": 893,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 49,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 1300733,
+    "mission_count_all": 1603,
+    "mission_count_ems": 1464,
+    "mission_count_ems_critical": 1355,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 72
+  },
+  {
+    "planning_room_id": 1300834,
+    "mission_count_all": 2277,
+    "mission_count_ems": 2087,
+    "mission_count_ems_critical": 1912,
+    "mission_count_ems_critical_cpr": 25,
+    "mission_count_fire": 114,
+    "mission_count_technical_rescue": 76
+  },
+  {
+    "planning_room_id": 1300835,
+    "mission_count_all": 1687,
+    "mission_count_ems": 1557,
+    "mission_count_ems_critical": 1389,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 70,
+    "mission_count_technical_rescue": 59
+  },
+  {
+    "planning_room_id": 1300836,
+    "mission_count_all": 2414,
+    "mission_count_ems": 2163,
+    "mission_count_ems_critical": 1964,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 126,
+    "mission_count_technical_rescue": 124
+  },
+  {
+    "planning_room_id": 1400937,
+    "mission_count_all": 1675,
+    "mission_count_ems": 1560,
+    "mission_count_ems_critical": 1410,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 54,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 1400938,
+    "mission_count_all": 2762,
+    "mission_count_ems": 1325,
+    "mission_count_ems_critical": 1210,
+    "mission_count_ems_critical_cpr": 24,
+    "mission_count_fire": 59,
+    "mission_count_technical_rescue": 86
+  },
+  {
+    "planning_room_id": 1400939,
+    "mission_count_all": 818,
+    "mission_count_ems": 750,
+    "mission_count_ems_critical": 701,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 1400940,
+    "mission_count_all": 1077,
+    "mission_count_ems": 1026,
+    "mission_count_ems_critical": 915,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 1400941,
+    "mission_count_all": 578,
+    "mission_count_ems": 557,
+    "mission_count_ems_critical": 492,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 1400942,
+    "mission_count_all": 1197,
+    "mission_count_ems": 1080,
+    "mission_count_ems_critical": 999,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 72
+  },
+  {
+    "planning_room_id": 1401043,
+    "mission_count_all": 1147,
+    "mission_count_ems": 1074,
+    "mission_count_ems_critical": 979,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 1401044,
+    "mission_count_all": 1259,
+    "mission_count_ems": 1166,
+    "mission_count_ems_critical": 1038,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 53
+  },
+  {
+    "planning_room_id": 1401045,
+    "mission_count_all": 1056,
+    "mission_count_ems": 973,
+    "mission_count_ems_critical": 891,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 1401046,
+    "mission_count_all": 844,
+    "mission_count_ems": 773,
+    "mission_count_ems_critical": 688,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 1401047,
+    "mission_count_all": 976,
+    "mission_count_ems": 914,
+    "mission_count_ems_critical": 839,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 1401048,
+    "mission_count_all": 1414,
+    "mission_count_ems": 1292,
+    "mission_count_ems_critical": 1183,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 64,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 1401049,
+    "mission_count_all": 1641,
+    "mission_count_ems": 1327,
+    "mission_count_ems_critical": 1178,
+    "mission_count_ems_critical_cpr": 33,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 2100101,
+    "mission_count_all": 1306,
+    "mission_count_ems": 1163,
+    "mission_count_ems_critical": 1061,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 81,
+    "mission_count_technical_rescue": 62
+  },
+  {
+    "planning_room_id": 2100102,
+    "mission_count_all": 1522,
+    "mission_count_ems": 1336,
+    "mission_count_ems_critical": 1210,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 111,
+    "mission_count_technical_rescue": 75
+  },
+  {
+    "planning_room_id": 2100103,
+    "mission_count_all": 639,
+    "mission_count_ems": 579,
+    "mission_count_ems_critical": 520,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 2100104,
+    "mission_count_all": 992,
+    "mission_count_ems": 915,
+    "mission_count_ems_critical": 836,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 2100105,
+    "mission_count_all": 1259,
+    "mission_count_ems": 1164,
+    "mission_count_ems_critical": 1040,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 2100106,
+    "mission_count_all": 1219,
+    "mission_count_ems": 1131,
+    "mission_count_ems_critical": 1072,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 2200207,
+    "mission_count_all": 420,
+    "mission_count_ems": 347,
+    "mission_count_ems_critical": 327,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 59,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 2200208,
+    "mission_count_all": 1043,
+    "mission_count_ems": 963,
+    "mission_count_ems_critical": 907,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 2200209,
+    "mission_count_all": 948,
+    "mission_count_ems": 829,
+    "mission_count_ems_critical": 757,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 72
+  },
+  {
+    "planning_room_id": 2200210,
+    "mission_count_all": 1326,
+    "mission_count_ems": 1182,
+    "mission_count_ems_critical": 1083,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 76
+  },
+  {
+    "planning_room_id": 2200211,
+    "mission_count_all": 1500,
+    "mission_count_ems": 1367,
+    "mission_count_ems_critical": 1261,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 66,
+    "mission_count_technical_rescue": 67
+  },
+  {
+    "planning_room_id": 2200212,
+    "mission_count_all": 927,
+    "mission_count_ems": 822,
+    "mission_count_ems_critical": 764,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 65,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 2200213,
+    "mission_count_all": 1921,
+    "mission_count_ems": 1298,
+    "mission_count_ems_critical": 1197,
+    "mission_count_ems_critical_cpr": 25,
+    "mission_count_fire": 92,
+    "mission_count_technical_rescue": 68
+  },
+  {
+    "planning_room_id": 2300314,
+    "mission_count_all": 1449,
+    "mission_count_ems": 1337,
+    "mission_count_ems_critical": 1260,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 57,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 2300315,
+    "mission_count_all": 1132,
+    "mission_count_ems": 1059,
+    "mission_count_ems_critical": 978,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 2300316,
+    "mission_count_all": 847,
+    "mission_count_ems": 783,
+    "mission_count_ems_critical": 723,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 2300417,
+    "mission_count_all": 1022,
+    "mission_count_ems": 950,
+    "mission_count_ems_critical": 882,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 2300418,
+    "mission_count_all": 897,
+    "mission_count_ems": 808,
+    "mission_count_ems_critical": 750,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 2300419,
+    "mission_count_all": 1335,
+    "mission_count_ems": 1249,
+    "mission_count_ems_critical": 1158,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 2400520,
+    "mission_count_all": 1631,
+    "mission_count_ems": 1026,
+    "mission_count_ems_critical": 927,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 55,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 2400521,
+    "mission_count_all": 1116,
+    "mission_count_ems": 1041,
+    "mission_count_ems_critical": 970,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 2400522,
+    "mission_count_all": 1187,
+    "mission_count_ems": 1097,
+    "mission_count_ems_critical": 1009,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 2400623,
+    "mission_count_all": 3142,
+    "mission_count_ems": 2926,
+    "mission_count_ems_critical": 2744,
+    "mission_count_ems_critical_cpr": 37,
+    "mission_count_fire": 129,
+    "mission_count_technical_rescue": 86
+  },
+  {
+    "planning_room_id": 2400624,
+    "mission_count_all": 1465,
+    "mission_count_ems": 1366,
+    "mission_count_ems_critical": 1235,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 2400625,
+    "mission_count_all": 1097,
+    "mission_count_ems": 986,
+    "mission_count_ems_critical": 962,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 86,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 2500726,
+    "mission_count_all": 760,
+    "mission_count_ems": 663,
+    "mission_count_ems_critical": 604,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 62
+  },
+  {
+    "planning_room_id": 2500727,
+    "mission_count_all": 683,
+    "mission_count_ems": 610,
+    "mission_count_ems_critical": 550,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 2500728,
+    "mission_count_all": 868,
+    "mission_count_ems": 791,
+    "mission_count_ems_critical": 726,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 2500729,
+    "mission_count_all": 846,
+    "mission_count_ems": 791,
+    "mission_count_ems_critical": 737,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 2500830,
+    "mission_count_all": 443,
+    "mission_count_ems": 410,
+    "mission_count_ems_critical": 384,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 2500831,
+    "mission_count_all": 690,
+    "mission_count_ems": 628,
+    "mission_count_ems_critical": 577,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 2500832,
+    "mission_count_all": 787,
+    "mission_count_ems": 711,
+    "mission_count_ems_critical": 635,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 2500833,
+    "mission_count_all": 877,
+    "mission_count_ems": 794,
+    "mission_count_ems_critical": 743,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 43,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 2500834,
+    "mission_count_all": 1276,
+    "mission_count_ems": 1181,
+    "mission_count_ems_critical": 1108,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 2500835,
+    "mission_count_all": 1953,
+    "mission_count_ems": 1814,
+    "mission_count_ems_critical": 1745,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 60,
+    "mission_count_technical_rescue": 78
+  },
+  {
+    "planning_room_id": 2500836,
+    "mission_count_all": 444,
+    "mission_count_ems": 404,
+    "mission_count_ems_critical": 373,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 3100101,
+    "mission_count_all": 813,
+    "mission_count_ems": 723,
+    "mission_count_ems_critical": 625,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 3100102,
+    "mission_count_all": 834,
+    "mission_count_ems": 544,
+    "mission_count_ems_critical": 487,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 31,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 3100103,
+    "mission_count_all": 1543,
+    "mission_count_ems": 1456,
+    "mission_count_ems_critical": 1306,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 44,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 3200204,
+    "mission_count_all": 399,
+    "mission_count_ems": 364,
+    "mission_count_ems_critical": 329,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 3200205,
+    "mission_count_all": 872,
+    "mission_count_ems": 829,
+    "mission_count_ems_critical": 757,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 3200206,
+    "mission_count_all": 770,
+    "mission_count_ems": 717,
+    "mission_count_ems_critical": 653,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 3200207,
+    "mission_count_all": 1001,
+    "mission_count_ems": 927,
+    "mission_count_ems_critical": 807,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 3200308,
+    "mission_count_all": 453,
+    "mission_count_ems": 430,
+    "mission_count_ems_critical": 378,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 3200309,
+    "mission_count_all": 556,
+    "mission_count_ems": 521,
+    "mission_count_ems_critical": 472,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 3200310,
+    "mission_count_all": 850,
+    "mission_count_ems": 809,
+    "mission_count_ems_critical": 738,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 3300411,
+    "mission_count_all": 1140,
+    "mission_count_ems": 1107,
+    "mission_count_ems_critical": 990,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 3300412,
+    "mission_count_all": 484,
+    "mission_count_ems": 456,
+    "mission_count_ems_critical": 410,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 3300413,
+    "mission_count_all": 258,
+    "mission_count_ems": 236,
+    "mission_count_ems_critical": 217,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 3300514,
+    "mission_count_all": 812,
+    "mission_count_ems": 734,
+    "mission_count_ems_critical": 673,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 3300515,
+    "mission_count_all": 18,
+    "mission_count_ems": 13,
+    "mission_count_ems_critical": 11,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 1,
+    "mission_count_technical_rescue": 4
+  },
+  {
+    "planning_room_id": 3300516,
+    "mission_count_all": 1192,
+    "mission_count_ems": 1121,
+    "mission_count_ems_critical": 977,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 3300517,
+    "mission_count_all": 202,
+    "mission_count_ems": 178,
+    "mission_count_ems_critical": 167,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 2,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 3400618,
+    "mission_count_all": 389,
+    "mission_count_ems": 366,
+    "mission_count_ems_critical": 337,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 3400619,
+    "mission_count_all": 1144,
+    "mission_count_ems": 1077,
+    "mission_count_ems_critical": 940,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 3400620,
+    "mission_count_all": 533,
+    "mission_count_ems": 490,
+    "mission_count_ems_critical": 438,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 3400721,
+    "mission_count_all": 986,
+    "mission_count_ems": 914,
+    "mission_count_ems_critical": 857,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 3400722,
+    "mission_count_all": 614,
+    "mission_count_ems": 567,
+    "mission_count_ems_critical": 509,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 23
+  },
+  {
+    "planning_room_id": 3400723,
+    "mission_count_all": 1144,
+    "mission_count_ems": 781,
+    "mission_count_ems_critical": 724,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 3400724,
+    "mission_count_all": 841,
+    "mission_count_ems": 780,
+    "mission_count_ems_critical": 700,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 3400725,
+    "mission_count_all": 955,
+    "mission_count_ems": 900,
+    "mission_count_ems_critical": 797,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 3400826,
+    "mission_count_all": 994,
+    "mission_count_ems": 941,
+    "mission_count_ems_critical": 862,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 3400827,
+    "mission_count_all": 953,
+    "mission_count_ems": 877,
+    "mission_count_ems_critical": 776,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 3400828,
+    "mission_count_all": 407,
+    "mission_count_ems": 381,
+    "mission_count_ems_critical": 349,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 3400829,
+    "mission_count_all": 592,
+    "mission_count_ems": 554,
+    "mission_count_ems_critical": 503,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 3400830,
+    "mission_count_all": 855,
+    "mission_count_ems": 804,
+    "mission_count_ems_critical": 703,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 3400831,
+    "mission_count_all": 71,
+    "mission_count_ems": 57,
+    "mission_count_ems_critical": 55,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 5,
+    "mission_count_technical_rescue": 9
+  },
+  {
+    "planning_room_id": 3500932,
+    "mission_count_all": 793,
+    "mission_count_ems": 733,
+    "mission_count_ems_critical": 616,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 3500933,
+    "mission_count_all": 1241,
+    "mission_count_ems": 908,
+    "mission_count_ems_critical": 836,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 3500934,
+    "mission_count_all": 777,
+    "mission_count_ems": 698,
+    "mission_count_ems_critical": 623,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 3500935,
+    "mission_count_all": 559,
+    "mission_count_ems": 517,
+    "mission_count_ems_critical": 475,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 3500936,
+    "mission_count_all": 1029,
+    "mission_count_ems": 914,
+    "mission_count_ems_critical": 826,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 89
+  },
+  {
+    "planning_room_id": 3501037,
+    "mission_count_all": 1241,
+    "mission_count_ems": 1152,
+    "mission_count_ems_critical": 1034,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 53,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 3501038,
+    "mission_count_all": 1266,
+    "mission_count_ems": 992,
+    "mission_count_ems_critical": 914,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 31,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 3601139,
+    "mission_count_all": 393,
+    "mission_count_ems": 363,
+    "mission_count_ems_critical": 332,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 3601140,
+    "mission_count_all": 472,
+    "mission_count_ems": 423,
+    "mission_count_ems_critical": 379,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 3601141,
+    "mission_count_all": 606,
+    "mission_count_ems": 545,
+    "mission_count_ems_critical": 497,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 3601142,
+    "mission_count_all": 1289,
+    "mission_count_ems": 1183,
+    "mission_count_ems_critical": 1108,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 64,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 3601243,
+    "mission_count_all": 745,
+    "mission_count_ems": 672,
+    "mission_count_ems_critical": 626,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 53,
+    "mission_count_technical_rescue": 20
+  },
+  {
+    "planning_room_id": 3601244,
+    "mission_count_all": 570,
+    "mission_count_ems": 524,
+    "mission_count_ems_critical": 473,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 23
+  },
+  {
+    "planning_room_id": 3601245,
+    "mission_count_all": 1407,
+    "mission_count_ems": 1313,
+    "mission_count_ems_critical": 1188,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 53
+  },
+  {
+    "planning_room_id": 3601346,
+    "mission_count_all": 430,
+    "mission_count_ems": 393,
+    "mission_count_ems_critical": 354,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 3601347,
+    "mission_count_all": 669,
+    "mission_count_ems": 590,
+    "mission_count_ems_critical": 537,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 3601348,
+    "mission_count_all": 442,
+    "mission_count_ems": 385,
+    "mission_count_ems_critical": 350,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 3601449,
+    "mission_count_all": 1710,
+    "mission_count_ems": 1599,
+    "mission_count_ems_critical": 1464,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 52,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 3601450,
+    "mission_count_all": 1197,
+    "mission_count_ems": 1118,
+    "mission_count_ems_critical": 1011,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 46,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 3601451,
+    "mission_count_all": 610,
+    "mission_count_ems": 551,
+    "mission_count_ems_critical": 509,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 3601452,
+    "mission_count_all": 643,
+    "mission_count_ems": 583,
+    "mission_count_ems_critical": 547,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 3601453,
+    "mission_count_all": 317,
+    "mission_count_ems": 290,
+    "mission_count_ems_critical": 272,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 10
+  },
+  {
+    "planning_room_id": 3701554,
+    "mission_count_all": 1000,
+    "mission_count_ems": 939,
+    "mission_count_ems_critical": 874,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 3701555,
+    "mission_count_all": 887,
+    "mission_count_ems": 834,
+    "mission_count_ems_critical": 793,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 3701556,
+    "mission_count_all": 654,
+    "mission_count_ems": 588,
+    "mission_count_ems_critical": 529,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 3701657,
+    "mission_count_all": 466,
+    "mission_count_ems": 420,
+    "mission_count_ems_critical": 395,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 3701658,
+    "mission_count_all": 492,
+    "mission_count_ems": 439,
+    "mission_count_ems_critical": 397,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 3701659,
+    "mission_count_all": 569,
+    "mission_count_ems": 514,
+    "mission_count_ems_critical": 439,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 3701660,
+    "mission_count_all": 899,
+    "mission_count_ems": 812,
+    "mission_count_ems_critical": 743,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 4100101,
+    "mission_count_all": 2059,
+    "mission_count_ems": 1865,
+    "mission_count_ems_critical": 1696,
+    "mission_count_ems_critical_cpr": 27,
+    "mission_count_fire": 75,
+    "mission_count_technical_rescue": 115
+  },
+  {
+    "planning_room_id": 4100102,
+    "mission_count_all": 1025,
+    "mission_count_ems": 954,
+    "mission_count_ems_critical": 850,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 4200203,
+    "mission_count_all": 567,
+    "mission_count_ems": 532,
+    "mission_count_ems_critical": 515,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 4200204,
+    "mission_count_all": 530,
+    "mission_count_ems": 507,
+    "mission_count_ems_critical": 451,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 4200205,
+    "mission_count_all": 548,
+    "mission_count_ems": 420,
+    "mission_count_ems_critical": 386,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 4200206,
+    "mission_count_all": 391,
+    "mission_count_ems": 342,
+    "mission_count_ems_critical": 318,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 4200207,
+    "mission_count_all": 512,
+    "mission_count_ems": 448,
+    "mission_count_ems_critical": 438,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 4200308,
+    "mission_count_all": 1526,
+    "mission_count_ems": 924,
+    "mission_count_ems_critical": 836,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 67
+  },
+  {
+    "planning_room_id": 4200309,
+    "mission_count_all": 713,
+    "mission_count_ems": 677,
+    "mission_count_ems_critical": 596,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 4200310,
+    "mission_count_all": 1150,
+    "mission_count_ems": 1071,
+    "mission_count_ems_critical": 987,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 4200311,
+    "mission_count_all": 1394,
+    "mission_count_ems": 1242,
+    "mission_count_ems_critical": 1145,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 78,
+    "mission_count_technical_rescue": 74
+  },
+  {
+    "planning_room_id": 4300412,
+    "mission_count_all": 952,
+    "mission_count_ems": 672,
+    "mission_count_ems_critical": 614,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 4300413,
+    "mission_count_all": 1060,
+    "mission_count_ems": 994,
+    "mission_count_ems_critical": 903,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 39
+  },
+  {
+    "planning_room_id": 4300414,
+    "mission_count_all": 1273,
+    "mission_count_ems": 1162,
+    "mission_count_ems_critical": 1047,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 71
+  },
+  {
+    "planning_room_id": 4300415,
+    "mission_count_all": 909,
+    "mission_count_ems": 854,
+    "mission_count_ems_critical": 780,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 4300416,
+    "mission_count_all": 1426,
+    "mission_count_ems": 1310,
+    "mission_count_ems_critical": 1226,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 60,
+    "mission_count_technical_rescue": 56
+  },
+  {
+    "planning_room_id": 4300517,
+    "mission_count_all": 1096,
+    "mission_count_ems": 1022,
+    "mission_count_ems_critical": 937,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 4300518,
+    "mission_count_all": 823,
+    "mission_count_ems": 740,
+    "mission_count_ems_critical": 686,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 4300619,
+    "mission_count_all": 1001,
+    "mission_count_ems": 933,
+    "mission_count_ems_critical": 841,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 4300620,
+    "mission_count_all": 613,
+    "mission_count_ems": 518,
+    "mission_count_ems_critical": 471,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 62,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 4300621,
+    "mission_count_all": 1439,
+    "mission_count_ems": 1314,
+    "mission_count_ems_critical": 1203,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 60,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 4300622,
+    "mission_count_all": 1188,
+    "mission_count_ems": 1042,
+    "mission_count_ems_critical": 980,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 81,
+    "mission_count_technical_rescue": 64
+  },
+  {
+    "planning_room_id": 4300623,
+    "mission_count_all": 1825,
+    "mission_count_ems": 1641,
+    "mission_count_ems_critical": 1523,
+    "mission_count_ems_critical_cpr": 26,
+    "mission_count_fire": 113,
+    "mission_count_technical_rescue": 71
+  },
+  {
+    "planning_room_id": 4300624,
+    "mission_count_all": 1006,
+    "mission_count_ems": 930,
+    "mission_count_ems_critical": 855,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 4400725,
+    "mission_count_all": 42,
+    "mission_count_ems": 29,
+    "mission_count_ems_critical": 28,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 4,
+    "mission_count_technical_rescue": 9
+  },
+  {
+    "planning_room_id": 4400726,
+    "mission_count_all": 709,
+    "mission_count_ems": 643,
+    "mission_count_ems_critical": 593,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 4400727,
+    "mission_count_all": 1109,
+    "mission_count_ems": 762,
+    "mission_count_ems_critical": 690,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 4400728,
+    "mission_count_all": 422,
+    "mission_count_ems": 367,
+    "mission_count_ems_critical": 340,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 4400729,
+    "mission_count_all": 459,
+    "mission_count_ems": 407,
+    "mission_count_ems_critical": 381,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 4400830,
+    "mission_count_all": 965,
+    "mission_count_ems": 906,
+    "mission_count_ems_critical": 819,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 4400831,
+    "mission_count_all": 245,
+    "mission_count_ems": 210,
+    "mission_count_ems_critical": 179,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 5,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 4400832,
+    "mission_count_all": 739,
+    "mission_count_ems": 692,
+    "mission_count_ems_critical": 630,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 4400833,
+    "mission_count_all": 656,
+    "mission_count_ems": 608,
+    "mission_count_ems_critical": 538,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 4400834,
+    "mission_count_all": 463,
+    "mission_count_ems": 426,
+    "mission_count_ems_critical": 386,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 4400835,
+    "mission_count_all": 1004,
+    "mission_count_ems": 923,
+    "mission_count_ems_critical": 857,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 49
+  },
+  {
+    "planning_room_id": 4500936,
+    "mission_count_all": 703,
+    "mission_count_ems": 646,
+    "mission_count_ems_critical": 600,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 4500937,
+    "mission_count_all": 1169,
+    "mission_count_ems": 1092,
+    "mission_count_ems_critical": 1013,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 4500938,
+    "mission_count_all": 994,
+    "mission_count_ems": 910,
+    "mission_count_ems_critical": 848,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 4500939,
+    "mission_count_all": 811,
+    "mission_count_ems": 740,
+    "mission_count_ems_critical": 674,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 4501040,
+    "mission_count_all": 626,
+    "mission_count_ems": 585,
+    "mission_count_ems_critical": 528,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 4501041,
+    "mission_count_all": 817,
+    "mission_count_ems": 735,
+    "mission_count_ems_critical": 662,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 49,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 4501042,
+    "mission_count_all": 3120,
+    "mission_count_ems": 2842,
+    "mission_count_ems_critical": 2759,
+    "mission_count_ems_critical_cpr": 38,
+    "mission_count_fire": 202,
+    "mission_count_technical_rescue": 76
+  },
+  {
+    "planning_room_id": 4501043,
+    "mission_count_all": 1259,
+    "mission_count_ems": 1149,
+    "mission_count_ems_critical": 1030,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 55,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 4501044,
+    "mission_count_all": 743,
+    "mission_count_ems": 663,
+    "mission_count_ems_critical": 607,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 4501045,
+    "mission_count_all": 1288,
+    "mission_count_ems": 1168,
+    "mission_count_ems_critical": 1060,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 71,
+    "mission_count_technical_rescue": 49
+  },
+  {
+    "planning_room_id": 4501146,
+    "mission_count_all": 544,
+    "mission_count_ems": 494,
+    "mission_count_ems_critical": 435,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 4501147,
+    "mission_count_all": 656,
+    "mission_count_ems": 616,
+    "mission_count_ems_critical": 569,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 4501148,
+    "mission_count_all": 821,
+    "mission_count_ems": 446,
+    "mission_count_ems_critical": 409,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 4501149,
+    "mission_count_all": 1217,
+    "mission_count_ems": 1074,
+    "mission_count_ems_critical": 981,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 44,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 4501150,
+    "mission_count_all": 614,
+    "mission_count_ems": 577,
+    "mission_count_ems_critical": 540,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 4501151,
+    "mission_count_all": 632,
+    "mission_count_ems": 575,
+    "mission_count_ems_critical": 508,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 4501152,
+    "mission_count_all": 764,
+    "mission_count_ems": 694,
+    "mission_count_ems_critical": 637,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 4501153,
+    "mission_count_all": 993,
+    "mission_count_ems": 891,
+    "mission_count_ems_critical": 815,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 61
+  },
+  {
+    "planning_room_id": 5100101,
+    "mission_count_all": 1006,
+    "mission_count_ems": 876,
+    "mission_count_ems_critical": 792,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 5100102,
+    "mission_count_all": 481,
+    "mission_count_ems": 456,
+    "mission_count_ems_critical": 406,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 5100103,
+    "mission_count_all": 615,
+    "mission_count_ems": 581,
+    "mission_count_ems_critical": 524,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 5100104,
+    "mission_count_all": 1013,
+    "mission_count_ems": 937,
+    "mission_count_ems_critical": 851,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 43,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 5100105,
+    "mission_count_all": 808,
+    "mission_count_ems": 755,
+    "mission_count_ems_critical": 698,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 5100206,
+    "mission_count_all": 1130,
+    "mission_count_ems": 631,
+    "mission_count_ems_critical": 561,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 5100207,
+    "mission_count_all": 229,
+    "mission_count_ems": 220,
+    "mission_count_ems_critical": 192,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 4,
+    "mission_count_technical_rescue": 5
+  },
+  {
+    "planning_room_id": 5100208,
+    "mission_count_all": 1506,
+    "mission_count_ems": 1413,
+    "mission_count_ems_critical": 1277,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 5100209,
+    "mission_count_all": 1463,
+    "mission_count_ems": 1362,
+    "mission_count_ems_critical": 1199,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 73
+  },
+  {
+    "planning_room_id": 5100210,
+    "mission_count_all": 1030,
+    "mission_count_ems": 961,
+    "mission_count_ems_critical": 850,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 5100211,
+    "mission_count_all": 742,
+    "mission_count_ems": 695,
+    "mission_count_ems_critical": 621,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 5100312,
+    "mission_count_all": 395,
+    "mission_count_ems": 366,
+    "mission_count_ems_critical": 332,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 5100313,
+    "mission_count_all": 1183,
+    "mission_count_ems": 1101,
+    "mission_count_ems_critical": 1014,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 5100314,
+    "mission_count_all": 1189,
+    "mission_count_ems": 777,
+    "mission_count_ems_critical": 694,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 5100315,
+    "mission_count_all": 738,
+    "mission_count_ems": 676,
+    "mission_count_ems_critical": 613,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 39
+  },
+  {
+    "planning_room_id": 5100316,
+    "mission_count_all": 2371,
+    "mission_count_ems": 2218,
+    "mission_count_ems_critical": 2079,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 63,
+    "mission_count_technical_rescue": 90
+  },
+  {
+    "planning_room_id": 5100317,
+    "mission_count_all": 885,
+    "mission_count_ems": 775,
+    "mission_count_ems_critical": 710,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 65,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 5200418,
+    "mission_count_all": 239,
+    "mission_count_ems": 221,
+    "mission_count_ems_critical": 194,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 4,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 5200419,
+    "mission_count_all": 185,
+    "mission_count_ems": 170,
+    "mission_count_ems_critical": 158,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 4
+  },
+  {
+    "planning_room_id": 5200420,
+    "mission_count_all": 717,
+    "mission_count_ems": 654,
+    "mission_count_ems_critical": 587,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 5200421,
+    "mission_count_all": 515,
+    "mission_count_ems": 483,
+    "mission_count_ems_critical": 429,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 7
+  },
+  {
+    "planning_room_id": 5200422,
+    "mission_count_all": 150,
+    "mission_count_ems": 124,
+    "mission_count_ems_critical": 117,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 5200423,
+    "mission_count_all": 940,
+    "mission_count_ems": 895,
+    "mission_count_ems_critical": 804,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 5200524,
+    "mission_count_all": 338,
+    "mission_count_ems": 304,
+    "mission_count_ems_critical": 283,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 5200525,
+    "mission_count_all": 298,
+    "mission_count_ems": 271,
+    "mission_count_ems_critical": 247,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 5200526,
+    "mission_count_all": 769,
+    "mission_count_ems": 696,
+    "mission_count_ems_critical": 614,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 5200527,
+    "mission_count_all": 1914,
+    "mission_count_ems": 1692,
+    "mission_count_ems_critical": 1497,
+    "mission_count_ems_critical_cpr": 26,
+    "mission_count_fire": 143,
+    "mission_count_technical_rescue": 79
+  },
+  {
+    "planning_room_id": 5200528,
+    "mission_count_all": 940,
+    "mission_count_ems": 857,
+    "mission_count_ems_critical": 777,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 5200629,
+    "mission_count_all": 2050,
+    "mission_count_ems": 1914,
+    "mission_count_ems_critical": 1791,
+    "mission_count_ems_critical_cpr": 24,
+    "mission_count_fire": 72,
+    "mission_count_technical_rescue": 63
+  },
+  {
+    "planning_room_id": 5200630,
+    "mission_count_all": 1250,
+    "mission_count_ems": 1174,
+    "mission_count_ems_critical": 1075,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 49
+  },
+  {
+    "planning_room_id": 5200631,
+    "mission_count_all": 961,
+    "mission_count_ems": 894,
+    "mission_count_ems_critical": 796,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 46
+  },
+  {
+    "planning_room_id": 5200632,
+    "mission_count_all": 636,
+    "mission_count_ems": 590,
+    "mission_count_ems_critical": 529,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 5200633,
+    "mission_count_all": 448,
+    "mission_count_ems": 419,
+    "mission_count_ems_critical": 374,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 5200634,
+    "mission_count_all": 641,
+    "mission_count_ems": 574,
+    "mission_count_ems_critical": 538,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 5300735,
+    "mission_count_all": 241,
+    "mission_count_ems": 223,
+    "mission_count_ems_critical": 203,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 7,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 5300736,
+    "mission_count_all": 740,
+    "mission_count_ems": 665,
+    "mission_count_ems_critical": 621,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 5300737,
+    "mission_count_all": 1672,
+    "mission_count_ems": 1562,
+    "mission_count_ems_critical": 1404,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 71
+  },
+  {
+    "planning_room_id": 5300838,
+    "mission_count_all": 61,
+    "mission_count_ems": 35,
+    "mission_count_ems_critical": 34,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 4
+  },
+  {
+    "planning_room_id": 5300839,
+    "mission_count_all": 979,
+    "mission_count_ems": 886,
+    "mission_count_ems_critical": 776,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 5300840,
+    "mission_count_all": 334,
+    "mission_count_ems": 281,
+    "mission_count_ems_critical": 272,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 31,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 5300841,
+    "mission_count_all": 578,
+    "mission_count_ems": 520,
+    "mission_count_ems_critical": 465,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 5400942,
+    "mission_count_all": 751,
+    "mission_count_ems": 450,
+    "mission_count_ems_critical": 420,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 64
+  },
+  {
+    "planning_room_id": 5400943,
+    "mission_count_all": 790,
+    "mission_count_ems": 644,
+    "mission_count_ems_critical": 587,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 131
+  },
+  {
+    "planning_room_id": 5400944,
+    "mission_count_all": 345,
+    "mission_count_ems": 327,
+    "mission_count_ems_critical": 308,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 1,
+    "mission_count_technical_rescue": 17
+  },
+  {
+    "planning_room_id": 5400945,
+    "mission_count_all": 382,
+    "mission_count_ems": 332,
+    "mission_count_ems_critical": 308,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 2,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 6100101,
+    "mission_count_all": 976,
+    "mission_count_ems": 909,
+    "mission_count_ems_critical": 846,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 39
+  },
+  {
+    "planning_room_id": 6100102,
+    "mission_count_all": 1226,
+    "mission_count_ems": 1108,
+    "mission_count_ems_critical": 1036,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 71,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 6100103,
+    "mission_count_all": 935,
+    "mission_count_ems": 836,
+    "mission_count_ems_critical": 785,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 69,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 6100204,
+    "mission_count_all": 652,
+    "mission_count_ems": 607,
+    "mission_count_ems_critical": 529,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 6100205,
+    "mission_count_all": 867,
+    "mission_count_ems": 812,
+    "mission_count_ems_critical": 732,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 6100206,
+    "mission_count_all": 900,
+    "mission_count_ems": 863,
+    "mission_count_ems_critical": 790,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 6100207,
+    "mission_count_all": 782,
+    "mission_count_ems": 730,
+    "mission_count_ems_critical": 650,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 6100208,
+    "mission_count_all": 664,
+    "mission_count_ems": 602,
+    "mission_count_ems_critical": 533,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 6100209,
+    "mission_count_all": 943,
+    "mission_count_ems": 876,
+    "mission_count_ems_critical": 794,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 6100210,
+    "mission_count_all": 429,
+    "mission_count_ems": 403,
+    "mission_count_ems_critical": 369,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 6200311,
+    "mission_count_all": 531,
+    "mission_count_ems": 489,
+    "mission_count_ems_critical": 443,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 6200312,
+    "mission_count_all": 828,
+    "mission_count_ems": 777,
+    "mission_count_ems_critical": 704,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 6200313,
+    "mission_count_all": 925,
+    "mission_count_ems": 861,
+    "mission_count_ems_critical": 778,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 6200314,
+    "mission_count_all": 742,
+    "mission_count_ems": 693,
+    "mission_count_ems_critical": 615,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 6200315,
+    "mission_count_all": 1171,
+    "mission_count_ems": 943,
+    "mission_count_ems_critical": 851,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 6200316,
+    "mission_count_all": 743,
+    "mission_count_ems": 689,
+    "mission_count_ems_critical": 635,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 6200317,
+    "mission_count_all": 603,
+    "mission_count_ems": 562,
+    "mission_count_ems_critical": 507,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 6200418,
+    "mission_count_all": 2,
+    "mission_count_ems": 1,
+    "mission_count_ems_critical": 1,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 0,
+    "mission_count_technical_rescue": 1
+  },
+  {
+    "planning_room_id": 6200419,
+    "mission_count_all": 553,
+    "mission_count_ems": 511,
+    "mission_count_ems_critical": 450,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 6200420,
+    "mission_count_all": 872,
+    "mission_count_ems": 816,
+    "mission_count_ems_critical": 725,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 6200421,
+    "mission_count_all": 1313,
+    "mission_count_ems": 1009,
+    "mission_count_ems_critical": 933,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 54
+  },
+  {
+    "planning_room_id": 6200422,
+    "mission_count_all": 820,
+    "mission_count_ems": 755,
+    "mission_count_ems_critical": 695,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 6200423,
+    "mission_count_all": 1104,
+    "mission_count_ems": 1048,
+    "mission_count_ems_critical": 946,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 6300524,
+    "mission_count_all": 628,
+    "mission_count_ems": 580,
+    "mission_count_ems_critical": 502,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 6300525,
+    "mission_count_all": 565,
+    "mission_count_ems": 543,
+    "mission_count_ems_critical": 491,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 6300526,
+    "mission_count_all": 662,
+    "mission_count_ems": 620,
+    "mission_count_ems_critical": 586,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 6300527,
+    "mission_count_all": 778,
+    "mission_count_ems": 724,
+    "mission_count_ems_critical": 661,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 6300528,
+    "mission_count_all": 1572,
+    "mission_count_ems": 1187,
+    "mission_count_ems_critical": 1103,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 75
+  },
+  {
+    "planning_room_id": 6300629,
+    "mission_count_all": 684,
+    "mission_count_ems": 620,
+    "mission_count_ems_critical": 565,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 6300630,
+    "mission_count_all": 1110,
+    "mission_count_ems": 577,
+    "mission_count_ems_critical": 510,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 6300631,
+    "mission_count_all": 452,
+    "mission_count_ems": 409,
+    "mission_count_ems_critical": 373,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 6300632,
+    "mission_count_all": 1391,
+    "mission_count_ems": 1296,
+    "mission_count_ems_critical": 1170,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 6300633,
+    "mission_count_all": 1074,
+    "mission_count_ems": 989,
+    "mission_count_ems_critical": 901,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 64
+  },
+  {
+    "planning_room_id": 6300634,
+    "mission_count_all": 955,
+    "mission_count_ems": 892,
+    "mission_count_ems_critical": 800,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 6400735,
+    "mission_count_all": 1554,
+    "mission_count_ems": 1395,
+    "mission_count_ems_critical": 1281,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 97
+  },
+  {
+    "planning_room_id": 6400736,
+    "mission_count_all": 730,
+    "mission_count_ems": 601,
+    "mission_count_ems_critical": 550,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 6400737,
+    "mission_count_all": 1743,
+    "mission_count_ems": 1373,
+    "mission_count_ems_critical": 1251,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 66,
+    "mission_count_technical_rescue": 145
+  },
+  {
+    "planning_room_id": 6400838,
+    "mission_count_all": 939,
+    "mission_count_ems": 664,
+    "mission_count_ems_critical": 613,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 6400839,
+    "mission_count_all": 668,
+    "mission_count_ems": 622,
+    "mission_count_ems_critical": 568,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 6400840,
+    "mission_count_all": 627,
+    "mission_count_ems": 565,
+    "mission_count_ems_critical": 510,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 6400841,
+    "mission_count_all": 738,
+    "mission_count_ems": 686,
+    "mission_count_ems_critical": 621,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 6400842,
+    "mission_count_all": 552,
+    "mission_count_ems": 499,
+    "mission_count_ems_critical": 467,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 6400843,
+    "mission_count_all": 500,
+    "mission_count_ems": 417,
+    "mission_count_ems_critical": 376,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 6400844,
+    "mission_count_all": 920,
+    "mission_count_ems": 801,
+    "mission_count_ems_critical": 730,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 77
+  },
+  {
+    "planning_room_id": 7100101,
+    "mission_count_all": 1684,
+    "mission_count_ems": 1551,
+    "mission_count_ems_critical": 1434,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 7100102,
+    "mission_count_all": 1561,
+    "mission_count_ems": 1411,
+    "mission_count_ems_critical": 1300,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 83
+  },
+  {
+    "planning_room_id": 7100103,
+    "mission_count_all": 1094,
+    "mission_count_ems": 1000,
+    "mission_count_ems_critical": 924,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 7100204,
+    "mission_count_all": 765,
+    "mission_count_ems": 687,
+    "mission_count_ems_critical": 614,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 7100205,
+    "mission_count_all": 718,
+    "mission_count_ems": 651,
+    "mission_count_ems_critical": 601,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 7100206,
+    "mission_count_all": 912,
+    "mission_count_ems": 833,
+    "mission_count_ems_critical": 751,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 7200307,
+    "mission_count_all": 1011,
+    "mission_count_ems": 925,
+    "mission_count_ems_critical": 849,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 62
+  },
+  {
+    "planning_room_id": 7200308,
+    "mission_count_all": 1200,
+    "mission_count_ems": 1099,
+    "mission_count_ems_critical": 981,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 44,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 7200409,
+    "mission_count_all": 1126,
+    "mission_count_ems": 1030,
+    "mission_count_ems_critical": 935,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 7200410,
+    "mission_count_all": 895,
+    "mission_count_ems": 832,
+    "mission_count_ems_critical": 764,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 7200411,
+    "mission_count_all": 326,
+    "mission_count_ems": 306,
+    "mission_count_ems_critical": 278,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 7200412,
+    "mission_count_all": 296,
+    "mission_count_ems": 258,
+    "mission_count_ems_critical": 246,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 7200413,
+    "mission_count_all": 957,
+    "mission_count_ems": 878,
+    "mission_count_ems_critical": 832,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 7200414,
+    "mission_count_all": 312,
+    "mission_count_ems": 270,
+    "mission_count_ems_critical": 241,
+    "mission_count_ems_critical_cpr": 0,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 7300515,
+    "mission_count_all": 487,
+    "mission_count_ems": 452,
+    "mission_count_ems_critical": 407,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 7300516,
+    "mission_count_all": 791,
+    "mission_count_ems": 741,
+    "mission_count_ems_critical": 670,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 7300517,
+    "mission_count_all": 962,
+    "mission_count_ems": 864,
+    "mission_count_ems_critical": 782,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 7300618,
+    "mission_count_all": 837,
+    "mission_count_ems": 770,
+    "mission_count_ems_critical": 694,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 7300619,
+    "mission_count_all": 2153,
+    "mission_count_ems": 1243,
+    "mission_count_ems_critical": 1141,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 75,
+    "mission_count_technical_rescue": 109
+  },
+  {
+    "planning_room_id": 7400720,
+    "mission_count_all": 2266,
+    "mission_count_ems": 1492,
+    "mission_count_ems_critical": 1364,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 71
+  },
+  {
+    "planning_room_id": 7400721,
+    "mission_count_all": 882,
+    "mission_count_ems": 779,
+    "mission_count_ems_critical": 737,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 69,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 7400822,
+    "mission_count_all": 544,
+    "mission_count_ems": 476,
+    "mission_count_ems_critical": 439,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 7400823,
+    "mission_count_all": 1102,
+    "mission_count_ems": 1025,
+    "mission_count_ems_critical": 923,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 7400824,
+    "mission_count_all": 1100,
+    "mission_count_ems": 1001,
+    "mission_count_ems_critical": 927,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 61
+  },
+  {
+    "planning_room_id": 7400825,
+    "mission_count_all": 680,
+    "mission_count_ems": 628,
+    "mission_count_ems_critical": 569,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 7400826,
+    "mission_count_all": 632,
+    "mission_count_ems": 603,
+    "mission_count_ems_critical": 535,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 7400927,
+    "mission_count_all": 2253,
+    "mission_count_ems": 1806,
+    "mission_count_ems_critical": 1646,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 96,
+    "mission_count_technical_rescue": 105
+  },
+  {
+    "planning_room_id": 7400928,
+    "mission_count_all": 455,
+    "mission_count_ems": 416,
+    "mission_count_ems_critical": 371,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 7501029,
+    "mission_count_all": 983,
+    "mission_count_ems": 913,
+    "mission_count_ems_critical": 801,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 7501030,
+    "mission_count_all": 1251,
+    "mission_count_ems": 1190,
+    "mission_count_ems_critical": 1056,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 7501031,
+    "mission_count_all": 1127,
+    "mission_count_ems": 1037,
+    "mission_count_ems_critical": 933,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 31,
+    "mission_count_technical_rescue": 59
+  },
+  {
+    "planning_room_id": 7501032,
+    "mission_count_all": 639,
+    "mission_count_ems": 604,
+    "mission_count_ems_critical": 546,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 23
+  },
+  {
+    "planning_room_id": 7501133,
+    "mission_count_all": 1610,
+    "mission_count_ems": 1504,
+    "mission_count_ems_critical": 1379,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 50,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 7501134,
+    "mission_count_all": 1214,
+    "mission_count_ems": 1139,
+    "mission_count_ems_critical": 1034,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 7501135,
+    "mission_count_all": 298,
+    "mission_count_ems": 281,
+    "mission_count_ems_critical": 255,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 3,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 7601236,
+    "mission_count_all": 1210,
+    "mission_count_ems": 1144,
+    "mission_count_ems_critical": 1000,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 7601237,
+    "mission_count_all": 505,
+    "mission_count_ems": 464,
+    "mission_count_ems_critical": 405,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 7601238,
+    "mission_count_all": 471,
+    "mission_count_ems": 410,
+    "mission_count_ems_critical": 376,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 7601339,
+    "mission_count_all": 831,
+    "mission_count_ems": 782,
+    "mission_count_ems_critical": 679,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 7601340,
+    "mission_count_all": 1010,
+    "mission_count_ems": 952,
+    "mission_count_ems_critical": 862,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 7601341,
+    "mission_count_all": 439,
+    "mission_count_ems": 374,
+    "mission_count_ems_critical": 341,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 7601442,
+    "mission_count_all": 1231,
+    "mission_count_ems": 1160,
+    "mission_count_ems_critical": 1049,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 7601443,
+    "mission_count_all": 1056,
+    "mission_count_ems": 985,
+    "mission_count_ems_critical": 882,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 7601544,
+    "mission_count_all": 1299,
+    "mission_count_ems": 1218,
+    "mission_count_ems_critical": 1118,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 49
+  },
+  {
+    "planning_room_id": 7601545,
+    "mission_count_all": 1136,
+    "mission_count_ems": 1075,
+    "mission_count_ems_critical": 953,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 7601546,
+    "mission_count_all": 653,
+    "mission_count_ems": 590,
+    "mission_count_ems_critical": 523,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 7601547,
+    "mission_count_all": 506,
+    "mission_count_ems": 462,
+    "mission_count_ems_critical": 411,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 7601548,
+    "mission_count_all": 276,
+    "mission_count_ems": 251,
+    "mission_count_ems_critical": 217,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 4,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 8100101,
+    "mission_count_all": 746,
+    "mission_count_ems": 673,
+    "mission_count_ems_critical": 632,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 8100102,
+    "mission_count_all": 940,
+    "mission_count_ems": 866,
+    "mission_count_ems_critical": 801,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 8100103,
+    "mission_count_all": 891,
+    "mission_count_ems": 826,
+    "mission_count_ems_critical": 760,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 8100104,
+    "mission_count_all": 811,
+    "mission_count_ems": 736,
+    "mission_count_ems_critical": 662,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 8100105,
+    "mission_count_all": 1115,
+    "mission_count_ems": 1022,
+    "mission_count_ems_critical": 959,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 44,
+    "mission_count_technical_rescue": 49
+  },
+  {
+    "planning_room_id": 8100206,
+    "mission_count_all": 1517,
+    "mission_count_ems": 1384,
+    "mission_count_ems_critical": 1265,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 81,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 8100207,
+    "mission_count_all": 1097,
+    "mission_count_ems": 1015,
+    "mission_count_ems_critical": 926,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 8100208,
+    "mission_count_all": 1512,
+    "mission_count_ems": 1389,
+    "mission_count_ems_critical": 1252,
+    "mission_count_ems_critical_cpr": 33,
+    "mission_count_fire": 61,
+    "mission_count_technical_rescue": 61
+  },
+  {
+    "planning_room_id": 8100209,
+    "mission_count_all": 1575,
+    "mission_count_ems": 1424,
+    "mission_count_ems_critical": 1312,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 94,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 8100310,
+    "mission_count_all": 687,
+    "mission_count_ems": 621,
+    "mission_count_ems_critical": 561,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 34
+  },
+  {
+    "planning_room_id": 8100311,
+    "mission_count_all": 907,
+    "mission_count_ems": 836,
+    "mission_count_ems_critical": 773,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 8100312,
+    "mission_count_all": 1319,
+    "mission_count_ems": 1218,
+    "mission_count_ems_critical": 1127,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 50,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 8100313,
+    "mission_count_all": 306,
+    "mission_count_ems": 273,
+    "mission_count_ems_critical": 251,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 8100314,
+    "mission_count_all": 1615,
+    "mission_count_ems": 1513,
+    "mission_count_ems_critical": 1414,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 68
+  },
+  {
+    "planning_room_id": 8100415,
+    "mission_count_all": 670,
+    "mission_count_ems": 606,
+    "mission_count_ems_critical": 561,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 8100416,
+    "mission_count_all": 659,
+    "mission_count_ems": 591,
+    "mission_count_ems_critical": 532,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 8100417,
+    "mission_count_all": 1590,
+    "mission_count_ems": 1488,
+    "mission_count_ems_critical": 1370,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 8100418,
+    "mission_count_all": 1118,
+    "mission_count_ems": 1032,
+    "mission_count_ems_critical": 950,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 50,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 8100419,
+    "mission_count_all": 971,
+    "mission_count_ems": 886,
+    "mission_count_ems_critical": 781,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 8100520,
+    "mission_count_all": 968,
+    "mission_count_ems": 877,
+    "mission_count_ems_critical": 778,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 8100521,
+    "mission_count_all": 1634,
+    "mission_count_ems": 1474,
+    "mission_count_ems_critical": 1337,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 81,
+    "mission_count_technical_rescue": 78
+  },
+  {
+    "planning_room_id": 8200622,
+    "mission_count_all": 798,
+    "mission_count_ems": 720,
+    "mission_count_ems_critical": 649,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 8200623,
+    "mission_count_all": 902,
+    "mission_count_ems": 832,
+    "mission_count_ems_critical": 774,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 8200624,
+    "mission_count_all": 1315,
+    "mission_count_ems": 1234,
+    "mission_count_ems_critical": 1100,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 8200725,
+    "mission_count_all": 469,
+    "mission_count_ems": 438,
+    "mission_count_ems_critical": 395,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 8200726,
+    "mission_count_all": 702,
+    "mission_count_ems": 636,
+    "mission_count_ems_critical": 579,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 33
+  },
+  {
+    "planning_room_id": 8200727,
+    "mission_count_all": 1024,
+    "mission_count_ems": 962,
+    "mission_count_ems_critical": 895,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 8200728,
+    "mission_count_all": 322,
+    "mission_count_ems": 309,
+    "mission_count_ems_critical": 284,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 3,
+    "mission_count_technical_rescue": 10
+  },
+  {
+    "planning_room_id": 8200729,
+    "mission_count_all": 316,
+    "mission_count_ems": 297,
+    "mission_count_ems_critical": 283,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 9
+  },
+  {
+    "planning_room_id": 8200730,
+    "mission_count_all": 611,
+    "mission_count_ems": 567,
+    "mission_count_ems_critical": 524,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 8200831,
+    "mission_count_all": 835,
+    "mission_count_ems": 783,
+    "mission_count_ems_critical": 692,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 8200832,
+    "mission_count_all": 1425,
+    "mission_count_ems": 1346,
+    "mission_count_ems_critical": 1221,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 54
+  },
+  {
+    "planning_room_id": 8200833,
+    "mission_count_all": 954,
+    "mission_count_ems": 868,
+    "mission_count_ems_critical": 772,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 8300934,
+    "mission_count_all": 2072,
+    "mission_count_ems": 1965,
+    "mission_count_ems_critical": 1797,
+    "mission_count_ems_critical_cpr": 32,
+    "mission_count_fire": 63,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 8300935,
+    "mission_count_all": 1131,
+    "mission_count_ems": 1081,
+    "mission_count_ems_critical": 955,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 8301036,
+    "mission_count_all": 1117,
+    "mission_count_ems": 1055,
+    "mission_count_ems_critical": 958,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 8301037,
+    "mission_count_all": 1662,
+    "mission_count_ems": 1548,
+    "mission_count_ems_critical": 1386,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 71,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 8401138,
+    "mission_count_all": 412,
+    "mission_count_ems": 389,
+    "mission_count_ems_critical": 352,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 8401139,
+    "mission_count_all": 1479,
+    "mission_count_ems": 689,
+    "mission_count_ems_critical": 614,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 8401140,
+    "mission_count_all": 271,
+    "mission_count_ems": 249,
+    "mission_count_ems_critical": 222,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 8401241,
+    "mission_count_all": 884,
+    "mission_count_ems": 829,
+    "mission_count_ems_critical": 747,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 8401242,
+    "mission_count_all": 815,
+    "mission_count_ems": 745,
+    "mission_count_ems_critical": 656,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 8401243,
+    "mission_count_all": 1324,
+    "mission_count_ems": 1232,
+    "mission_count_ems_critical": 1113,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 8401244,
+    "mission_count_all": 983,
+    "mission_count_ems": 883,
+    "mission_count_ems_critical": 791,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 81
+  },
+  {
+    "planning_room_id": 8401245,
+    "mission_count_all": 495,
+    "mission_count_ems": 467,
+    "mission_count_ems_critical": 427,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 8401246,
+    "mission_count_all": 785,
+    "mission_count_ems": 739,
+    "mission_count_ems_critical": 660,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 9100101,
+    "mission_count_all": 1819,
+    "mission_count_ems": 1676,
+    "mission_count_ems_critical": 1554,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 70,
+    "mission_count_technical_rescue": 73
+  },
+  {
+    "planning_room_id": 9100202,
+    "mission_count_all": 557,
+    "mission_count_ems": 509,
+    "mission_count_ems_critical": 458,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 9100203,
+    "mission_count_all": 1093,
+    "mission_count_ems": 1019,
+    "mission_count_ems_critical": 921,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 9100304,
+    "mission_count_all": 1873,
+    "mission_count_ems": 1781,
+    "mission_count_ems_critical": 1615,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 40,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 9100305,
+    "mission_count_all": 572,
+    "mission_count_ems": 535,
+    "mission_count_ems_critical": 469,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 9100306,
+    "mission_count_all": 433,
+    "mission_count_ems": 386,
+    "mission_count_ems_critical": 348,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 9100407,
+    "mission_count_all": 1225,
+    "mission_count_ems": 1157,
+    "mission_count_ems_critical": 1053,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 9100408,
+    "mission_count_all": 1024,
+    "mission_count_ems": 979,
+    "mission_count_ems_critical": 873,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 9100409,
+    "mission_count_all": 504,
+    "mission_count_ems": 438,
+    "mission_count_ems_critical": 405,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 9200510,
+    "mission_count_all": 1328,
+    "mission_count_ems": 1221,
+    "mission_count_ems_critical": 1099,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 9200511,
+    "mission_count_all": 1424,
+    "mission_count_ems": 1327,
+    "mission_count_ems_critical": 1188,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 9200512,
+    "mission_count_all": 553,
+    "mission_count_ems": 504,
+    "mission_count_ems_critical": 460,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 9200613,
+    "mission_count_all": 2013,
+    "mission_count_ems": 1871,
+    "mission_count_ems_critical": 1716,
+    "mission_count_ems_critical_cpr": 25,
+    "mission_count_fire": 61,
+    "mission_count_technical_rescue": 81
+  },
+  {
+    "planning_room_id": 9200614,
+    "mission_count_all": 549,
+    "mission_count_ems": 519,
+    "mission_count_ems_critical": 477,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 9200715,
+    "mission_count_all": 679,
+    "mission_count_ems": 583,
+    "mission_count_ems_critical": 557,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 61,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 9200716,
+    "mission_count_all": 948,
+    "mission_count_ems": 873,
+    "mission_count_ems_critical": 782,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 9200717,
+    "mission_count_all": 1107,
+    "mission_count_ems": 1045,
+    "mission_count_ems_critical": 905,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 9200818,
+    "mission_count_all": 364,
+    "mission_count_ems": 345,
+    "mission_count_ems_critical": 313,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 7,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 9200819,
+    "mission_count_all": 1171,
+    "mission_count_ems": 1083,
+    "mission_count_ems_critical": 972,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 9300920,
+    "mission_count_all": 1210,
+    "mission_count_ems": 1131,
+    "mission_count_ems_critical": 1014,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 31,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 9300921,
+    "mission_count_all": 245,
+    "mission_count_ems": 221,
+    "mission_count_ems_critical": 206,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 4,
+    "mission_count_technical_rescue": 20
+  },
+  {
+    "planning_room_id": 9300922,
+    "mission_count_all": 892,
+    "mission_count_ems": 815,
+    "mission_count_ems_critical": 725,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 9300923,
+    "mission_count_all": 734,
+    "mission_count_ems": 689,
+    "mission_count_ems_critical": 579,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 9301024,
+    "mission_count_all": 704,
+    "mission_count_ems": 353,
+    "mission_count_ems_critical": 330,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 9301025,
+    "mission_count_all": 1356,
+    "mission_count_ems": 1230,
+    "mission_count_ems_critical": 1069,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 66,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 9301126,
+    "mission_count_all": 1113,
+    "mission_count_ems": 1031,
+    "mission_count_ems_critical": 938,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 57
+  },
+  {
+    "planning_room_id": 9301227,
+    "mission_count_all": 222,
+    "mission_count_ems": 202,
+    "mission_count_ems_critical": 180,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 1,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 9301228,
+    "mission_count_all": 345,
+    "mission_count_ems": 294,
+    "mission_count_ems_critical": 266,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 9401329,
+    "mission_count_all": 1397,
+    "mission_count_ems": 1315,
+    "mission_count_ems_critical": 1152,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 46
+  },
+  {
+    "planning_room_id": 9401330,
+    "mission_count_all": 182,
+    "mission_count_ems": 169,
+    "mission_count_ems_critical": 153,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 3,
+    "mission_count_technical_rescue": 10
+  },
+  {
+    "planning_room_id": 9401431,
+    "mission_count_all": 951,
+    "mission_count_ems": 923,
+    "mission_count_ems_critical": 835,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 9401432,
+    "mission_count_all": 175,
+    "mission_count_ems": 159,
+    "mission_count_ems_critical": 150,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 9
+  },
+  {
+    "planning_room_id": 9401433,
+    "mission_count_all": 1011,
+    "mission_count_ems": 629,
+    "mission_count_ems_critical": 549,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 9401534,
+    "mission_count_all": 1127,
+    "mission_count_ems": 1062,
+    "mission_count_ems_critical": 960,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 9401635,
+    "mission_count_all": 725,
+    "mission_count_ems": 635,
+    "mission_count_ems_critical": 565,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 73
+  },
+  {
+    "planning_room_id": 9501736,
+    "mission_count_all": 719,
+    "mission_count_ems": 681,
+    "mission_count_ems_critical": 604,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 9501737,
+    "mission_count_all": 2110,
+    "mission_count_ems": 1999,
+    "mission_count_ems_critical": 1812,
+    "mission_count_ems_critical_cpr": 21,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 73
+  },
+  {
+    "planning_room_id": 9501838,
+    "mission_count_all": 1329,
+    "mission_count_ems": 1208,
+    "mission_count_ems_critical": 1094,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 85
+  },
+  {
+    "planning_room_id": 9501939,
+    "mission_count_all": 1203,
+    "mission_count_ems": 1131,
+    "mission_count_ems_critical": 1062,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 9501940,
+    "mission_count_all": 451,
+    "mission_count_ems": 436,
+    "mission_count_ems_critical": 404,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 2,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 9501941,
+    "mission_count_all": 365,
+    "mission_count_ems": 340,
+    "mission_count_ems_critical": 308,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 9502042,
+    "mission_count_all": 431,
+    "mission_count_ems": 394,
+    "mission_count_ems_critical": 356,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 9502043,
+    "mission_count_all": 1266,
+    "mission_count_ems": 1189,
+    "mission_count_ems_critical": 1068,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 10100101,
+    "mission_count_all": 818,
+    "mission_count_ems": 770,
+    "mission_count_ems_critical": 705,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 10100102,
+    "mission_count_all": 537,
+    "mission_count_ems": 507,
+    "mission_count_ems_critical": 448,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 7,
+    "mission_count_technical_rescue": 23
+  },
+  {
+    "planning_room_id": 10100103,
+    "mission_count_all": 1161,
+    "mission_count_ems": 1112,
+    "mission_count_ems_critical": 987,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 28,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 10100104,
+    "mission_count_all": 872,
+    "mission_count_ems": 811,
+    "mission_count_ems_critical": 718,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 10100205,
+    "mission_count_all": 656,
+    "mission_count_ems": 628,
+    "mission_count_ems_critical": 558,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 10100206,
+    "mission_count_all": 1526,
+    "mission_count_ems": 1427,
+    "mission_count_ems_critical": 1286,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 49,
+    "mission_count_technical_rescue": 50
+  },
+  {
+    "planning_room_id": 10100207,
+    "mission_count_all": 1012,
+    "mission_count_ems": 955,
+    "mission_count_ems_critical": 867,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 10100208,
+    "mission_count_all": 1595,
+    "mission_count_ems": 1508,
+    "mission_count_ems_critical": 1360,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 10100209,
+    "mission_count_all": 1155,
+    "mission_count_ems": 1102,
+    "mission_count_ems_critical": 962,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 10100210,
+    "mission_count_all": 1858,
+    "mission_count_ems": 1749,
+    "mission_count_ems_critical": 1596,
+    "mission_count_ems_critical_cpr": 26,
+    "mission_count_fire": 52,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 10100311,
+    "mission_count_all": 883,
+    "mission_count_ems": 732,
+    "mission_count_ems_critical": 694,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 88,
+    "mission_count_technical_rescue": 62
+  },
+  {
+    "planning_room_id": 10100312,
+    "mission_count_all": 2173,
+    "mission_count_ems": 2029,
+    "mission_count_ems_critical": 1800,
+    "mission_count_ems_critical_cpr": 41,
+    "mission_count_fire": 62,
+    "mission_count_technical_rescue": 81
+  },
+  {
+    "planning_room_id": 10100313,
+    "mission_count_all": 654,
+    "mission_count_ems": 608,
+    "mission_count_ems_critical": 548,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 26
+  },
+  {
+    "planning_room_id": 10100314,
+    "mission_count_all": 747,
+    "mission_count_ems": 708,
+    "mission_count_ems_critical": 640,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 10100315,
+    "mission_count_all": 804,
+    "mission_count_ems": 755,
+    "mission_count_ems_critical": 671,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 27
+  },
+  {
+    "planning_room_id": 10100316,
+    "mission_count_all": 638,
+    "mission_count_ems": 594,
+    "mission_count_ems_critical": 549,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 10200417,
+    "mission_count_all": 932,
+    "mission_count_ems": 858,
+    "mission_count_ems_critical": 755,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 10200418,
+    "mission_count_all": 748,
+    "mission_count_ems": 713,
+    "mission_count_ems_critical": 628,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 10200419,
+    "mission_count_all": 444,
+    "mission_count_ems": 416,
+    "mission_count_ems_critical": 365,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 10200420,
+    "mission_count_all": 1050,
+    "mission_count_ems": 973,
+    "mission_count_ems_critical": 871,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 10200421,
+    "mission_count_all": 631,
+    "mission_count_ems": 567,
+    "mission_count_ems_critical": 545,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 12
+  },
+  {
+    "planning_room_id": 10200422,
+    "mission_count_all": 928,
+    "mission_count_ems": 884,
+    "mission_count_ems_critical": 771,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 10200423,
+    "mission_count_all": 665,
+    "mission_count_ems": 626,
+    "mission_count_ems_critical": 540,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 10200524,
+    "mission_count_all": 1323,
+    "mission_count_ems": 1242,
+    "mission_count_ems_critical": 1105,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 45
+  },
+  {
+    "planning_room_id": 10200525,
+    "mission_count_all": 550,
+    "mission_count_ems": 516,
+    "mission_count_ems_critical": 452,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 10200526,
+    "mission_count_all": 715,
+    "mission_count_ems": 649,
+    "mission_count_ems_critical": 577,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 48,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 10200627,
+    "mission_count_all": 341,
+    "mission_count_ems": 302,
+    "mission_count_ems_critical": 274,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 16
+  },
+  {
+    "planning_room_id": 10200628,
+    "mission_count_all": 866,
+    "mission_count_ems": 806,
+    "mission_count_ems_critical": 727,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 45,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 10200629,
+    "mission_count_all": 1308,
+    "mission_count_ems": 1241,
+    "mission_count_ems_critical": 1144,
+    "mission_count_ems_critical_cpr": 26,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 10200630,
+    "mission_count_all": 835,
+    "mission_count_ems": 785,
+    "mission_count_ems_critical": 693,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 10300731,
+    "mission_count_all": 845,
+    "mission_count_ems": 797,
+    "mission_count_ems_critical": 745,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 10300732,
+    "mission_count_all": 1444,
+    "mission_count_ems": 970,
+    "mission_count_ems_critical": 861,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 38
+  },
+  {
+    "planning_room_id": 10300733,
+    "mission_count_all": 833,
+    "mission_count_ems": 789,
+    "mission_count_ems_critical": 717,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 10300734,
+    "mission_count_all": 1106,
+    "mission_count_ems": 1016,
+    "mission_count_ems_critical": 932,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 61
+  },
+  {
+    "planning_room_id": 10400835,
+    "mission_count_all": 659,
+    "mission_count_ems": 593,
+    "mission_count_ems_critical": 534,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 10400836,
+    "mission_count_all": 945,
+    "mission_count_ems": 633,
+    "mission_count_ems_critical": 593,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 13,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 10400837,
+    "mission_count_all": 756,
+    "mission_count_ems": 692,
+    "mission_count_ems_critical": 622,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 52
+  },
+  {
+    "planning_room_id": 10400938,
+    "mission_count_all": 851,
+    "mission_count_ems": 786,
+    "mission_count_ems_critical": 718,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 10400939,
+    "mission_count_all": 580,
+    "mission_count_ems": 538,
+    "mission_count_ems_critical": 503,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 14,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 10400940,
+    "mission_count_all": 519,
+    "mission_count_ems": 446,
+    "mission_count_ems_critical": 412,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 63
+  },
+  {
+    "planning_room_id": 10400941,
+    "mission_count_all": 598,
+    "mission_count_ems": 560,
+    "mission_count_ems_critical": 496,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 11100101,
+    "mission_count_all": 413,
+    "mission_count_ems": 355,
+    "mission_count_ems_critical": 323,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 23,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 11100102,
+    "mission_count_all": 402,
+    "mission_count_ems": 386,
+    "mission_count_ems_critical": 324,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 8
+  },
+  {
+    "planning_room_id": 11100203,
+    "mission_count_all": 1030,
+    "mission_count_ems": 967,
+    "mission_count_ems_critical": 843,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 11100204,
+    "mission_count_all": 957,
+    "mission_count_ems": 881,
+    "mission_count_ems_critical": 770,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 44,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 11100205,
+    "mission_count_all": 752,
+    "mission_count_ems": 715,
+    "mission_count_ems_critical": 652,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 11100206,
+    "mission_count_all": 1031,
+    "mission_count_ems": 990,
+    "mission_count_ems_critical": 871,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 22
+  },
+  {
+    "planning_room_id": 11100307,
+    "mission_count_all": 1703,
+    "mission_count_ems": 1599,
+    "mission_count_ems_critical": 1427,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 53,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 11100308,
+    "mission_count_all": 1290,
+    "mission_count_ems": 1213,
+    "mission_count_ems_critical": 1092,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 41,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 11100309,
+    "mission_count_all": 878,
+    "mission_count_ems": 826,
+    "mission_count_ems_critical": 720,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 11200410,
+    "mission_count_all": 1278,
+    "mission_count_ems": 1192,
+    "mission_count_ems_critical": 1057,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 53
+  },
+  {
+    "planning_room_id": 11200411,
+    "mission_count_all": 1156,
+    "mission_count_ems": 1074,
+    "mission_count_ems_critical": 966,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 47,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 11200512,
+    "mission_count_all": 791,
+    "mission_count_ems": 732,
+    "mission_count_ems_critical": 680,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 24,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 11200513,
+    "mission_count_all": 1102,
+    "mission_count_ems": 1036,
+    "mission_count_ems_critical": 907,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 11200514,
+    "mission_count_all": 2020,
+    "mission_count_ems": 1902,
+    "mission_count_ems_critical": 1683,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 51,
+    "mission_count_technical_rescue": 67
+  },
+  {
+    "planning_room_id": 11200515,
+    "mission_count_all": 454,
+    "mission_count_ems": 429,
+    "mission_count_ems_critical": 386,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 14
+  },
+  {
+    "planning_room_id": 11300616,
+    "mission_count_all": 874,
+    "mission_count_ems": 831,
+    "mission_count_ems_critical": 736,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 11300617,
+    "mission_count_all": 954,
+    "mission_count_ems": 909,
+    "mission_count_ems_critical": 846,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 11300618,
+    "mission_count_all": 656,
+    "mission_count_ems": 620,
+    "mission_count_ems_critical": 567,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 11300619,
+    "mission_count_all": 1014,
+    "mission_count_ems": 971,
+    "mission_count_ems_critical": 848,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 11300620,
+    "mission_count_all": 1584,
+    "mission_count_ems": 1494,
+    "mission_count_ems_critical": 1369,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 48
+  },
+  {
+    "planning_room_id": 11300721,
+    "mission_count_all": 1670,
+    "mission_count_ems": 1187,
+    "mission_count_ems_critical": 1095,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 165,
+    "mission_count_technical_rescue": 69
+  },
+  {
+    "planning_room_id": 11300722,
+    "mission_count_all": 2027,
+    "mission_count_ems": 1902,
+    "mission_count_ems_critical": 1779,
+    "mission_count_ems_critical_cpr": 27,
+    "mission_count_fire": 74,
+    "mission_count_technical_rescue": 51
+  },
+  {
+    "planning_room_id": 11300723,
+    "mission_count_all": 368,
+    "mission_count_ems": 292,
+    "mission_count_ems_critical": 262,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 9
+  },
+  {
+    "planning_room_id": 11300724,
+    "mission_count_all": 504,
+    "mission_count_ems": 452,
+    "mission_count_ems_critical": 418,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 20
+  },
+  {
+    "planning_room_id": 11300725,
+    "mission_count_all": 1401,
+    "mission_count_ems": 972,
+    "mission_count_ems_critical": 890,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 43,
+    "mission_count_technical_rescue": 25
+  },
+  {
+    "planning_room_id": 11300826,
+    "mission_count_all": 1700,
+    "mission_count_ems": 1589,
+    "mission_count_ems_critical": 1469,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 52,
+    "mission_count_technical_rescue": 59
+  },
+  {
+    "planning_room_id": 11400927,
+    "mission_count_all": 338,
+    "mission_count_ems": 297,
+    "mission_count_ems_critical": 274,
+    "mission_count_ems_critical_cpr": 2,
+    "mission_count_fire": 21,
+    "mission_count_technical_rescue": 20
+  },
+  {
+    "planning_room_id": 11400928,
+    "mission_count_all": 286,
+    "mission_count_ems": 269,
+    "mission_count_ems_critical": 252,
+    "mission_count_ems_critical_cpr": 4,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 11400929,
+    "mission_count_all": 1501,
+    "mission_count_ems": 1388,
+    "mission_count_ems_critical": 1252,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 48,
+    "mission_count_technical_rescue": 65
+  },
+  {
+    "planning_room_id": 11400930,
+    "mission_count_all": 417,
+    "mission_count_ems": 400,
+    "mission_count_ems_critical": 363,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 6,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 11400931,
+    "mission_count_all": 958,
+    "mission_count_ems": 901,
+    "mission_count_ems_critical": 823,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 36,
+    "mission_count_technical_rescue": 21
+  },
+  {
+    "planning_room_id": 11401032,
+    "mission_count_all": 909,
+    "mission_count_ems": 853,
+    "mission_count_ems_critical": 785,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 11401033,
+    "mission_count_all": 750,
+    "mission_count_ems": 712,
+    "mission_count_ems_critical": 633,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 18
+  },
+  {
+    "planning_room_id": 11401034,
+    "mission_count_all": 596,
+    "mission_count_ems": 568,
+    "mission_count_ems_critical": 515,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 13
+  },
+  {
+    "planning_room_id": 11401135,
+    "mission_count_all": 1450,
+    "mission_count_ems": 1380,
+    "mission_count_ems_critical": 1204,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 25,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 11401136,
+    "mission_count_all": 1247,
+    "mission_count_ems": 1198,
+    "mission_count_ems_critical": 1089,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 11401137,
+    "mission_count_all": 1247,
+    "mission_count_ems": 1152,
+    "mission_count_ems_critical": 1046,
+    "mission_count_ems_critical_cpr": 12,
+    "mission_count_fire": 55,
+    "mission_count_technical_rescue": 40
+  },
+  {
+    "planning_room_id": 11501238,
+    "mission_count_all": 564,
+    "mission_count_ems": 498,
+    "mission_count_ems_critical": 463,
+    "mission_count_ems_critical_cpr": 6,
+    "mission_count_fire": 35,
+    "mission_count_technical_rescue": 31
+  },
+  {
+    "planning_room_id": 11501339,
+    "mission_count_all": 829,
+    "mission_count_ems": 764,
+    "mission_count_ems_critical": 675,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 20,
+    "mission_count_technical_rescue": 44
+  },
+  {
+    "planning_room_id": 11501340,
+    "mission_count_all": 1113,
+    "mission_count_ems": 1043,
+    "mission_count_ems_critical": 957,
+    "mission_count_ems_critical_cpr": 15,
+    "mission_count_fire": 27,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 11501341,
+    "mission_count_all": 703,
+    "mission_count_ems": 649,
+    "mission_count_ems_critical": 597,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 32
+  },
+  {
+    "planning_room_id": 12100101,
+    "mission_count_all": 1285,
+    "mission_count_ems": 1199,
+    "mission_count_ems_critical": 1060,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 32,
+    "mission_count_technical_rescue": 54
+  },
+  {
+    "planning_room_id": 12100102,
+    "mission_count_all": 1232,
+    "mission_count_ems": 1156,
+    "mission_count_ems_critical": 1025,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 39,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 12100103,
+    "mission_count_all": 1120,
+    "mission_count_ems": 1064,
+    "mission_count_ems_critical": 958,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 12100204,
+    "mission_count_all": 1484,
+    "mission_count_ems": 1357,
+    "mission_count_ems_critical": 1247,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 59,
+    "mission_count_technical_rescue": 68
+  },
+  {
+    "planning_room_id": 12100205,
+    "mission_count_all": 2340,
+    "mission_count_ems": 2151,
+    "mission_count_ems_critical": 1947,
+    "mission_count_ems_critical_cpr": 28,
+    "mission_count_fire": 80,
+    "mission_count_technical_rescue": 108
+  },
+  {
+    "planning_room_id": 12100206,
+    "mission_count_all": 538,
+    "mission_count_ems": 513,
+    "mission_count_ems_critical": 462,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 17
+  },
+  {
+    "planning_room_id": 12200307,
+    "mission_count_all": 454,
+    "mission_count_ems": 428,
+    "mission_count_ems_critical": 388,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 15
+  },
+  {
+    "planning_room_id": 12200308,
+    "mission_count_all": 661,
+    "mission_count_ems": 626,
+    "mission_count_ems_critical": 563,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 11,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 12200309,
+    "mission_count_all": 1675,
+    "mission_count_ems": 1561,
+    "mission_count_ems_critical": 1441,
+    "mission_count_ems_critical_cpr": 10,
+    "mission_count_fire": 59,
+    "mission_count_technical_rescue": 54
+  },
+  {
+    "planning_room_id": 12200310,
+    "mission_count_all": 990,
+    "mission_count_ems": 913,
+    "mission_count_ems_critical": 811,
+    "mission_count_ems_critical_cpr": 8,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 42
+  },
+  {
+    "planning_room_id": 12200411,
+    "mission_count_all": 87,
+    "mission_count_ems": 71,
+    "mission_count_ems_critical": 68,
+    "mission_count_ems_critical_cpr": 1,
+    "mission_count_fire": 5,
+    "mission_count_technical_rescue": 11
+  },
+  {
+    "planning_room_id": 12200412,
+    "mission_count_all": 940,
+    "mission_count_ems": 832,
+    "mission_count_ems_critical": 770,
+    "mission_count_ems_critical_cpr": 18,
+    "mission_count_fire": 42,
+    "mission_count_technical_rescue": 66
+  },
+  {
+    "planning_room_id": 12200413,
+    "mission_count_all": 960,
+    "mission_count_ems": 899,
+    "mission_count_ems_critical": 806,
+    "mission_count_ems_critical_cpr": 11,
+    "mission_count_fire": 18,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 12200414,
+    "mission_count_all": 650,
+    "mission_count_ems": 605,
+    "mission_count_ems_critical": 551,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 19
+  },
+  {
+    "planning_room_id": 12200515,
+    "mission_count_all": 2599,
+    "mission_count_ems": 2384,
+    "mission_count_ems_critical": 2226,
+    "mission_count_ems_critical_cpr": 43,
+    "mission_count_fire": 81,
+    "mission_count_technical_rescue": 82
+  },
+  {
+    "planning_room_id": 12400616,
+    "mission_count_all": 608,
+    "mission_count_ems": 550,
+    "mission_count_ems_critical": 498,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 47
+  },
+  {
+    "planning_room_id": 12400617,
+    "mission_count_all": 609,
+    "mission_count_ems": 573,
+    "mission_count_ems_critical": 519,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 8,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 12400618,
+    "mission_count_all": 516,
+    "mission_count_ems": 479,
+    "mission_count_ems_critical": 441,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 9,
+    "mission_count_technical_rescue": 28
+  },
+  {
+    "planning_room_id": 12400619,
+    "mission_count_all": 785,
+    "mission_count_ems": 706,
+    "mission_count_ems_critical": 619,
+    "mission_count_ems_critical_cpr": 14,
+    "mission_count_fire": 19,
+    "mission_count_technical_rescue": 60
+  },
+  {
+    "planning_room_id": 12400720,
+    "mission_count_all": 911,
+    "mission_count_ems": 810,
+    "mission_count_ems_critical": 737,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 84
+  },
+  {
+    "planning_room_id": 12400721,
+    "mission_count_all": 920,
+    "mission_count_ems": 809,
+    "mission_count_ems_critical": 734,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 22,
+    "mission_count_technical_rescue": 89
+  },
+  {
+    "planning_room_id": 12400722,
+    "mission_count_all": 1148,
+    "mission_count_ems": 803,
+    "mission_count_ems_critical": 733,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 16,
+    "mission_count_technical_rescue": 55
+  },
+  {
+    "planning_room_id": 12400723,
+    "mission_count_all": 730,
+    "mission_count_ems": 644,
+    "mission_count_ems_critical": 581,
+    "mission_count_ems_critical_cpr": 13,
+    "mission_count_fire": 30,
+    "mission_count_technical_rescue": 56
+  },
+  {
+    "planning_room_id": 12500824,
+    "mission_count_all": 1174,
+    "mission_count_ems": 1114,
+    "mission_count_ems_critical": 1000,
+    "mission_count_ems_critical_cpr": 22,
+    "mission_count_fire": 37,
+    "mission_count_technical_rescue": 23
+  },
+  {
+    "planning_room_id": 12500825,
+    "mission_count_all": 1014,
+    "mission_count_ems": 912,
+    "mission_count_ems_critical": 836,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 67,
+    "mission_count_technical_rescue": 35
+  },
+  {
+    "planning_room_id": 12500926,
+    "mission_count_all": 1073,
+    "mission_count_ems": 1011,
+    "mission_count_ems_critical": 941,
+    "mission_count_ems_critical_cpr": 19,
+    "mission_count_fire": 33,
+    "mission_count_technical_rescue": 29
+  },
+  {
+    "planning_room_id": 12500927,
+    "mission_count_all": 1626,
+    "mission_count_ems": 1116,
+    "mission_count_ems_critical": 1041,
+    "mission_count_ems_critical_cpr": 16,
+    "mission_count_fire": 34,
+    "mission_count_technical_rescue": 36
+  },
+  {
+    "planning_room_id": 12500928,
+    "mission_count_all": 599,
+    "mission_count_ems": 543,
+    "mission_count_ems_critical": 501,
+    "mission_count_ems_critical_cpr": 17,
+    "mission_count_fire": 15,
+    "mission_count_technical_rescue": 41
+  },
+  {
+    "planning_room_id": 12500929,
+    "mission_count_all": 473,
+    "mission_count_ems": 437,
+    "mission_count_ems_critical": 400,
+    "mission_count_ems_critical_cpr": 9,
+    "mission_count_fire": 12,
+    "mission_count_technical_rescue": 24
+  },
+  {
+    "planning_room_id": 12500930,
+    "mission_count_all": 2034,
+    "mission_count_ems": 1935,
+    "mission_count_ems_critical": 1716,
+    "mission_count_ems_critical_cpr": 30,
+    "mission_count_fire": 38,
+    "mission_count_technical_rescue": 58
+  },
+  {
+    "planning_room_id": 12601031,
+    "mission_count_all": 442,
+    "mission_count_ems": 408,
+    "mission_count_ems_critical": 379,
+    "mission_count_ems_critical_cpr": 7,
+    "mission_count_fire": 17,
+    "mission_count_technical_rescue": 17
+  },
+  {
+    "planning_room_id": 12601032,
+    "mission_count_all": 902,
+    "mission_count_ems": 830,
+    "mission_count_ems_critical": 737,
+    "mission_count_ems_critical_cpr": 3,
+    "mission_count_fire": 29,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 12601133,
+    "mission_count_all": 1746,
+    "mission_count_ems": 1641,
+    "mission_count_ems_critical": 1462,
+    "mission_count_ems_critical_cpr": 23,
+    "mission_count_fire": 68,
+    "mission_count_technical_rescue": 37
+  },
+  {
+    "planning_room_id": 12601134,
+    "mission_count_all": 2664,
+    "mission_count_ems": 2489,
+    "mission_count_ems_critical": 2230,
+    "mission_count_ems_critical_cpr": 29,
+    "mission_count_fire": 80,
+    "mission_count_technical_rescue": 43
+  },
+  {
+    "planning_room_id": 12601235,
+    "mission_count_all": 1306,
+    "mission_count_ems": 1250,
+    "mission_count_ems_critical": 1121,
+    "mission_count_ems_critical_cpr": 20,
+    "mission_count_fire": 26,
+    "mission_count_technical_rescue": 30
+  },
+  {
+    "planning_room_id": 12601236,
+    "mission_count_all": 396,
+    "mission_count_ems": 367,
+    "mission_count_ems_critical": 328,
+    "mission_count_ems_critical_cpr": 5,
+    "mission_count_fire": 10,
+    "mission_count_technical_rescue": 19
+  }
+]

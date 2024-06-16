@@ -7,12 +7,21 @@ const gui = new dat.GUI();
 let stats = new Stats();
 
 const berlinJson = "../assets/planung_conv.geojson";
-const berlinFwDaten = "../assets/BFw_planning_room_data_2023.json";
+const berlinFwData2018Json = "../assets/BFw_planning_room_data_2018.json";
+const berlinFwData2019Json = "../assets/BFw_planning_room_data_2019.json";
+const berlinFwData2020Json = "../assets/BFw_planning_room_data_2020.json";
+const berlinFwData2021Json = "../assets/BFw_planning_room_data_2021.json";
+const berlinFwData2022Json = "../assets/BFw_planning_room_data_2022.json";
+const berlinFwData2023Json = "../assets/BFw_planning_room_data_2023.json";
+const berlinFwData2024Json = "../assets/BFw_planning_room_data_2024.json";
+let berlinFwDataCurrentJson = berlinFwData2024Json;
 let berlinGeo;
 let fwData;
 let lorMap;
 let dataSubsetToDisplay = "mission_count_all";
 let scene;
+
+let barGraph = true;
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -65,20 +74,20 @@ async function convertJsonToMapWithLorKey(jsonData) {
   console.log(lorKeyMap);
   return lorKeyMap;
 }
-  const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
-  function gpsToCart(lat, lon) {
-    const cart = { x: 0, y: 0 };
-    const earthRad = 6378;
+const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
+function gpsToCart(lat, lon) {
+  const cart = { x: 0, y: 0 };
+  const earthRad = 6378;
 
-    cart.x = degreesToRads(lon) * earthRad;
-    cart.y =
-      (earthRad / 2) *
-      Math.log(
-        (1.0 + Math.sin(degreesToRads(lat))) /
-          (1.0 - Math.sin(degreesToRads(lat))),
-      );
-    return cart;
-  }
+  cart.x = degreesToRads(lon) * earthRad;
+  cart.y =
+    (earthRad / 2) *
+    Math.log(
+      (1.0 + Math.sin(degreesToRads(lat))) /
+        (1.0 - Math.sin(degreesToRads(lat))),
+    );
+  return cart;
+}
 let controls = {
   scale: 10,
   isTransparent: true,
@@ -92,6 +101,12 @@ const meshNormal = new THREE.MeshNormalMaterial({
 });
 let materialLine;
 let exMaterial = meshNormal;
+
+let pointsMaterial = new THREE.PointsMaterial({
+  color: 0x888888,
+  size: 0.2,
+  sizeAttenuation: true,
+});
 
 async function fetchJSONData(inputJson) {
   const response = await fetch(inputJson);
@@ -109,9 +124,6 @@ gl.shadowMap.type = THREE.PCFSoftShadowMap;
 
 let geometryArray = [];
 let meshArray = [];
-
-
-
 
 let ambientLight;
 let directionalLight;
@@ -143,7 +155,6 @@ async function visData() {
   console.log(berlinGeo);
   console.log(berlinGeo.features[0].geometry.coordinates);
 
-
   let centerLat = 52.51772;
   let centerLon = 13.399207;
   const extrudeSettings = {
@@ -156,6 +167,7 @@ async function visData() {
     bevelSegments: 1,
   };
 
+  let pointsArray = [];
   const centerInMercator = gpsToCart(centerLat, centerLon);
   berlinGeo.features.forEach((element) => {
     const geoPointsVec3 = [];
@@ -181,7 +193,7 @@ async function visData() {
       let depth = (height / maxValueToDivideBy) * controls.scale;
       extrudeSettings.depth = depth;
     } else {
-      extrudeSettings.height = 0.1;
+      extrudeSettings.depth = 0.1;
     }
     // let heightData = lorMap.get(lor);
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
@@ -194,17 +206,41 @@ async function visData() {
     // outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
 
     scene.add(outline);
-    let polyShape = new THREE.Shape(
-      geoPointsArray.map((points) => new THREE.Vector2(points.x, points.y)),
-    );
-    const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
-    geometryArray.push(geometry);
-    const mesh = new THREE.Mesh(geometry, exMaterial);
-    meshArray.push(mesh);
-    mesh.castShadow = true;
-    mesh.rotation.x = -(Math.PI / 2);
-    scene.add(mesh);
+    if (barGraph) {
+      let polyShape = new THREE.Shape(
+        geoPointsArray.map((points) => new THREE.Vector2(points.x, points.y)),
+      );
+      const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
+      geometryArray.push(geometry);
+      const mesh = new THREE.Mesh(geometry, exMaterial);
+      meshArray.push(mesh);
+      mesh.castShadow = true;
+      mesh.rotation.x = -(Math.PI / 2);
+      scene.add(mesh);
+    } else {
+      geoPointsArray.forEach((elem, index) => {
+        if (index % 10 == 0) {
+          let rand = Math.random() * (1.1 - 0.9) + 0.9;
+          let vec3 = new THREE.Vector3(
+            elem.x * rand,
+            elem.y * rand,
+            extrudeSettings.depth * rand,
+          );
+          pointsArray.push(vec3);
+        }
+      });
+    }
   });
+  if (barGraph) {
+    let pointGeometry = new THREE.BufferGeometry().setFromPoints(pointsArray);
+    const pointLine = new THREE.Line(pointGeometry, materialLine);
+    pointLine.rotation.x = -(Math.PI / 2);
+    scene.add(pointLine);
+    let points = new THREE.Points(pointGeometry, pointsMaterial);
+    points.rotation.x = -(Math.PI / 2);
+    scene.add(points);
+  }
+
   const geometry = new THREE.PlaneGeometry(250, 250);
   const planeMaterial = new THREE.MeshStandardMaterial({
     color: 0xffffff,
@@ -272,7 +308,7 @@ function resizeGLToDisplaySize(gl) {
 async function main() {
   berlinGeo = await fetchJSONData(berlinJson);
 
-  fwData = await fetchJSONData(berlinFwDaten);
+  fwData = await fetchJSONData(berlinFwDataCurrentJson);
   lorMap = await convertJsonToMapWithLorKey(fwData);
   setMaxValueToDivideBy();
   visData();
@@ -439,10 +475,55 @@ function setMaxValueToDivideBy() {
       break;
   }
 }
+let dataYear = {
+  year: "2024",
+};
+let dataYearFolder = gui.addFolder("Year");
+dataYearFolder
+  .add(dataYear, "year", {
+    2024: "2024",
+    2023: "2023",
+    2022: "2022",
+    2021: "2021",
+    2020: "2020",
+    2019: "2019",
+    2018: "2018",
+  })
+  .onChange(function () {
+    changeYearData();
+  });
+
+function changeYearData() {
+  switch (dataYear.year) {
+    case "2024":
+      berlinFwDataCurrentJson = berlinFwData2024Json;
+      break;
+    case "2023":
+      berlinFwDataCurrentJson = berlinFwData2023Json;
+      break;
+    case "2022":
+      berlinFwDataCurrentJson = berlinFwData2022Json;
+      break;
+    case "2021":
+      berlinFwDataCurrentJson = berlinFwData2021Json;
+      break;
+    case "2020":
+      berlinFwDataCurrentJson = berlinFwData2020Json;
+      break;
+    case "2019":
+      berlinFwDataCurrentJson = berlinFwData2019Json;
+      break;
+    case "2018":
+      berlinFwDataCurrentJson = berlinFwData2018Json;
+      break;
+    default:
+      break;
+  }
+}
 // this trys to clear the meshes and geometries and dispose of them to make the performance better after reload
 function clearGeometries() {
-    scene.remove(ambientLight);
-    scene.remove(directionalLight);
+  scene.remove(ambientLight);
+  scene.remove(directionalLight);
   meshArray.forEach((elem) => {
     scene.remove(elem);
   });
@@ -451,5 +532,5 @@ function clearGeometries() {
     elem.dispose();
   });
   geometryArray = [];
-    materialLine.dispose();
+  materialLine.dispose();
 }

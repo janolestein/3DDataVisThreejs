@@ -1,7 +1,6 @@
 [
   {
     "planning_room_id": 1100101,
-    "planning_room_name": "Stülerstraße",
     "mission_count_all": 668,
     "mission_count_ems": 414,
     "mission_count_ems_critical": 325,
@@ -11,7 +10,6 @@
   },
   {
     "planning_room_id": 1100102,
-    "planning_room_name": "Großer Tiergarten",
     "mission_count_all": 1830,
     "mission_count_ems": 1544,
     "mission_count_ems_critical": 1136,
@@ -21,7 +19,6 @@
   },
   {
     "planning_room_id": 1100103,
-    "planning_room_name": "Lützowstraße",
     "mission_count_all": 1104,
     "mission_count_ems": 844,
     "mission_count_ems_critical": 677,
@@ -31,7 +28,6 @@
   },
   {
     "planning_room_id": 1100104,
-    "planning_room_name": "Körnerstraße",
     "mission_count_all": 493,
     "mission_count_ems": 415,
     "mission_count_ems_critical": 344,
@@ -41,7 +37,6 @@
   },
   {
     "planning_room_id": 1100205,
-    "planning_room_name": "Wilhelmstraße",
     "mission_count_all": 990,
     "mission_count_ems": 860,
     "mission_count_ems_critical": 654,
@@ -51,7 +46,6 @@
   },
   {
     "planning_room_id": 1100206,
-    "planning_room_name": "Unter den Linden",
     "mission_count_all": 2484,
     "mission_count_ems": 2176,
     "mission_count_ems_critical": 1644,
@@ -61,7 +55,6 @@
   },
   {
     "planning_room_id": 1100207,
-    "planning_room_name": "Leipziger Straße",
     "mission_count_all": 1452,
     "mission_count_ems": 1257,
     "mission_count_ems_critical": 1004,
@@ -71,7 +64,6 @@
   },
   {
     "planning_room_id": 1100308,
-    "planning_room_name": "Charitéviertel",
     "mission_count_all": 2069,
     "mission_count_ems": 1199,
     "mission_count_ems_critical": 901,
@@ -81,7 +73,6 @@
   },
   {
     "planning_room_id": 1100309,
-    "planning_room_name": "Oranienburger Straße",
     "mission_count_all": 2176,
     "mission_count_ems": 1741,
     "mission_count_ems_critical": 1258,
@@ -91,7 +82,6 @@
   },
   {
     "planning_room_id": 1100310,
-    "planning_room_name": "Alexanderplatzviertel",
     "mission_count_all": 5207,
     "mission_count_ems": 4776,
     "mission_count_ems_critical": 3474,
@@ -101,7 +91,6 @@
   },
   {
     "planning_room_id": 1100311,
-    "planning_room_name": "Karl-Marx-Allee",
     "mission_count_all": 1694,
     "mission_count_ems": 1525,
     "mission_count_ems_critical": 1193,
@@ -111,7 +100,6 @@
   },
   {
     "planning_room_id": 1100312,
-    "planning_room_name": "Heine-Viertel West",
     "mission_count_all": 1354,
     "mission_count_ems": 1249,
     "mission_count_ems_critical": 1026,
@@ -121,7 +109,6 @@
   },
   {
     "planning_room_id": 1100313,
-    "planning_room_name": "Heine-Viertel Ost",
     "mission_count_all": 1333,
     "mission_count_ems": 1226,
     "mission_count_ems_critical": 991,
@@ -131,7 +118,6 @@
   },
   {
     "planning_room_id": 1100414,
-    "planning_room_name": "Nordbahnhof",
     "mission_count_all": 435,
     "mission_count_ems": 388,
     "mission_count_ems_critical": 304,
@@ -141,7 +127,6 @@
   },
   {
     "planning_room_id": 1100415,
-    "planning_room_name": "Invalidenstraße",
     "mission_count_all": 1257,
     "mission_count_ems": 1124,
     "mission_count_ems_critical": 890,
@@ -151,7 +136,6 @@
   },
   {
     "planning_room_id": 1100416,
-    "planning_room_name": "Arkonaplatz",
     "mission_count_all": 924,
     "mission_count_ems": 830,
     "mission_count_ems_critical": 648,
@@ -161,7 +145,6 @@
   },
   {
     "planning_room_id": 1200517,
-    "planning_room_name": "Huttenkiez",
     "mission_count_all": 950,
     "mission_count_ems": 842,
     "mission_count_ems_critical": 636,
@@ -171,7 +154,6 @@
   },
   {
     "planning_room_id": 1200518,
-    "planning_room_name": "Beusselkiez",
     "mission_count_all": 684,
     "mission_count_ems": 622,
     "mission_count_ems_critical": 484,
@@ -181,7 +163,6 @@
   },
   {
     "planning_room_id": 1200519,
-    "planning_room_name": "Emdener Straße",
     "mission_count_all": 972,
     "mission_count_ems": 883,
     "mission_count_ems_critical": 710,
@@ -191,7 +172,6 @@
   },
   {
     "planning_room_id": 1200520,
-    "planning_room_name": "Bremer Straße",
     "mission_count_all": 1099,
     "mission_count_ems": 1028,
     "mission_count_ems_critical": 790,
@@ -201,7 +181,6 @@
   },
   {
     "planning_room_id": 1200521,
-    "planning_room_name": "Zwinglistraße",
     "mission_count_all": 599,
     "mission_count_ems": 549,
     "mission_count_ems_critical": 444,
@@ -211,7 +190,6 @@
   },
   {
     "planning_room_id": 1200522,
-    "planning_room_name": "Elberfelder Straße",
     "mission_count_all": 1240,
     "mission_count_ems": 1136,
     "mission_count_ems_critical": 920,
@@ -221,7 +199,6 @@
   },
   {
     "planning_room_id": 1200623,
-    "planning_room_name": "Stephankiez",
     "mission_count_all": 1335,
     "mission_count_ems": 1239,
     "mission_count_ems_critical": 867,
@@ -231,7 +208,6 @@
   },
   {
     "planning_room_id": 1200624,
-    "planning_room_name": "Heidestraße",
     "mission_count_all": 749,
     "mission_count_ems": 638,
     "mission_count_ems_critical": 495,
@@ -241,7 +217,6 @@
   },
   {
     "planning_room_id": 1200625,
-    "planning_room_name": "Lübecker Straße",
     "mission_count_all": 1008,
     "mission_count_ems": 947,
     "mission_count_ems_critical": 765,
@@ -251,7 +226,6 @@
   },
   {
     "planning_room_id": 1200626,
-    "planning_room_name": "Thomasiusstraße",
     "mission_count_all": 923,
     "mission_count_ems": 861,
     "mission_count_ems_critical": 724,
@@ -261,7 +235,6 @@
   },
   {
     "planning_room_id": 1200627,
-    "planning_room_name": "Zillesiedlung",
     "mission_count_all": 784,
     "mission_count_ems": 755,
     "mission_count_ems_critical": 588,
@@ -271,7 +244,6 @@
   },
   {
     "planning_room_id": 1200628,
-    "planning_room_name": "Lüneburger Straße",
     "mission_count_all": 2978,
     "mission_count_ems": 2708,
     "mission_count_ems_critical": 1955,
@@ -281,7 +253,6 @@
   },
   {
     "planning_room_id": 1200629,
-    "planning_room_name": "Hansaviertel",
     "mission_count_all": 819,
     "mission_count_ems": 735,
     "mission_count_ems_critical": 586,
@@ -291,7 +262,6 @@
   },
   {
     "planning_room_id": 1300730,
-    "planning_room_name": "Drontheimer Straße",
     "mission_count_all": 1428,
     "mission_count_ems": 1103,
     "mission_count_ems_critical": 907,
@@ -301,7 +271,6 @@
   },
   {
     "planning_room_id": 1300731,
-    "planning_room_name": "Koloniestraße",
     "mission_count_all": 1009,
     "mission_count_ems": 926,
     "mission_count_ems_critical": 775,
@@ -311,7 +280,6 @@
   },
   {
     "planning_room_id": 1300732,
-    "planning_room_name": "Soldiner Straße",
     "mission_count_all": 1054,
     "mission_count_ems": 970,
     "mission_count_ems_critical": 794,
@@ -321,7 +289,6 @@
   },
   {
     "planning_room_id": 1300733,
-    "planning_room_name": "Gesundbrunnen",
     "mission_count_all": 1644,
     "mission_count_ems": 1513,
     "mission_count_ems_critical": 1186,
@@ -331,7 +298,6 @@
   },
   {
     "planning_room_id": 1300834,
-    "planning_room_name": "Brunnenstraße",
     "mission_count_all": 2184,
     "mission_count_ems": 2007,
     "mission_count_ems_critical": 1611,
@@ -341,7 +307,6 @@
   },
   {
     "planning_room_id": 1300835,
-    "planning_room_name": "Humboldthain Süd",
     "mission_count_all": 1603,
     "mission_count_ems": 1474,
     "mission_count_ems_critical": 1197,
@@ -351,7 +316,6 @@
   },
   {
     "planning_room_id": 1300836,
-    "planning_room_name": "Humboldthain Nordwest",
     "mission_count_all": 2472,
     "mission_count_ems": 2212,
     "mission_count_ems_critical": 1749,
@@ -361,7 +325,6 @@
   },
   {
     "planning_room_id": 1400937,
-    "planning_room_name": "Afrikanische Straße",
     "mission_count_all": 1713,
     "mission_count_ems": 1611,
     "mission_count_ems_critical": 1292,
@@ -371,7 +334,6 @@
   },
   {
     "planning_room_id": 1400938,
-    "planning_room_name": "Kameruner Straße",
     "mission_count_all": 2452,
     "mission_count_ems": 1189,
     "mission_count_ems_critical": 990,
@@ -381,7 +343,6 @@
   },
   {
     "planning_room_id": 1400939,
-    "planning_room_name": "Glasgower Straße",
     "mission_count_all": 814,
     "mission_count_ems": 752,
     "mission_count_ems_critical": 594,
@@ -391,7 +352,6 @@
   },
   {
     "planning_room_id": 1400940,
-    "planning_room_name": "Schillerpark",
     "mission_count_all": 1156,
     "mission_count_ems": 1090,
     "mission_count_ems_critical": 933,
@@ -401,7 +361,6 @@
   },
   {
     "planning_room_id": 1400941,
-    "planning_room_name": "Londoner Straße",
     "mission_count_all": 622,
     "mission_count_ems": 600,
     "mission_count_ems_critical": 497,
@@ -411,7 +370,6 @@
   },
   {
     "planning_room_id": 1400942,
-    "planning_room_name": "Westliche Müllerstraße",
     "mission_count_all": 1220,
     "mission_count_ems": 1099,
     "mission_count_ems_critical": 875,
@@ -421,7 +379,6 @@
   },
   {
     "planning_room_id": 1401043,
-    "planning_room_name": "Antonstraße",
     "mission_count_all": 1190,
     "mission_count_ems": 1127,
     "mission_count_ems_critical": 954,
@@ -431,7 +388,6 @@
   },
   {
     "planning_room_id": 1401044,
-    "planning_room_name": "Uferstraße",
     "mission_count_all": 1143,
     "mission_count_ems": 1045,
     "mission_count_ems_critical": 843,
@@ -441,7 +397,6 @@
   },
   {
     "planning_room_id": 1401045,
-    "planning_room_name": "Schwedenstraße",
     "mission_count_all": 1113,
     "mission_count_ems": 1029,
     "mission_count_ems_critical": 826,
@@ -451,7 +406,6 @@
   },
   {
     "planning_room_id": 1401046,
-    "planning_room_name": "Nordufer",
     "mission_count_all": 751,
     "mission_count_ems": 687,
     "mission_count_ems_critical": 560,
@@ -461,7 +415,6 @@
   },
   {
     "planning_room_id": 1401047,
-    "planning_room_name": "Sparrplatz",
     "mission_count_all": 1089,
     "mission_count_ems": 1004,
     "mission_count_ems_critical": 794,
@@ -471,7 +424,6 @@
   },
   {
     "planning_room_id": 1401048,
-    "planning_room_name": "Leopoldplatz",
     "mission_count_all": 1306,
     "mission_count_ems": 1206,
     "mission_count_ems_critical": 947,
@@ -481,7 +433,6 @@
   },
   {
     "planning_room_id": 1401049,
-    "planning_room_name": "Schulstraße",
     "mission_count_all": 1554,
     "mission_count_ems": 1267,
     "mission_count_ems_critical": 1040,
@@ -491,7 +442,6 @@
   },
   {
     "planning_room_id": 2100101,
-    "planning_room_name": "Askanischer Platz",
     "mission_count_all": 1364,
     "mission_count_ems": 1204,
     "mission_count_ems_critical": 907,
@@ -501,7 +451,6 @@
   },
   {
     "planning_room_id": 2100102,
-    "planning_room_name": "Mehringplatz",
     "mission_count_all": 1650,
     "mission_count_ems": 1391,
     "mission_count_ems_critical": 1113,
@@ -511,7 +460,6 @@
   },
   {
     "planning_room_id": 2100103,
-    "planning_room_name": "Am Berlin Museum",
     "mission_count_all": 603,
     "mission_count_ems": 533,
     "mission_count_ems_critical": 441,
@@ -521,7 +469,6 @@
   },
   {
     "planning_room_id": 2100104,
-    "planning_room_name": "Moritzplatz",
     "mission_count_all": 1026,
     "mission_count_ems": 926,
     "mission_count_ems_critical": 729,
@@ -531,7 +478,6 @@
   },
   {
     "planning_room_id": 2100105,
-    "planning_room_name": "Prinzenstraße",
     "mission_count_all": 1367,
     "mission_count_ems": 1229,
     "mission_count_ems_critical": 1002,
@@ -541,7 +487,6 @@
   },
   {
     "planning_room_id": 2100106,
-    "planning_room_name": "Wassertorplatz",
     "mission_count_all": 1285,
     "mission_count_ems": 1186,
     "mission_count_ems_critical": 897,
@@ -551,7 +496,6 @@
   },
   {
     "planning_room_id": 2200207,
-    "planning_room_name": "Gleisdreieck",
     "mission_count_all": 434,
     "mission_count_ems": 377,
     "mission_count_ems_critical": 278,
@@ -561,7 +505,6 @@
   },
   {
     "planning_room_id": 2200208,
-    "planning_room_name": "Rathaus Yorckstraße",
     "mission_count_all": 1051,
     "mission_count_ems": 974,
     "mission_count_ems_critical": 775,
@@ -571,7 +514,6 @@
   },
   {
     "planning_room_id": 2200209,
-    "planning_room_name": "Viktoriapark",
     "mission_count_all": 906,
     "mission_count_ems": 813,
     "mission_count_ems_critical": 643,
@@ -581,7 +523,6 @@
   },
   {
     "planning_room_id": 2200210,
-    "planning_room_name": "Urbanstraße",
     "mission_count_all": 1365,
     "mission_count_ems": 1236,
     "mission_count_ems_critical": 979,
@@ -591,7 +532,6 @@
   },
   {
     "planning_room_id": 2200211,
-    "planning_room_name": "Chamissokiez",
     "mission_count_all": 1464,
     "mission_count_ems": 1377,
     "mission_count_ems_critical": 1148,
@@ -601,7 +541,6 @@
   },
   {
     "planning_room_id": 2200212,
-    "planning_room_name": "Graefekiez Süd",
     "mission_count_all": 1019,
     "mission_count_ems": 935,
     "mission_count_ems_critical": 755,
@@ -611,7 +550,6 @@
   },
   {
     "planning_room_id": 2200213,
-    "planning_room_name": "Graefekiez Nord",
     "mission_count_all": 1924,
     "mission_count_ems": 1246,
     "mission_count_ems_critical": 972,
@@ -621,7 +559,6 @@
   },
   {
     "planning_room_id": 2300314,
-    "planning_room_name": "Oranienplatz",
     "mission_count_all": 1573,
     "mission_count_ems": 1484,
     "mission_count_ems_critical": 1138,
@@ -631,7 +568,6 @@
   },
   {
     "planning_room_id": 2300315,
-    "planning_room_name": "Lausitzer Platz",
     "mission_count_all": 938,
     "mission_count_ems": 852,
     "mission_count_ems_critical": 685,
@@ -641,7 +577,6 @@
   },
   {
     "planning_room_id": 2300316,
-    "planning_room_name": "Köpenicker Straße",
     "mission_count_all": 806,
     "mission_count_ems": 737,
     "mission_count_ems_critical": 585,
@@ -651,7 +586,6 @@
   },
   {
     "planning_room_id": 2300417,
-    "planning_room_name": "Reichenberger Straße West",
     "mission_count_all": 1055,
     "mission_count_ems": 970,
     "mission_count_ems_critical": 765,
@@ -661,7 +595,6 @@
   },
   {
     "planning_room_id": 2300418,
-    "planning_room_name": "Reichenberger Straße Ost",
     "mission_count_all": 1018,
     "mission_count_ems": 920,
     "mission_count_ems_critical": 706,
@@ -671,7 +604,6 @@
   },
   {
     "planning_room_id": 2300419,
-    "planning_room_name": "Wrangelkiez",
     "mission_count_all": 1414,
     "mission_count_ems": 1305,
     "mission_count_ems_critical": 991,
@@ -681,7 +613,6 @@
   },
   {
     "planning_room_id": 2400520,
-    "planning_room_name": "Barnimkiez",
     "mission_count_all": 1563,
     "mission_count_ems": 954,
     "mission_count_ems_critical": 778,
@@ -691,7 +622,6 @@
   },
   {
     "planning_room_id": 2400521,
-    "planning_room_name": "Friedenstraße",
     "mission_count_all": 963,
     "mission_count_ems": 893,
     "mission_count_ems_critical": 726,
@@ -701,7 +631,6 @@
   },
   {
     "planning_room_id": 2400522,
-    "planning_room_name": "Richard-Sorge-Viertel",
     "mission_count_all": 1171,
     "mission_count_ems": 1082,
     "mission_count_ems_critical": 885,
@@ -711,7 +640,6 @@
   },
   {
     "planning_room_id": 2400623,
-    "planning_room_name": "Andreasviertel",
     "mission_count_all": 2872,
     "mission_count_ems": 2705,
     "mission_count_ems_critical": 2113,
@@ -721,7 +649,6 @@
   },
   {
     "planning_room_id": 2400624,
-    "planning_room_name": "Weberwiese",
     "mission_count_all": 1402,
     "mission_count_ems": 1284,
     "mission_count_ems_critical": 941,
@@ -731,7 +658,6 @@
   },
   {
     "planning_room_id": 2400625,
-    "planning_room_name": "Wriezener Bahnhof",
     "mission_count_all": 1153,
     "mission_count_ems": 1016,
     "mission_count_ems_critical": 738,
@@ -741,7 +667,6 @@
   },
   {
     "planning_room_id": 2500726,
-    "planning_room_name": "Hausburgviertel",
     "mission_count_all": 635,
     "mission_count_ems": 574,
     "mission_count_ems_critical": 478,
@@ -751,7 +676,6 @@
   },
   {
     "planning_room_id": 2500727,
-    "planning_room_name": "Forckenbeckplatz",
     "mission_count_all": 605,
     "mission_count_ems": 553,
     "mission_count_ems_critical": 448,
@@ -761,7 +685,6 @@
   },
   {
     "planning_room_id": 2500728,
-    "planning_room_name": "Samariterviertel",
     "mission_count_all": 793,
     "mission_count_ems": 735,
     "mission_count_ems_critical": 561,
@@ -771,7 +694,6 @@
   },
   {
     "planning_room_id": 2500729,
-    "planning_room_name": "Pettenkofer Straße",
     "mission_count_all": 815,
     "mission_count_ems": 769,
     "mission_count_ems_critical": 597,
@@ -781,7 +703,6 @@
   },
   {
     "planning_room_id": 2500830,
-    "planning_room_name": "Niederbarnimstraße",
     "mission_count_all": 394,
     "mission_count_ems": 363,
     "mission_count_ems_critical": 281,
@@ -791,7 +712,6 @@
   },
   {
     "planning_room_id": 2500831,
-    "planning_room_name": "Wismarplatz",
     "mission_count_all": 650,
     "mission_count_ems": 604,
     "mission_count_ems_critical": 484,
@@ -801,7 +721,6 @@
   },
   {
     "planning_room_id": 2500832,
-    "planning_room_name": "Traveplatz",
     "mission_count_all": 794,
     "mission_count_ems": 712,
     "mission_count_ems_critical": 567,
@@ -811,7 +730,6 @@
   },
   {
     "planning_room_id": 2500833,
-    "planning_room_name": "Boxhagener Platz",
     "mission_count_all": 890,
     "mission_count_ems": 812,
     "mission_count_ems_critical": 634,
@@ -821,7 +739,6 @@
   },
   {
     "planning_room_id": 2500834,
-    "planning_room_name": "Revaler Straße",
     "mission_count_all": 1167,
     "mission_count_ems": 1068,
     "mission_count_ems_critical": 818,
@@ -831,7 +748,6 @@
   },
   {
     "planning_room_id": 2500835,
-    "planning_room_name": "Stralauer Kiez",
     "mission_count_all": 1950,
     "mission_count_ems": 1805,
     "mission_count_ems_critical": 1352,
@@ -841,7 +757,6 @@
   },
   {
     "planning_room_id": 2500836,
-    "planning_room_name": "Stralauer Halbinsel",
     "mission_count_all": 453,
     "mission_count_ems": 417,
     "mission_count_ems_critical": 328,
@@ -851,7 +766,6 @@
   },
   {
     "planning_room_id": 3100101,
-    "planning_room_name": "Bucher Forst",
     "mission_count_all": 589,
     "mission_count_ems": 520,
     "mission_count_ems_critical": 401,
@@ -861,7 +775,6 @@
   },
   {
     "planning_room_id": 3100102,
-    "planning_room_name": "Klinikum Buch",
     "mission_count_all": 775,
     "mission_count_ems": 461,
     "mission_count_ems_critical": 384,
@@ -871,7 +784,6 @@
   },
   {
     "planning_room_id": 3100103,
-    "planning_room_name": "Karower Chaussee",
     "mission_count_all": 1503,
     "mission_count_ems": 1429,
     "mission_count_ems_critical": 1138,
@@ -881,7 +793,6 @@
   },
   {
     "planning_room_id": 3200204,
-    "planning_room_name": "Blankenfelde",
     "mission_count_all": 340,
     "mission_count_ems": 307,
     "mission_count_ems_critical": 241,
@@ -891,7 +802,6 @@
   },
   {
     "planning_room_id": 3200205,
-    "planning_room_name": "Uhlandstraße",
     "mission_count_all": 769,
     "mission_count_ems": 719,
     "mission_count_ems_critical": 595,
@@ -901,7 +811,6 @@
   },
   {
     "planning_room_id": 3200206,
-    "planning_room_name": "Pastor-Niemöller-Platz",
     "mission_count_all": 625,
     "mission_count_ems": 590,
     "mission_count_ems_critical": 480,
@@ -911,7 +820,6 @@
   },
   {
     "planning_room_id": 3200207,
-    "planning_room_name": "Herthaplatz",
     "mission_count_all": 1055,
     "mission_count_ems": 983,
     "mission_count_ems_critical": 797,
@@ -921,7 +829,6 @@
   },
   {
     "planning_room_id": 3200308,
-    "planning_room_name": "Nisbléstraße",
     "mission_count_all": 431,
     "mission_count_ems": 412,
     "mission_count_ems_critical": 329,
@@ -931,7 +838,6 @@
   },
   {
     "planning_room_id": 3200309,
-    "planning_room_name": "Eddastraße",
     "mission_count_all": 533,
     "mission_count_ems": 503,
     "mission_count_ems_critical": 435,
@@ -941,7 +847,6 @@
   },
   {
     "planning_room_id": 3200310,
-    "planning_room_name": "Krugpfuhl",
     "mission_count_all": 768,
     "mission_count_ems": 730,
     "mission_count_ems_critical": 611,
@@ -951,7 +856,6 @@
   },
   {
     "planning_room_id": 3300411,
-    "planning_room_name": "Karow Nord",
     "mission_count_all": 1028,
     "mission_count_ems": 984,
     "mission_count_ems_critical": 791,
@@ -961,7 +865,6 @@
   },
   {
     "planning_room_id": 3300412,
-    "planning_room_name": "Karow Bahnhof",
     "mission_count_all": 446,
     "mission_count_ems": 423,
     "mission_count_ems_critical": 352,
@@ -971,7 +874,6 @@
   },
   {
     "planning_room_id": 3300413,
-    "planning_room_name": "Karow Ost",
     "mission_count_all": 168,
     "mission_count_ems": 154,
     "mission_count_ems_critical": 131,
@@ -981,7 +883,6 @@
   },
   {
     "planning_room_id": 3300514,
-    "planning_room_name": "Blankenburg",
     "mission_count_all": 804,
     "mission_count_ems": 751,
     "mission_count_ems_critical": 626,
@@ -991,7 +892,6 @@
   },
   {
     "planning_room_id": 3300515,
-    "planning_room_name": "Blankenburger Süden",
     "mission_count_all": 20,
     "mission_count_ems": 17,
     "mission_count_ems_critical": 13,
@@ -1001,7 +901,6 @@
   },
   {
     "planning_room_id": 3300516,
-    "planning_room_name": "Heinersdorf",
     "mission_count_all": 1214,
     "mission_count_ems": 1117,
     "mission_count_ems_critical": 880,
@@ -1011,7 +910,6 @@
   },
   {
     "planning_room_id": 3300517,
-    "planning_room_name": "Märchenland",
     "mission_count_all": 210,
     "mission_count_ems": 196,
     "mission_count_ems_critical": 166,
@@ -1021,7 +919,6 @@
   },
   {
     "planning_room_id": 3400618,
-    "planning_room_name": "Rosenthal",
     "mission_count_all": 424,
     "mission_count_ems": 396,
     "mission_count_ems_critical": 323,
@@ -1031,7 +928,6 @@
   },
   {
     "planning_room_id": 3400619,
-    "planning_room_name": "Wilhelmsruh",
     "mission_count_all": 1035,
     "mission_count_ems": 974,
     "mission_count_ems_critical": 794,
@@ -1041,7 +937,6 @@
   },
   {
     "planning_room_id": 3400620,
-    "planning_room_name": "Schönholz",
     "mission_count_all": 508,
     "mission_count_ems": 473,
     "mission_count_ems_critical": 380,
@@ -1051,7 +946,6 @@
   },
   {
     "planning_room_id": 3400721,
-    "planning_room_name": "Florakiez",
     "mission_count_all": 887,
     "mission_count_ems": 819,
     "mission_count_ems_critical": 673,
@@ -1061,7 +955,6 @@
   },
   {
     "planning_room_id": 3400722,
-    "planning_room_name": "Parkstraße",
     "mission_count_all": 546,
     "mission_count_ems": 506,
     "mission_count_ems_critical": 417,
@@ -1071,7 +964,6 @@
   },
   {
     "planning_room_id": 3400723,
-    "planning_room_name": "Garbátyplatz",
     "mission_count_all": 1155,
     "mission_count_ems": 735,
     "mission_count_ems_critical": 580,
@@ -1081,7 +973,6 @@
   },
   {
     "planning_room_id": 3400724,
-    "planning_room_name": "Wolfshagener Straße",
     "mission_count_all": 716,
     "mission_count_ems": 647,
     "mission_count_ems_critical": 532,
@@ -1091,7 +982,6 @@
   },
   {
     "planning_room_id": 3400725,
-    "planning_room_name": "Schlosspark",
     "mission_count_all": 882,
     "mission_count_ems": 845,
     "mission_count_ems_critical": 704,
@@ -1101,7 +991,6 @@
   },
   {
     "planning_room_id": 3400826,
-    "planning_room_name": "Tiroler Viertel",
     "mission_count_all": 984,
     "mission_count_ems": 921,
     "mission_count_ems_critical": 730,
@@ -1111,7 +1000,6 @@
   },
   {
     "planning_room_id": 3400827,
-    "planning_room_name": "Trelleborger Viertel",
     "mission_count_all": 954,
     "mission_count_ems": 857,
     "mission_count_ems_critical": 712,
@@ -1121,7 +1009,6 @@
   },
   {
     "planning_room_id": 3400828,
-    "planning_room_name": "Spiekermann Straße",
     "mission_count_all": 432,
     "mission_count_ems": 403,
     "mission_count_ems_critical": 351,
@@ -1131,7 +1018,6 @@
   },
   {
     "planning_room_id": 3400829,
-    "planning_room_name": "Arnold-Zweig-Straße",
     "mission_count_all": 562,
     "mission_count_ems": 504,
     "mission_count_ems_critical": 421,
@@ -1141,7 +1027,6 @@
   },
   {
     "planning_room_id": 3400830,
-    "planning_room_name": "Kissingenviertel",
     "mission_count_all": 744,
     "mission_count_ems": 697,
     "mission_count_ems_critical": 581,
@@ -1151,7 +1036,6 @@
   },
   {
     "planning_room_id": 3400831,
-    "planning_room_name": "Pankower Tor",
     "mission_count_all": 67,
     "mission_count_ems": 50,
     "mission_count_ems_critical": 37,
@@ -1161,7 +1045,6 @@
   },
   {
     "planning_room_id": 3500932,
-    "planning_room_name": "Bühringstraße",
     "mission_count_all": 830,
     "mission_count_ems": 765,
     "mission_count_ems_critical": 621,
@@ -1171,7 +1054,6 @@
   },
   {
     "planning_room_id": 3500933,
-    "planning_room_name": "Weißer See",
     "mission_count_all": 1311,
     "mission_count_ems": 957,
     "mission_count_ems_critical": 740,
@@ -1181,7 +1063,6 @@
   },
   {
     "planning_room_id": 3500934,
-    "planning_room_name": "Weißenseer Spitze",
     "mission_count_all": 816,
     "mission_count_ems": 732,
     "mission_count_ems_critical": 592,
@@ -1191,7 +1072,6 @@
   },
   {
     "planning_room_id": 3500935,
-    "planning_room_name": "Behaimstraße",
     "mission_count_all": 512,
     "mission_count_ems": 461,
     "mission_count_ems_critical": 364,
@@ -1201,7 +1081,6 @@
   },
   {
     "planning_room_id": 3500936,
-    "planning_room_name": "Komponistenviertel Weißensee",
     "mission_count_all": 799,
     "mission_count_ems": 742,
     "mission_count_ems_critical": 599,
@@ -1211,7 +1090,6 @@
   },
   {
     "planning_room_id": 3501037,
-    "planning_room_name": "Rathaus Weißensee",
     "mission_count_all": 1311,
     "mission_count_ems": 1209,
     "mission_count_ems_critical": 960,
@@ -1221,7 +1099,6 @@
   },
   {
     "planning_room_id": 3501038,
-    "planning_room_name": "Hansastraße",
     "mission_count_all": 1164,
     "mission_count_ems": 964,
     "mission_count_ems_critical": 804,
@@ -1231,7 +1108,6 @@
   },
   {
     "planning_room_id": 3601139,
-    "planning_room_name": "Norweger Viertel",
     "mission_count_all": 334,
     "mission_count_ems": 293,
     "mission_count_ems_critical": 246,
@@ -1241,7 +1117,6 @@
   },
   {
     "planning_room_id": 3601140,
-    "planning_room_name": "Malmöer Straße",
     "mission_count_all": 465,
     "mission_count_ems": 413,
     "mission_count_ems_critical": 328,
@@ -1251,7 +1126,6 @@
   },
   {
     "planning_room_id": 3601141,
-    "planning_room_name": "Arnimplatz",
     "mission_count_all": 590,
     "mission_count_ems": 516,
     "mission_count_ems_critical": 418,
@@ -1261,7 +1135,6 @@
   },
   {
     "planning_room_id": 3601142,
-    "planning_room_name": "Falkplatz",
     "mission_count_all": 1112,
     "mission_count_ems": 1008,
     "mission_count_ems_critical": 774,
@@ -1271,7 +1144,6 @@
   },
   {
     "planning_room_id": 3601243,
-    "planning_room_name": "Rodenbergstraße",
     "mission_count_all": 674,
     "mission_count_ems": 603,
     "mission_count_ems_critical": 505,
@@ -1281,7 +1153,6 @@
   },
   {
     "planning_room_id": 3601244,
-    "planning_room_name": "Humannplatz",
     "mission_count_all": 623,
     "mission_count_ems": 565,
     "mission_count_ems_critical": 454,
@@ -1291,7 +1162,6 @@
   },
   {
     "planning_room_id": 3601245,
-    "planning_room_name": "Ostseestraße",
     "mission_count_all": 1378,
     "mission_count_ems": 1266,
     "mission_count_ems_critical": 1052,
@@ -1301,7 +1171,6 @@
   },
   {
     "planning_room_id": 3601346,
-    "planning_room_name": "Gethsemanekirche",
     "mission_count_all": 348,
     "mission_count_ems": 319,
     "mission_count_ems_critical": 234,
@@ -1311,7 +1180,6 @@
   },
   {
     "planning_room_id": 3601347,
-    "planning_room_name": "Helmholtzplatz",
     "mission_count_all": 658,
     "mission_count_ems": 578,
     "mission_count_ems_critical": 430,
@@ -1321,7 +1189,6 @@
   },
   {
     "planning_room_id": 3601348,
-    "planning_room_name": "Senefelderstraße",
     "mission_count_all": 422,
     "mission_count_ems": 375,
     "mission_count_ems_critical": 305,
@@ -1331,7 +1198,6 @@
   },
   {
     "planning_room_id": 3601449,
-    "planning_room_name": "Michelangelostraße",
     "mission_count_all": 1586,
     "mission_count_ems": 1476,
     "mission_count_ems_critical": 1194,
@@ -1341,7 +1207,6 @@
   },
   {
     "planning_room_id": 3601450,
-    "planning_room_name": "Volkspark Prenzlauer Berg",
     "mission_count_all": 1158,
     "mission_count_ems": 1071,
     "mission_count_ems_critical": 825,
@@ -1351,7 +1216,6 @@
   },
   {
     "planning_room_id": 3601451,
-    "planning_room_name": "Anton-Saefkow-Park",
     "mission_count_all": 612,
     "mission_count_ems": 564,
     "mission_count_ems_critical": 425,
@@ -1361,7 +1225,6 @@
   },
   {
     "planning_room_id": 3601452,
-    "planning_room_name": "Velodrom",
     "mission_count_all": 558,
     "mission_count_ems": 507,
     "mission_count_ems_critical": 409,
@@ -1371,7 +1234,6 @@
   },
   {
     "planning_room_id": 3601453,
-    "planning_room_name": "Alter Schlachthof",
     "mission_count_all": 329,
     "mission_count_ems": 280,
     "mission_count_ems_critical": 230,
@@ -1381,7 +1243,6 @@
   },
   {
     "planning_room_id": 3701554,
-    "planning_room_name": "Teutoburger Platz",
     "mission_count_all": 922,
     "mission_count_ems": 849,
     "mission_count_ems_critical": 675,
@@ -1391,7 +1252,6 @@
   },
   {
     "planning_room_id": 3701555,
-    "planning_room_name": "Sredzkistraße",
     "mission_count_all": 903,
     "mission_count_ems": 848,
     "mission_count_ems_critical": 642,
@@ -1401,7 +1261,6 @@
   },
   {
     "planning_room_id": 3701556,
-    "planning_room_name": "Kollwitzplatz",
     "mission_count_all": 639,
     "mission_count_ems": 563,
     "mission_count_ems_critical": 445,
@@ -1411,7 +1270,6 @@
   },
   {
     "planning_room_id": 3701657,
-    "planning_room_name": "Thälmannpark",
     "mission_count_all": 506,
     "mission_count_ems": 453,
     "mission_count_ems_critical": 345,
@@ -1421,7 +1279,6 @@
   },
   {
     "planning_room_id": 3701658,
-    "planning_room_name": "Christburger Straße",
     "mission_count_all": 459,
     "mission_count_ems": 402,
     "mission_count_ems_critical": 335,
@@ -1431,7 +1288,6 @@
   },
   {
     "planning_room_id": 3701659,
-    "planning_room_name": "Immanuelkirchstraße",
     "mission_count_all": 599,
     "mission_count_ems": 541,
     "mission_count_ems_critical": 447,
@@ -1441,7 +1297,6 @@
   },
   {
     "planning_room_id": 3701660,
-    "planning_room_name": "Bötzowstraße",
     "mission_count_all": 899,
     "mission_count_ems": 836,
     "mission_count_ems_critical": 683,
@@ -1451,7 +1306,6 @@
   },
   {
     "planning_room_id": 4100101,
-    "planning_room_name": "Jungfernheide/Plötzensee",
     "mission_count_all": 2062,
     "mission_count_ems": 1864,
     "mission_count_ems_critical": 1523,
@@ -1461,7 +1315,6 @@
   },
   {
     "planning_room_id": 4100102,
-    "planning_room_name": "Paul-Hertz-Siedlung",
     "mission_count_all": 1080,
     "mission_count_ems": 1026,
     "mission_count_ems_critical": 847,
@@ -1471,7 +1324,6 @@
   },
   {
     "planning_room_id": 4200203,
-    "planning_room_name": "Olympiagelände",
     "mission_count_all": 604,
     "mission_count_ems": 569,
     "mission_count_ems_critical": 393,
@@ -1481,7 +1333,6 @@
   },
   {
     "planning_room_id": 4200204,
-    "planning_room_name": "Angerburger Allee",
     "mission_count_all": 541,
     "mission_count_ems": 518,
     "mission_count_ems_critical": 427,
@@ -1491,7 +1342,6 @@
   },
   {
     "planning_room_id": 4200205,
-    "planning_room_name": "Flatowallee",
     "mission_count_all": 602,
     "mission_count_ems": 449,
     "mission_count_ems_critical": 369,
@@ -1501,7 +1351,6 @@
   },
   {
     "planning_room_id": 4200206,
-    "planning_room_name": "Kranzallee",
     "mission_count_all": 346,
     "mission_count_ems": 321,
     "mission_count_ems_critical": 268,
@@ -1511,7 +1360,6 @@
   },
   {
     "planning_room_id": 4200207,
-    "planning_room_name": "Eichkamp",
     "mission_count_all": 500,
     "mission_count_ems": 445,
     "mission_count_ems_critical": 334,
@@ -1521,7 +1369,6 @@
   },
   {
     "planning_room_id": 4200308,
-    "planning_room_name": "Branitzer Platz",
     "mission_count_all": 1429,
     "mission_count_ems": 857,
     "mission_count_ems_critical": 706,
@@ -1531,7 +1378,6 @@
   },
   {
     "planning_room_id": 4200309,
-    "planning_room_name": "Neu Westend",
     "mission_count_all": 714,
     "mission_count_ems": 689,
     "mission_count_ems_critical": 584,
@@ -1541,7 +1387,6 @@
   },
   {
     "planning_room_id": 4200310,
-    "planning_room_name": "Fürstenplatz",
     "mission_count_all": 1082,
     "mission_count_ems": 995,
     "mission_count_ems_critical": 827,
@@ -1551,7 +1396,6 @@
   },
   {
     "planning_room_id": 4200311,
-    "planning_room_name": "Königin-Elisabeth-Straße",
     "mission_count_all": 1405,
     "mission_count_ems": 1255,
     "mission_count_ems_critical": 1021,
@@ -1561,7 +1405,6 @@
   },
   {
     "planning_room_id": 4300412,
-    "planning_room_name": "Schlossgarten",
     "mission_count_all": 976,
     "mission_count_ems": 690,
     "mission_count_ems_critical": 552,
@@ -1571,7 +1414,6 @@
   },
   {
     "planning_room_id": 4300413,
-    "planning_room_name": "Klausenerplatz",
     "mission_count_all": 1046,
     "mission_count_ems": 958,
     "mission_count_ems_critical": 770,
@@ -1581,7 +1423,6 @@
   },
   {
     "planning_room_id": 4300414,
-    "planning_room_name": "Schloßstraße",
     "mission_count_all": 1202,
     "mission_count_ems": 1105,
     "mission_count_ems_critical": 882,
@@ -1591,7 +1432,6 @@
   },
   {
     "planning_room_id": 4300415,
-    "planning_room_name": "Lietzensee",
     "mission_count_all": 870,
     "mission_count_ems": 813,
     "mission_count_ems_critical": 644,
@@ -1601,7 +1441,6 @@
   },
   {
     "planning_room_id": 4300416,
-    "planning_room_name": "Amtsgerichtsplatz",
     "mission_count_all": 1439,
     "mission_count_ems": 1326,
     "mission_count_ems_critical": 1064,
@@ -1611,7 +1450,6 @@
   },
   {
     "planning_room_id": 4300517,
-    "planning_room_name": "Tegeler Weg",
     "mission_count_all": 1153,
     "mission_count_ems": 1072,
     "mission_count_ems_critical": 845,
@@ -1621,7 +1459,6 @@
   },
   {
     "planning_room_id": 4300518,
-    "planning_room_name": "Kaiserin-Augusta-Allee",
     "mission_count_all": 832,
     "mission_count_ems": 732,
     "mission_count_ems_critical": 543,
@@ -1631,7 +1468,6 @@
   },
   {
     "planning_room_id": 4300619,
-    "planning_room_name": "Alt-Lietzow",
     "mission_count_all": 930,
     "mission_count_ems": 868,
     "mission_count_ems_critical": 713,
@@ -1641,7 +1477,6 @@
   },
   {
     "planning_room_id": 4300620,
-    "planning_room_name": "Spreestadt",
     "mission_count_all": 606,
     "mission_count_ems": 519,
     "mission_count_ems_critical": 411,
@@ -1651,7 +1486,6 @@
   },
   {
     "planning_room_id": 4300621,
-    "planning_room_name": "Richard-Wagner-Straße",
     "mission_count_all": 1619,
     "mission_count_ems": 1505,
     "mission_count_ems_critical": 1237,
@@ -1661,7 +1495,6 @@
   },
   {
     "planning_room_id": 4300622,
-    "planning_room_name": "Ernst-Reuter-Platz",
     "mission_count_all": 1168,
     "mission_count_ems": 1027,
     "mission_count_ems_critical": 813,
@@ -1671,7 +1504,6 @@
   },
   {
     "planning_room_id": 4300623,
-    "planning_room_name": "Karl-August-Platz",
     "mission_count_all": 1798,
     "mission_count_ems": 1627,
     "mission_count_ems_critical": 1305,
@@ -1681,7 +1513,6 @@
   },
   {
     "planning_room_id": 4300624,
-    "planning_room_name": "Savignyplatz",
     "mission_count_all": 1081,
     "mission_count_ems": 980,
     "mission_count_ems_critical": 834,
@@ -1691,7 +1522,6 @@
   },
   {
     "planning_room_id": 4400725,
-    "planning_room_name": "Güterbahnhof Grunewald",
     "mission_count_all": 47,
     "mission_count_ems": 39,
     "mission_count_ems_critical": 35,
@@ -1701,7 +1531,6 @@
   },
   {
     "planning_room_id": 4400726,
-    "planning_room_name": "Bismarckallee",
     "mission_count_all": 740,
     "mission_count_ems": 681,
     "mission_count_ems_critical": 556,
@@ -1711,7 +1540,6 @@
   },
   {
     "planning_room_id": 4400727,
-    "planning_room_name": "Flinsberger Platz",
     "mission_count_all": 1173,
     "mission_count_ems": 802,
     "mission_count_ems_critical": 642,
@@ -1721,7 +1549,6 @@
   },
   {
     "planning_room_id": 4400728,
-    "planning_room_name": "Hagenplatz",
     "mission_count_all": 411,
     "mission_count_ems": 359,
     "mission_count_ems_critical": 292,
@@ -1731,7 +1558,6 @@
   },
   {
     "planning_room_id": 4400729,
-    "planning_room_name": "Hundekehle",
     "mission_count_all": 393,
     "mission_count_ems": 361,
     "mission_count_ems_critical": 297,
@@ -1741,7 +1567,6 @@
   },
   {
     "planning_room_id": 4400830,
-    "planning_room_name": "Forckenbeckstraße",
     "mission_count_all": 997,
     "mission_count_ems": 949,
     "mission_count_ems_critical": 767,
@@ -1751,7 +1576,6 @@
   },
   {
     "planning_room_id": 4400831,
-    "planning_room_name": "Messelpark",
     "mission_count_all": 236,
     "mission_count_ems": 227,
     "mission_count_ems_critical": 191,
@@ -1761,7 +1585,6 @@
   },
   {
     "planning_room_id": 4400832,
-    "planning_room_name": "Breite Straße",
     "mission_count_all": 821,
     "mission_count_ems": 777,
     "mission_count_ems_critical": 623,
@@ -1771,7 +1594,6 @@
   },
   {
     "planning_room_id": 4400833,
-    "planning_room_name": "Schlangenbader Straße",
     "mission_count_all": 579,
     "mission_count_ems": 534,
     "mission_count_ems_critical": 451,
@@ -1781,7 +1603,6 @@
   },
   {
     "planning_room_id": 4400834,
-    "planning_room_name": "Binger Straße",
     "mission_count_all": 365,
     "mission_count_ems": 334,
     "mission_count_ems_critical": 276,
@@ -1791,7 +1612,6 @@
   },
   {
     "planning_room_id": 4400835,
-    "planning_room_name": "Rüdesheimer Platz",
     "mission_count_all": 918,
     "mission_count_ems": 871,
     "mission_count_ems_critical": 741,
@@ -1801,7 +1621,6 @@
   },
   {
     "planning_room_id": 4500936,
-    "planning_room_name": "Droysenstraße",
     "mission_count_all": 709,
     "mission_count_ems": 652,
     "mission_count_ems_critical": 521,
@@ -1811,7 +1630,6 @@
   },
   {
     "planning_room_id": 4500937,
-    "planning_room_name": "Halensee",
     "mission_count_all": 1068,
     "mission_count_ems": 980,
     "mission_count_ems_critical": 801,
@@ -1821,7 +1639,6 @@
   },
   {
     "planning_room_id": 4500938,
-    "planning_room_name": "Hochmeisterplatz",
     "mission_count_all": 1011,
     "mission_count_ems": 922,
     "mission_count_ems_critical": 764,
@@ -1831,7 +1648,6 @@
   },
   {
     "planning_room_id": 4500939,
-    "planning_room_name": "Eisenzahnstraße",
     "mission_count_all": 854,
     "mission_count_ems": 785,
     "mission_count_ems_critical": 665,
@@ -1841,7 +1657,6 @@
   },
   {
     "planning_room_id": 4501040,
-    "planning_room_name": "Hindemithplatz",
     "mission_count_all": 657,
     "mission_count_ems": 598,
     "mission_count_ems_critical": 479,
@@ -1851,7 +1666,6 @@
   },
   {
     "planning_room_id": 4501041,
-    "planning_room_name": "George-Grosz-Platz",
     "mission_count_all": 898,
     "mission_count_ems": 761,
     "mission_count_ems_critical": 627,
@@ -1861,7 +1675,6 @@
   },
   {
     "planning_room_id": 4501042,
-    "planning_room_name": "Breitscheidplatz",
     "mission_count_all": 3013,
     "mission_count_ems": 2735,
     "mission_count_ems_critical": 2020,
@@ -1871,7 +1684,6 @@
   },
   {
     "planning_room_id": 4501043,
-    "planning_room_name": "Preußenpark",
     "mission_count_all": 1098,
     "mission_count_ems": 979,
     "mission_count_ems_critical": 803,
@@ -1881,7 +1693,6 @@
   },
   {
     "planning_room_id": 4501044,
-    "planning_room_name": "Ludwigkirchplatz",
     "mission_count_all": 719,
     "mission_count_ems": 629,
     "mission_count_ems_critical": 524,
@@ -1891,7 +1702,6 @@
   },
   {
     "planning_room_id": 4501045,
-    "planning_room_name": "Schaperstraße",
     "mission_count_all": 1268,
     "mission_count_ems": 1105,
     "mission_count_ems_critical": 909,
@@ -1901,7 +1711,6 @@
   },
   {
     "planning_room_id": 4501146,
-    "planning_room_name": "Barstraße",
     "mission_count_all": 592,
     "mission_count_ems": 540,
     "mission_count_ems_critical": 430,
@@ -1911,7 +1720,6 @@
   },
   {
     "planning_room_id": 4501147,
-    "planning_room_name": "Leon-Jessel-Platz",
     "mission_count_all": 625,
     "mission_count_ems": 560,
     "mission_count_ems_critical": 442,
@@ -1921,7 +1729,6 @@
   },
   {
     "planning_room_id": 4501148,
-    "planning_room_name": "Brabanter Platz",
     "mission_count_all": 811,
     "mission_count_ems": 415,
     "mission_count_ems_critical": 331,
@@ -1931,7 +1738,6 @@
   },
   {
     "planning_room_id": 4501149,
-    "planning_room_name": "Nikolsburger Platz",
     "mission_count_all": 1054,
     "mission_count_ems": 931,
     "mission_count_ems_critical": 782,
@@ -1941,7 +1747,6 @@
   },
   {
     "planning_room_id": 4501150,
-    "planning_room_name": "Wilhelmsaue",
     "mission_count_all": 625,
     "mission_count_ems": 583,
     "mission_count_ems_critical": 456,
@@ -1951,7 +1756,6 @@
   },
   {
     "planning_room_id": 4501151,
-    "planning_room_name": "Hildegardstraße",
     "mission_count_all": 614,
     "mission_count_ems": 570,
     "mission_count_ems_critical": 482,
@@ -1961,7 +1765,6 @@
   },
   {
     "planning_room_id": 4501152,
-    "planning_room_name": "Prager Platz",
     "mission_count_all": 765,
     "mission_count_ems": 713,
     "mission_count_ems_critical": 575,
@@ -1971,7 +1774,6 @@
   },
   {
     "planning_room_id": 4501153,
-    "planning_room_name": "Babelsberger Straße",
     "mission_count_all": 887,
     "mission_count_ems": 784,
     "mission_count_ems_critical": 639,
@@ -1981,7 +1783,6 @@
   },
   {
     "planning_room_id": 5100101,
-    "planning_room_name": "Hakenfelde Nord",
     "mission_count_all": 969,
     "mission_count_ems": 868,
     "mission_count_ems_critical": 715,
@@ -1991,7 +1792,6 @@
   },
   {
     "planning_room_id": 5100102,
-    "planning_room_name": "Am Forstacker",
     "mission_count_all": 537,
     "mission_count_ems": 510,
     "mission_count_ems_critical": 435,
@@ -2001,7 +1801,6 @@
   },
   {
     "planning_room_id": 5100103,
-    "planning_room_name": "Mertensstraße",
     "mission_count_all": 613,
     "mission_count_ems": 576,
     "mission_count_ems_critical": 459,
@@ -2011,7 +1810,6 @@
   },
   {
     "planning_room_id": 5100104,
-    "planning_room_name": "Maselake",
     "mission_count_all": 972,
     "mission_count_ems": 895,
     "mission_count_ems_critical": 725,
@@ -2021,7 +1819,6 @@
   },
   {
     "planning_room_id": 5100105,
-    "planning_room_name": "Amorbacher Weg",
     "mission_count_all": 784,
     "mission_count_ems": 732,
     "mission_count_ems_critical": 614,
@@ -2031,7 +1828,6 @@
   },
   {
     "planning_room_id": 5100206,
-    "planning_room_name": "Griesingerstraße",
     "mission_count_all": 970,
     "mission_count_ems": 488,
     "mission_count_ems_critical": 391,
@@ -2041,7 +1837,6 @@
   },
   {
     "planning_room_id": 5100207,
-    "planning_room_name": "An der Tränke",
     "mission_count_all": 201,
     "mission_count_ems": 193,
     "mission_count_ems_critical": 166,
@@ -2051,7 +1846,6 @@
   },
   {
     "planning_room_id": 5100208,
-    "planning_room_name": "Im Spektefeld",
     "mission_count_all": 1431,
     "mission_count_ems": 1326,
     "mission_count_ems_critical": 1094,
@@ -2061,7 +1855,6 @@
   },
   {
     "planning_room_id": 5100209,
-    "planning_room_name": "Westerwaldstraße",
     "mission_count_all": 1289,
     "mission_count_ems": 1199,
     "mission_count_ems_critical": 994,
@@ -2071,7 +1864,6 @@
   },
   {
     "planning_room_id": 5100210,
-    "planning_room_name": "Germersheimer Platz",
     "mission_count_all": 890,
     "mission_count_ems": 832,
     "mission_count_ems_critical": 685,
@@ -2081,7 +1873,6 @@
   },
   {
     "planning_room_id": 5100211,
-    "planning_room_name": "An der Kappe",
     "mission_count_all": 832,
     "mission_count_ems": 791,
     "mission_count_ems_critical": 670,
@@ -2091,7 +1882,6 @@
   },
   {
     "planning_room_id": 5100312,
-    "planning_room_name": "Eckschanze",
     "mission_count_all": 443,
     "mission_count_ems": 414,
     "mission_count_ems_critical": 328,
@@ -2101,7 +1891,6 @@
   },
   {
     "planning_room_id": 5100313,
-    "planning_room_name": "Eiswerder",
     "mission_count_all": 1263,
     "mission_count_ems": 1189,
     "mission_count_ems_critical": 1013,
@@ -2111,7 +1900,6 @@
   },
   {
     "planning_room_id": 5100314,
-    "planning_room_name": "Kurstraße",
     "mission_count_all": 1060,
     "mission_count_ems": 704,
     "mission_count_ems_critical": 567,
@@ -2121,7 +1909,6 @@
   },
   {
     "planning_room_id": 5100315,
-    "planning_room_name": "Ackerstraße",
     "mission_count_all": 760,
     "mission_count_ems": 710,
     "mission_count_ems_critical": 586,
@@ -2131,7 +1918,6 @@
   },
   {
     "planning_room_id": 5100316,
-    "planning_room_name": "Carl-Schurz-Straße",
     "mission_count_all": 2279,
     "mission_count_ems": 2139,
     "mission_count_ems_critical": 1682,
@@ -2141,7 +1927,6 @@
   },
   {
     "planning_room_id": 5100317,
-    "planning_room_name": "Freiheit",
     "mission_count_all": 788,
     "mission_count_ems": 700,
     "mission_count_ems_critical": 533,
@@ -2151,7 +1936,6 @@
   },
   {
     "planning_room_id": 5200418,
-    "planning_room_name": "Isenburger Weg",
     "mission_count_all": 209,
     "mission_count_ems": 194,
     "mission_count_ems_critical": 162,
@@ -2161,7 +1945,6 @@
   },
   {
     "planning_room_id": 5200419,
-    "planning_room_name": "Am Heideberg",
     "mission_count_all": 187,
     "mission_count_ems": 172,
     "mission_count_ems_critical": 137,
@@ -2171,7 +1954,6 @@
   },
   {
     "planning_room_id": 5200420,
-    "planning_room_name": "Staakener Straße",
     "mission_count_all": 590,
     "mission_count_ems": 538,
     "mission_count_ems_critical": 448,
@@ -2181,7 +1963,6 @@
   },
   {
     "planning_room_id": 5200421,
-    "planning_room_name": "Spandauer Straße",
     "mission_count_all": 494,
     "mission_count_ems": 462,
     "mission_count_ems_critical": 384,
@@ -2191,7 +1972,6 @@
   },
   {
     "planning_room_id": 5200422,
-    "planning_room_name": "Werkstraße",
     "mission_count_all": 125,
     "mission_count_ems": 114,
     "mission_count_ems_critical": 91,
@@ -2201,7 +1981,6 @@
   },
   {
     "planning_room_id": 5200423,
-    "planning_room_name": "Magistratsweg",
     "mission_count_all": 1019,
     "mission_count_ems": 960,
     "mission_count_ems_critical": 796,
@@ -2211,7 +1990,6 @@
   },
   {
     "planning_room_id": 5200524,
-    "planning_room_name": "Döberitzer Weg",
     "mission_count_all": 330,
     "mission_count_ems": 308,
     "mission_count_ems_critical": 258,
@@ -2221,7 +1999,6 @@
   },
   {
     "planning_room_id": 5200525,
-    "planning_room_name": "Pillnitzer Weg",
     "mission_count_all": 299,
     "mission_count_ems": 285,
     "mission_count_ems_critical": 234,
@@ -2231,7 +2008,6 @@
   },
   {
     "planning_room_id": 5200526,
-    "planning_room_name": "Rudolf-Wissell-Großsiedlung",
     "mission_count_all": 653,
     "mission_count_ems": 608,
     "mission_count_ems_critical": 514,
@@ -2241,7 +2017,6 @@
   },
   {
     "planning_room_id": 5200527,
-    "planning_room_name": "Maulbeerallee",
     "mission_count_all": 1712,
     "mission_count_ems": 1555,
     "mission_count_ems_critical": 1278,
@@ -2251,7 +2026,6 @@
   },
   {
     "planning_room_id": 5200528,
-    "planning_room_name": "Weinmeisterhornweg",
     "mission_count_all": 819,
     "mission_count_ems": 770,
     "mission_count_ems_critical": 645,
@@ -2261,7 +2035,6 @@
   },
   {
     "planning_room_id": 5200629,
-    "planning_room_name": "Borkumer Straße",
     "mission_count_all": 2071,
     "mission_count_ems": 1956,
     "mission_count_ems_critical": 1556,
@@ -2271,7 +2044,6 @@
   },
   {
     "planning_room_id": 5200630,
-    "planning_room_name": "Wilhelmstadt West",
     "mission_count_all": 1213,
     "mission_count_ems": 1135,
     "mission_count_ems_critical": 919,
@@ -2281,7 +2053,6 @@
   },
   {
     "planning_room_id": 5200631,
-    "planning_room_name": "Wilhelmstadt Ost",
     "mission_count_all": 911,
     "mission_count_ems": 852,
     "mission_count_ems_critical": 713,
@@ -2291,7 +2062,6 @@
   },
   {
     "planning_room_id": 5200632,
-    "planning_room_name": "Tiefwerder",
     "mission_count_all": 582,
     "mission_count_ems": 533,
     "mission_count_ems_critical": 439,
@@ -2301,7 +2071,6 @@
   },
   {
     "planning_room_id": 5200633,
-    "planning_room_name": "Graetschelsteig",
     "mission_count_all": 380,
     "mission_count_ems": 357,
     "mission_count_ems_critical": 300,
@@ -2311,7 +2080,6 @@
   },
   {
     "planning_room_id": 5200634,
-    "planning_room_name": "Börnicker Straße",
     "mission_count_all": 604,
     "mission_count_ems": 526,
     "mission_count_ems_critical": 430,
@@ -2321,7 +2089,6 @@
   },
   {
     "planning_room_id": 5300735,
-    "planning_room_name": "Haveleck",
     "mission_count_all": 296,
     "mission_count_ems": 262,
     "mission_count_ems_critical": 221,
@@ -2331,7 +2098,6 @@
   },
   {
     "planning_room_id": 5300736,
-    "planning_room_name": "Zitadellenweg",
     "mission_count_all": 750,
     "mission_count_ems": 654,
     "mission_count_ems_critical": 536,
@@ -2341,7 +2107,6 @@
   },
   {
     "planning_room_id": 5300737,
-    "planning_room_name": "Gartenfelder Straße",
     "mission_count_all": 1514,
     "mission_count_ems": 1438,
     "mission_count_ems_critical": 1177,
@@ -2351,7 +2116,6 @@
   },
   {
     "planning_room_id": 5300838,
-    "planning_room_name": "Gartenfeld",
     "mission_count_all": 56,
     "mission_count_ems": 38,
     "mission_count_ems_critical": 27,
@@ -2361,7 +2125,6 @@
   },
   {
     "planning_room_id": 5300839,
-    "planning_room_name": "Rohrdamm",
     "mission_count_all": 883,
     "mission_count_ems": 822,
     "mission_count_ems_critical": 660,
@@ -2371,7 +2134,6 @@
   },
   {
     "planning_room_id": 5300840,
-    "planning_room_name": "Nonnendammallee",
     "mission_count_all": 393,
     "mission_count_ems": 329,
     "mission_count_ems_critical": 261,
@@ -2381,7 +2143,6 @@
   },
   {
     "planning_room_id": 5300841,
-    "planning_room_name": "Siemensdamm",
     "mission_count_all": 541,
     "mission_count_ems": 484,
     "mission_count_ems_critical": 388,
@@ -2391,7 +2152,6 @@
   },
   {
     "planning_room_id": 5400942,
-    "planning_room_name": "Alt-Gatow",
     "mission_count_all": 790,
     "mission_count_ems": 488,
     "mission_count_ems_critical": 388,
@@ -2401,7 +2161,6 @@
   },
   {
     "planning_room_id": 5400943,
-    "planning_room_name": "Jägerallee",
     "mission_count_all": 742,
     "mission_count_ems": 687,
     "mission_count_ems_critical": 580,
@@ -2411,7 +2170,6 @@
   },
   {
     "planning_room_id": 5400944,
-    "planning_room_name": "Kladower Damm",
     "mission_count_all": 320,
     "mission_count_ems": 292,
     "mission_count_ems_critical": 231,
@@ -2421,7 +2179,6 @@
   },
   {
     "planning_room_id": 5400945,
-    "planning_room_name": "Kafkastraße",
     "mission_count_all": 291,
     "mission_count_ems": 279,
     "mission_count_ems_critical": 233,
@@ -2431,7 +2188,6 @@
   },
   {
     "planning_room_id": 6100101,
-    "planning_room_name": "Fichtenberg",
     "mission_count_all": 939,
     "mission_count_ems": 871,
     "mission_count_ems_critical": 716,
@@ -2441,7 +2197,6 @@
   },
   {
     "planning_room_id": 6100102,
-    "planning_room_name": "Schloßstraße",
     "mission_count_all": 1225,
     "mission_count_ems": 1127,
     "mission_count_ems_critical": 908,
@@ -2451,7 +2206,6 @@
   },
   {
     "planning_room_id": 6100103,
-    "planning_room_name": "Markelstraße",
     "mission_count_all": 852,
     "mission_count_ems": 781,
     "mission_count_ems_critical": 619,
@@ -2461,7 +2215,6 @@
   },
   {
     "planning_room_id": 6100204,
-    "planning_room_name": "Munsterdamm",
     "mission_count_all": 652,
     "mission_count_ems": 620,
     "mission_count_ems_critical": 504,
@@ -2471,7 +2224,6 @@
   },
   {
     "planning_room_id": 6100205,
-    "planning_room_name": "Südende",
     "mission_count_all": 828,
     "mission_count_ems": 768,
     "mission_count_ems_critical": 639,
@@ -2481,7 +2233,6 @@
   },
   {
     "planning_room_id": 6100206,
-    "planning_room_name": "Stadtpark",
     "mission_count_all": 877,
     "mission_count_ems": 827,
     "mission_count_ems_critical": 697,
@@ -2491,7 +2242,6 @@
   },
   {
     "planning_room_id": 6100207,
-    "planning_room_name": "Mittelstraße",
     "mission_count_all": 773,
     "mission_count_ems": 708,
     "mission_count_ems_critical": 602,
@@ -2501,7 +2251,6 @@
   },
   {
     "planning_room_id": 6100208,
-    "planning_room_name": "Bergstraße",
     "mission_count_all": 629,
     "mission_count_ems": 595,
     "mission_count_ems_critical": 479,
@@ -2511,7 +2260,6 @@
   },
   {
     "planning_room_id": 6100209,
-    "planning_room_name": "Feuerbachstraße",
     "mission_count_all": 982,
     "mission_count_ems": 932,
     "mission_count_ems_critical": 775,
@@ -2521,7 +2269,6 @@
   },
   {
     "planning_room_id": 6100210,
-    "planning_room_name": "Bismarckstraße",
     "mission_count_all": 409,
     "mission_count_ems": 383,
     "mission_count_ems_critical": 322,
@@ -2531,7 +2278,6 @@
   },
   {
     "planning_room_id": 6200311,
-    "planning_room_name": "Alt-Lankwitz",
     "mission_count_all": 563,
     "mission_count_ems": 534,
     "mission_count_ems_critical": 418,
@@ -2541,7 +2287,6 @@
   },
   {
     "planning_room_id": 6200312,
-    "planning_room_name": "Komponistenviertel Lankwitz",
     "mission_count_all": 804,
     "mission_count_ems": 766,
     "mission_count_ems_critical": 610,
@@ -2551,7 +2296,6 @@
   },
   {
     "planning_room_id": 6200313,
-    "planning_room_name": "Lankwitz Kirche",
     "mission_count_all": 890,
     "mission_count_ems": 849,
     "mission_count_ems_critical": 697,
@@ -2561,7 +2305,6 @@
   },
   {
     "planning_room_id": 6200314,
-    "planning_room_name": "Kaiser-Wilhelm-Straße",
     "mission_count_all": 670,
     "mission_count_ems": 637,
     "mission_count_ems_critical": 526,
@@ -2571,7 +2314,6 @@
   },
   {
     "planning_room_id": 6200315,
-    "planning_room_name": "Gallwitzallee",
     "mission_count_all": 1201,
     "mission_count_ems": 963,
     "mission_count_ems_critical": 808,
@@ -2581,7 +2323,6 @@
   },
   {
     "planning_room_id": 6200316,
-    "planning_room_name": "Belßstraße",
     "mission_count_all": 815,
     "mission_count_ems": 763,
     "mission_count_ems_critical": 630,
@@ -2591,7 +2332,6 @@
   },
   {
     "planning_room_id": 6200317,
-    "planning_room_name": "Lankwitz Süd",
     "mission_count_all": 532,
     "mission_count_ems": 505,
     "mission_count_ems_critical": 428,
@@ -2601,7 +2341,6 @@
   },
   {
     "planning_room_id": 6200418,
-    "planning_room_name": "Landweg",
     "mission_count_all": 4,
     "mission_count_ems": 1,
     "mission_count_ems_critical": 1,
@@ -2611,7 +2350,6 @@
   },
   {
     "planning_room_id": 6200419,
-    "planning_room_name": "Thermometersiedlung",
     "mission_count_all": 463,
     "mission_count_ems": 423,
     "mission_count_ems_critical": 339,
@@ -2621,7 +2359,6 @@
   },
   {
     "planning_room_id": 6200420,
-    "planning_room_name": "Lichterfelde Süd",
     "mission_count_all": 939,
     "mission_count_ems": 892,
     "mission_count_ems_critical": 712,
@@ -2631,7 +2368,6 @@
   },
   {
     "planning_room_id": 6200421,
-    "planning_room_name": "Königsberger Straße",
     "mission_count_all": 1198,
     "mission_count_ems": 918,
     "mission_count_ems_critical": 775,
@@ -2641,7 +2377,6 @@
   },
   {
     "planning_room_id": 6200422,
-    "planning_room_name": "Oberhofer Platz",
     "mission_count_all": 818,
     "mission_count_ems": 773,
     "mission_count_ems_critical": 635,
@@ -2651,7 +2386,6 @@
   },
   {
     "planning_room_id": 6200423,
-    "planning_room_name": "Schütte-Lanz-Straße",
     "mission_count_all": 1053,
     "mission_count_ems": 1015,
     "mission_count_ems_critical": 839,
@@ -2661,7 +2395,6 @@
   },
   {
     "planning_room_id": 6300524,
-    "planning_room_name": "Berlepschstraße",
     "mission_count_all": 608,
     "mission_count_ems": 566,
     "mission_count_ems_critical": 460,
@@ -2671,7 +2404,6 @@
   },
   {
     "planning_room_id": 6300525,
-    "planning_room_name": "Zehlendorf Süd",
     "mission_count_all": 535,
     "mission_count_ems": 495,
     "mission_count_ems_critical": 409,
@@ -2681,7 +2413,6 @@
   },
   {
     "planning_room_id": 6300526,
-    "planning_room_name": "Zehlendorf Mitte",
     "mission_count_all": 725,
     "mission_count_ems": 682,
     "mission_count_ems_critical": 536,
@@ -2691,7 +2422,6 @@
   },
   {
     "planning_room_id": 6300527,
-    "planning_room_name": "Sundgauer Straße",
     "mission_count_all": 803,
     "mission_count_ems": 749,
     "mission_count_ems_critical": 612,
@@ -2701,7 +2431,6 @@
   },
   {
     "planning_room_id": 6300528,
-    "planning_room_name": "Teltower Damm",
     "mission_count_all": 1557,
     "mission_count_ems": 1210,
     "mission_count_ems_critical": 1020,
@@ -2711,7 +2440,6 @@
   },
   {
     "planning_room_id": 6300629,
-    "planning_room_name": "Botanischer Garten",
     "mission_count_all": 663,
     "mission_count_ems": 612,
     "mission_count_ems_critical": 484,
@@ -2721,7 +2449,6 @@
   },
   {
     "planning_room_id": 6300630,
-    "planning_room_name": "Hindenburgdamm",
     "mission_count_all": 1000,
     "mission_count_ems": 577,
     "mission_count_ems_critical": 480,
@@ -2731,7 +2458,6 @@
   },
   {
     "planning_room_id": 6300631,
-    "planning_room_name": "Goerzwerke",
     "mission_count_all": 428,
     "mission_count_ems": 381,
     "mission_count_ems_critical": 311,
@@ -2741,7 +2467,6 @@
   },
   {
     "planning_room_id": 6300632,
-    "planning_room_name": "Schweizer Viertel",
     "mission_count_all": 1214,
     "mission_count_ems": 1151,
     "mission_count_ems_critical": 923,
@@ -2751,7 +2476,6 @@
   },
   {
     "planning_room_id": 6300633,
-    "planning_room_name": "Augustaplatz",
     "mission_count_all": 1065,
     "mission_count_ems": 1001,
     "mission_count_ems_critical": 800,
@@ -2761,7 +2485,6 @@
   },
   {
     "planning_room_id": 6300634,
-    "planning_room_name": "Lichterfelde West",
     "mission_count_all": 819,
     "mission_count_ems": 770,
     "mission_count_ems_critical": 627,
@@ -2771,7 +2494,6 @@
   },
   {
     "planning_room_id": 6400735,
-    "planning_room_name": "Wannsee",
     "mission_count_all": 1483,
     "mission_count_ems": 1356,
     "mission_count_ems_critical": 1076,
@@ -2781,7 +2503,6 @@
   },
   {
     "planning_room_id": 6400736,
-    "planning_room_name": "Düppel",
     "mission_count_all": 673,
     "mission_count_ems": 597,
     "mission_count_ems_critical": 510,
@@ -2791,7 +2512,6 @@
   },
   {
     "planning_room_id": 6400737,
-    "planning_room_name": "Nikolassee",
     "mission_count_all": 1505,
     "mission_count_ems": 1209,
     "mission_count_ems_critical": 970,
@@ -2801,7 +2521,6 @@
   },
   {
     "planning_room_id": 6400838,
-    "planning_room_name": "Krumme Lanke",
     "mission_count_all": 902,
     "mission_count_ems": 661,
     "mission_count_ems_critical": 536,
@@ -2811,7 +2530,6 @@
   },
   {
     "planning_room_id": 6400839,
-    "planning_room_name": "Fischerhüttenstraße",
     "mission_count_all": 672,
     "mission_count_ems": 633,
     "mission_count_ems_critical": 512,
@@ -2821,7 +2539,6 @@
   },
   {
     "planning_room_id": 6400840,
-    "planning_room_name": "Fischtal",
     "mission_count_all": 592,
     "mission_count_ems": 561,
     "mission_count_ems_critical": 471,
@@ -2831,7 +2548,6 @@
   },
   {
     "planning_room_id": 6400841,
-    "planning_room_name": "Zehlendorf Eiche",
     "mission_count_all": 691,
     "mission_count_ems": 652,
     "mission_count_ems_critical": 527,
@@ -2841,7 +2557,6 @@
   },
   {
     "planning_room_id": 6400842,
-    "planning_room_name": "Hüttenweg",
     "mission_count_all": 459,
     "mission_count_ems": 421,
     "mission_count_ems_critical": 360,
@@ -2851,7 +2566,6 @@
   },
   {
     "planning_room_id": 6400843,
-    "planning_room_name": "Thielallee",
     "mission_count_all": 458,
     "mission_count_ems": 406,
     "mission_count_ems_critical": 330,
@@ -2861,7 +2575,6 @@
   },
   {
     "planning_room_id": 6400844,
-    "planning_room_name": "Dahlem",
     "mission_count_all": 803,
     "mission_count_ems": 740,
     "mission_count_ems_critical": 603,
@@ -2871,7 +2584,6 @@
   },
   {
     "planning_room_id": 7100101,
-    "planning_room_name": "Wittenbergplatz",
     "mission_count_all": 1649,
     "mission_count_ems": 1547,
     "mission_count_ems_critical": 1241,
@@ -2881,7 +2593,6 @@
   },
   {
     "planning_room_id": 7100102,
-    "planning_room_name": "Kalckreuthstraße",
     "mission_count_all": 1531,
     "mission_count_ems": 1429,
     "mission_count_ems_critical": 1131,
@@ -2891,7 +2602,6 @@
   },
   {
     "planning_room_id": 7100103,
-    "planning_room_name": "Frobenstraße",
     "mission_count_all": 1099,
     "mission_count_ems": 1014,
     "mission_count_ems_critical": 808,
@@ -2901,7 +2611,6 @@
   },
   {
     "planning_room_id": 7100204,
-    "planning_room_name": "Barbarossaplatz",
     "mission_count_all": 788,
     "mission_count_ems": 708,
     "mission_count_ems_critical": 579,
@@ -2911,7 +2620,6 @@
   },
   {
     "planning_room_id": 7100205,
-    "planning_room_name": "Alvenslebenstraße",
     "mission_count_all": 692,
     "mission_count_ems": 635,
     "mission_count_ems_critical": 504,
@@ -2921,7 +2629,6 @@
   },
   {
     "planning_room_id": 7100206,
-    "planning_room_name": "Großgörschenstraße",
     "mission_count_all": 893,
     "mission_count_ems": 803,
     "mission_count_ems_critical": 662,
@@ -2931,7 +2638,6 @@
   },
   {
     "planning_room_id": 7200307,
-    "planning_room_name": "Bayerischer Platz",
     "mission_count_all": 1052,
     "mission_count_ems": 975,
     "mission_count_ems_critical": 790,
@@ -2941,7 +2647,6 @@
   },
   {
     "planning_room_id": 7200308,
-    "planning_room_name": "Volkspark (Rudolph-Wilde-Park)",
     "mission_count_all": 1288,
     "mission_count_ems": 1206,
     "mission_count_ems_critical": 922,
@@ -2951,7 +2656,6 @@
   },
   {
     "planning_room_id": 7200409,
-    "planning_room_name": "Belziger Straße",
     "mission_count_all": 1052,
     "mission_count_ems": 966,
     "mission_count_ems_critical": 752,
@@ -2961,7 +2665,6 @@
   },
   {
     "planning_room_id": 7200410,
-    "planning_room_name": "Feurigstraße",
     "mission_count_all": 893,
     "mission_count_ems": 813,
     "mission_count_ems_critical": 668,
@@ -2971,7 +2674,6 @@
   },
   {
     "planning_room_id": 7200411,
-    "planning_room_name": "Julius-Leber-Brücke",
     "mission_count_all": 323,
     "mission_count_ems": 298,
     "mission_count_ems_critical": 231,
@@ -2981,7 +2683,6 @@
   },
   {
     "planning_room_id": 7200412,
-    "planning_room_name": "Schöneberger Linse",
     "mission_count_all": 272,
     "mission_count_ems": 228,
     "mission_count_ems_critical": 174,
@@ -2991,7 +2692,6 @@
   },
   {
     "planning_room_id": 7200413,
-    "planning_room_name": "Cheruskerstraße",
     "mission_count_all": 987,
     "mission_count_ems": 913,
     "mission_count_ems_critical": 699,
@@ -3001,7 +2701,6 @@
   },
   {
     "planning_room_id": 7200414,
-    "planning_room_name": "Hohenfriedbergstraße",
     "mission_count_all": 310,
     "mission_count_ems": 284,
     "mission_count_ems_critical": 215,
@@ -3011,7 +2710,6 @@
   },
   {
     "planning_room_id": 7300515,
-    "planning_room_name": "Taunusstraße",
     "mission_count_all": 535,
     "mission_count_ems": 489,
     "mission_count_ems_critical": 396,
@@ -3021,7 +2719,6 @@
   },
   {
     "planning_room_id": 7300516,
-    "planning_room_name": "Odenwaldstraße",
     "mission_count_all": 778,
     "mission_count_ems": 712,
     "mission_count_ems_critical": 547,
@@ -3031,7 +2728,6 @@
   },
   {
     "planning_room_id": 7300517,
-    "planning_room_name": "Perelsplatz",
     "mission_count_all": 970,
     "mission_count_ems": 868,
     "mission_count_ems_critical": 702,
@@ -3041,7 +2737,6 @@
   },
   {
     "planning_room_id": 7300618,
-    "planning_room_name": "Ceciliengärten",
     "mission_count_all": 783,
     "mission_count_ems": 742,
     "mission_count_ems_critical": 620,
@@ -3051,7 +2746,6 @@
   },
   {
     "planning_room_id": 7300619,
-    "planning_room_name": "Grazer Platz",
     "mission_count_all": 1994,
     "mission_count_ems": 1222,
     "mission_count_ems_critical": 994,
@@ -3061,7 +2755,6 @@
   },
   {
     "planning_room_id": 7400720,
-    "planning_room_name": "Gontermannstraße",
     "mission_count_all": 2187,
     "mission_count_ems": 1506,
     "mission_count_ems_critical": 1173,
@@ -3071,7 +2764,6 @@
   },
   {
     "planning_room_id": 7400721,
-    "planning_room_name": "Paradestraße",
     "mission_count_all": 1245,
     "mission_count_ems": 1126,
     "mission_count_ems_critical": 862,
@@ -3081,7 +2773,6 @@
   },
   {
     "planning_room_id": 7400822,
-    "planning_room_name": "Lindenhofsiedlung",
     "mission_count_all": 488,
     "mission_count_ems": 432,
     "mission_count_ems_critical": 346,
@@ -3091,7 +2782,6 @@
   },
   {
     "planning_room_id": 7400823,
-    "planning_room_name": "Wittekindstraße",
     "mission_count_all": 1028,
     "mission_count_ems": 968,
     "mission_count_ems_critical": 795,
@@ -3101,7 +2791,6 @@
   },
   {
     "planning_room_id": 7400824,
-    "planning_room_name": "Bosepark",
     "mission_count_all": 1044,
     "mission_count_ems": 960,
     "mission_count_ems_critical": 763,
@@ -3111,7 +2800,6 @@
   },
   {
     "planning_room_id": 7400825,
-    "planning_room_name": "Friedrich-Karl-Straße",
     "mission_count_all": 685,
     "mission_count_ems": 632,
     "mission_count_ems_critical": 530,
@@ -3121,7 +2809,6 @@
   },
   {
     "planning_room_id": 7400826,
-    "planning_room_name": "Marienhöhe",
     "mission_count_all": 763,
     "mission_count_ems": 718,
     "mission_count_ems_critical": 614,
@@ -3131,7 +2818,6 @@
   },
   {
     "planning_room_id": 7400927,
-    "planning_room_name": "Rathaus Tempelhof",
     "mission_count_all": 2067,
     "mission_count_ems": 1739,
     "mission_count_ems_critical": 1405,
@@ -3141,7 +2827,6 @@
   },
   {
     "planning_room_id": 7400928,
-    "planning_room_name": "Germaniagarten",
     "mission_count_all": 457,
     "mission_count_ems": 405,
     "mission_count_ems_critical": 338,
@@ -3151,7 +2836,6 @@
   },
   {
     "planning_room_id": 7501029,
-    "planning_room_name": "Ringstraße",
     "mission_count_all": 975,
     "mission_count_ems": 916,
     "mission_count_ems_critical": 740,
@@ -3161,7 +2845,6 @@
   },
   {
     "planning_room_id": 7501030,
-    "planning_room_name": "Machonstraße",
     "mission_count_all": 1366,
     "mission_count_ems": 1306,
     "mission_count_ems_critical": 1086,
@@ -3171,7 +2854,6 @@
   },
   {
     "planning_room_id": 7501031,
-    "planning_room_name": "Eisenacher Straße",
     "mission_count_all": 1069,
     "mission_count_ems": 1021,
     "mission_count_ems_critical": 838,
@@ -3181,7 +2863,6 @@
   },
   {
     "planning_room_id": 7501032,
-    "planning_room_name": "Imbrosweg",
     "mission_count_all": 614,
     "mission_count_ems": 582,
     "mission_count_ems_critical": 489,
@@ -3191,7 +2872,6 @@
   },
   {
     "planning_room_id": 7501133,
-    "planning_room_name": "Fritz-Werner-Straße",
     "mission_count_all": 1657,
     "mission_count_ems": 1548,
     "mission_count_ems_critical": 1265,
@@ -3201,7 +2881,6 @@
   },
   {
     "planning_room_id": 7501134,
-    "planning_room_name": "Hundsteinweg",
     "mission_count_all": 1315,
     "mission_count_ems": 1247,
     "mission_count_ems_critical": 1043,
@@ -3211,7 +2890,6 @@
   },
   {
     "planning_room_id": 7501135,
-    "planning_room_name": "Birnhornweg",
     "mission_count_all": 284,
     "mission_count_ems": 270,
     "mission_count_ems_critical": 226,
@@ -3221,7 +2899,6 @@
   },
   {
     "planning_room_id": 7601236,
-    "planning_room_name": "Marienfelder Allee Nordwest",
     "mission_count_all": 1220,
     "mission_count_ems": 1151,
     "mission_count_ems_critical": 946,
@@ -3231,7 +2908,6 @@
   },
   {
     "planning_room_id": 7601237,
-    "planning_room_name": "Kirchstraße",
     "mission_count_all": 486,
     "mission_count_ems": 453,
     "mission_count_ems_critical": 368,
@@ -3241,7 +2917,6 @@
   },
   {
     "planning_room_id": 7601238,
-    "planning_room_name": "Marienfelde Nordost",
     "mission_count_all": 513,
     "mission_count_ems": 464,
     "mission_count_ems_critical": 373,
@@ -3251,7 +2926,6 @@
   },
   {
     "planning_room_id": 7601339,
-    "planning_room_name": "Tirschenreuther Ring West",
     "mission_count_all": 853,
     "mission_count_ems": 809,
     "mission_count_ems_critical": 665,
@@ -3261,7 +2935,6 @@
   },
   {
     "planning_room_id": 7601340,
-    "planning_room_name": "Tirschenreuther Ring Ost",
     "mission_count_all": 957,
     "mission_count_ems": 922,
     "mission_count_ems_critical": 779,
@@ -3271,7 +2944,6 @@
   },
   {
     "planning_room_id": 7601341,
-    "planning_room_name": "Diedersdorfer Weg",
     "mission_count_all": 449,
     "mission_count_ems": 419,
     "mission_count_ems_critical": 326,
@@ -3281,7 +2953,6 @@
   },
   {
     "planning_room_id": 7601442,
-    "planning_room_name": "Kettinger Straße",
     "mission_count_all": 1297,
     "mission_count_ems": 1233,
     "mission_count_ems_critical": 1020,
@@ -3291,7 +2962,6 @@
   },
   {
     "planning_room_id": 7601443,
-    "planning_room_name": "Töpchiner Weg",
     "mission_count_all": 1053,
     "mission_count_ems": 1000,
     "mission_count_ems_critical": 835,
@@ -3301,7 +2971,6 @@
   },
   {
     "planning_room_id": 7601544,
-    "planning_room_name": "John-Locke-Straße",
     "mission_count_all": 1258,
     "mission_count_ems": 1196,
     "mission_count_ems_critical": 977,
@@ -3311,7 +2980,6 @@
   },
   {
     "planning_room_id": 7601545,
-    "planning_room_name": "Nahariyastraße",
     "mission_count_all": 991,
     "mission_count_ems": 932,
     "mission_count_ems_critical": 767,
@@ -3321,7 +2989,6 @@
   },
   {
     "planning_room_id": 7601546,
-    "planning_room_name": "Franziusweg",
     "mission_count_all": 591,
     "mission_count_ems": 561,
     "mission_count_ems_critical": 461,
@@ -3331,7 +2998,6 @@
   },
   {
     "planning_room_id": 7601547,
-    "planning_room_name": "Horstwalder Straße",
     "mission_count_all": 565,
     "mission_count_ems": 532,
     "mission_count_ems_critical": 442,
@@ -3341,7 +3007,6 @@
   },
   {
     "planning_room_id": 7601548,
-    "planning_room_name": "Wittelsbacherstraße",
     "mission_count_all": 230,
     "mission_count_ems": 216,
     "mission_count_ems_critical": 184,
@@ -3351,7 +3016,6 @@
   },
   {
     "planning_room_id": 8100101,
-    "planning_room_name": "Hasenheide",
     "mission_count_all": 669,
     "mission_count_ems": 609,
     "mission_count_ems_critical": 471,
@@ -3361,7 +3025,6 @@
   },
   {
     "planning_room_id": 8100102,
-    "planning_room_name": "Schillerpromenade Nord",
     "mission_count_all": 939,
     "mission_count_ems": 850,
     "mission_count_ems_critical": 655,
@@ -3371,7 +3034,6 @@
   },
   {
     "planning_room_id": 8100103,
-    "planning_room_name": "Schillerpromenade Süd",
     "mission_count_all": 785,
     "mission_count_ems": 730,
     "mission_count_ems_critical": 586,
@@ -3381,7 +3043,6 @@
   },
   {
     "planning_room_id": 8100104,
-    "planning_room_name": "Wartheplatz",
     "mission_count_all": 747,
     "mission_count_ems": 683,
     "mission_count_ems_critical": 559,
@@ -3391,7 +3052,6 @@
   },
   {
     "planning_room_id": 8100105,
-    "planning_room_name": "Silbersteinstraße",
     "mission_count_all": 1110,
     "mission_count_ems": 1019,
     "mission_count_ems_critical": 837,
@@ -3401,7 +3061,6 @@
   },
   {
     "planning_room_id": 8100206,
-    "planning_room_name": "Flughafenstraße",
     "mission_count_all": 1662,
     "mission_count_ems": 1506,
     "mission_count_ems_critical": 1172,
@@ -3411,7 +3070,6 @@
   },
   {
     "planning_room_id": 8100207,
-    "planning_room_name": "Rollberg",
     "mission_count_all": 1146,
     "mission_count_ems": 1039,
     "mission_count_ems_critical": 900,
@@ -3421,7 +3079,6 @@
   },
   {
     "planning_room_id": 8100208,
-    "planning_room_name": "Körnerpark",
     "mission_count_all": 1446,
     "mission_count_ems": 1297,
     "mission_count_ems_critical": 1049,
@@ -3431,7 +3088,6 @@
   },
   {
     "planning_room_id": 8100209,
-    "planning_room_name": "Glasower Straße",
     "mission_count_all": 1545,
     "mission_count_ems": 1418,
     "mission_count_ems_critical": 1139,
@@ -3441,7 +3097,6 @@
   },
   {
     "planning_room_id": 8100310,
-    "planning_room_name": "Maybachufer",
     "mission_count_all": 665,
     "mission_count_ems": 606,
     "mission_count_ems_critical": 481,
@@ -3451,7 +3106,6 @@
   },
   {
     "planning_room_id": 8100311,
-    "planning_room_name": "Reuterplatz",
     "mission_count_all": 924,
     "mission_count_ems": 864,
     "mission_count_ems_critical": 657,
@@ -3461,7 +3115,6 @@
   },
   {
     "planning_room_id": 8100312,
-    "planning_room_name": "Weichselplatz",
     "mission_count_all": 1199,
     "mission_count_ems": 1068,
     "mission_count_ems_critical": 836,
@@ -3471,7 +3124,6 @@
   },
   {
     "planning_room_id": 8100313,
-    "planning_room_name": "Bouchéstraße",
     "mission_count_all": 359,
     "mission_count_ems": 340,
     "mission_count_ems_critical": 297,
@@ -3481,7 +3133,6 @@
   },
   {
     "planning_room_id": 8100314,
-    "planning_room_name": "Donaustraße",
     "mission_count_all": 1509,
     "mission_count_ems": 1432,
     "mission_count_ems_critical": 1134,
@@ -3491,7 +3142,6 @@
   },
   {
     "planning_room_id": 8100415,
-    "planning_room_name": "Ganghoferstraße",
     "mission_count_all": 737,
     "mission_count_ems": 677,
     "mission_count_ems_critical": 540,
@@ -3501,7 +3151,6 @@
   },
   {
     "planning_room_id": 8100416,
-    "planning_room_name": "Alt-Rixdorf",
     "mission_count_all": 730,
     "mission_count_ems": 667,
     "mission_count_ems_critical": 533,
@@ -3511,7 +3160,6 @@
   },
   {
     "planning_room_id": 8100417,
-    "planning_room_name": "Braunschweiger Straße",
     "mission_count_all": 1456,
     "mission_count_ems": 1334,
     "mission_count_ems_critical": 1081,
@@ -3521,7 +3169,6 @@
   },
   {
     "planning_room_id": 8100418,
-    "planning_room_name": "Hertzbergplatz",
     "mission_count_all": 1080,
     "mission_count_ems": 1001,
     "mission_count_ems_critical": 821,
@@ -3531,7 +3178,6 @@
   },
   {
     "planning_room_id": 8100419,
-    "planning_room_name": "Treptower Straße Nord",
     "mission_count_all": 980,
     "mission_count_ems": 918,
     "mission_count_ems_critical": 724,
@@ -3541,7 +3187,6 @@
   },
   {
     "planning_room_id": 8100520,
-    "planning_room_name": "Weiße Siedlung",
     "mission_count_all": 944,
     "mission_count_ems": 828,
     "mission_count_ems_critical": 673,
@@ -3551,7 +3196,6 @@
   },
   {
     "planning_room_id": 8100521,
-    "planning_room_name": "Schulenburgpark",
     "mission_count_all": 1553,
     "mission_count_ems": 1419,
     "mission_count_ems_critical": 1197,
@@ -3561,7 +3205,6 @@
   },
   {
     "planning_room_id": 8200622,
-    "planning_room_name": "Jahnstraße",
     "mission_count_all": 806,
     "mission_count_ems": 723,
     "mission_count_ems_critical": 586,
@@ -3571,7 +3214,6 @@
   },
   {
     "planning_room_id": 8200623,
-    "planning_room_name": "Park am Buschkrug",
     "mission_count_all": 1183,
     "mission_count_ems": 1101,
     "mission_count_ems_critical": 854,
@@ -3581,7 +3223,6 @@
   },
   {
     "planning_room_id": 8200624,
-    "planning_room_name": "Tempelhofer Weg",
     "mission_count_all": 1184,
     "mission_count_ems": 1112,
     "mission_count_ems_critical": 941,
@@ -3591,7 +3232,6 @@
   },
   {
     "planning_room_id": 8200725,
-    "planning_room_name": "Mohriner Allee Nord",
     "mission_count_all": 416,
     "mission_count_ems": 388,
     "mission_count_ems_critical": 326,
@@ -3601,7 +3241,6 @@
   },
   {
     "planning_room_id": 8200726,
-    "planning_room_name": "Hufeisensiedlung",
     "mission_count_all": 717,
     "mission_count_ems": 656,
     "mission_count_ems_critical": 540,
@@ -3611,7 +3250,6 @@
   },
   {
     "planning_room_id": 8200727,
-    "planning_room_name": "Parchimer Allee Süd",
     "mission_count_all": 1041,
     "mission_count_ems": 975,
     "mission_count_ems_critical": 816,
@@ -3621,7 +3259,6 @@
   },
   {
     "planning_room_id": 8200728,
-    "planning_room_name": "Ortolanweg",
     "mission_count_all": 327,
     "mission_count_ems": 315,
     "mission_count_ems_critical": 260,
@@ -3631,7 +3268,6 @@
   },
   {
     "planning_room_id": 8200729,
-    "planning_room_name": "Britzer Garten",
     "mission_count_all": 319,
     "mission_count_ems": 304,
     "mission_count_ems_critical": 236,
@@ -3641,7 +3277,6 @@
   },
   {
     "planning_room_id": 8200730,
-    "planning_room_name": "Handwerker-Siedlung",
     "mission_count_all": 584,
     "mission_count_ems": 559,
     "mission_count_ems_critical": 444,
@@ -3651,7 +3286,6 @@
   },
   {
     "planning_room_id": 8200831,
-    "planning_room_name": "Buckow West",
     "mission_count_all": 856,
     "mission_count_ems": 820,
     "mission_count_ems_critical": 699,
@@ -3661,7 +3295,6 @@
   },
   {
     "planning_room_id": 8200832,
-    "planning_room_name": "Buckow Mitte",
     "mission_count_all": 1406,
     "mission_count_ems": 1342,
     "mission_count_ems_critical": 1119,
@@ -3671,7 +3304,6 @@
   },
   {
     "planning_room_id": 8200833,
-    "planning_room_name": "Buckow Ost",
     "mission_count_all": 944,
     "mission_count_ems": 885,
     "mission_count_ems_critical": 696,
@@ -3681,7 +3313,6 @@
   },
   {
     "planning_room_id": 8300934,
-    "planning_room_name": "Gropiusstadt Nord-West",
     "mission_count_all": 2154,
     "mission_count_ems": 2024,
     "mission_count_ems_critical": 1666,
@@ -3691,7 +3322,6 @@
   },
   {
     "planning_room_id": 8300935,
-    "planning_room_name": "Gropiusstadt Süd-West",
     "mission_count_all": 1101,
     "mission_count_ems": 1054,
     "mission_count_ems_critical": 858,
@@ -3701,7 +3331,6 @@
   },
   {
     "planning_room_id": 8301036,
-    "planning_room_name": "Gropiusstadt Mitte",
     "mission_count_all": 1137,
     "mission_count_ems": 1084,
     "mission_count_ems_critical": 911,
@@ -3711,7 +3340,6 @@
   },
   {
     "planning_room_id": 8301037,
-    "planning_room_name": "Gropiusstadt Süd-Ost",
     "mission_count_all": 1557,
     "mission_count_ems": 1418,
     "mission_count_ems_critical": 1184,
@@ -3721,7 +3349,6 @@
   },
   {
     "planning_room_id": 8401138,
-    "planning_room_name": "Goldhähnchenweg",
     "mission_count_all": 400,
     "mission_count_ems": 385,
     "mission_count_ems_critical": 300,
@@ -3731,7 +3358,6 @@
   },
   {
     "planning_room_id": 8401139,
-    "planning_room_name": "Vogelviertel Süd",
     "mission_count_all": 1537,
     "mission_count_ems": 687,
     "mission_count_ems_critical": 564,
@@ -3741,7 +3367,6 @@
   },
   {
     "planning_room_id": 8401140,
-    "planning_room_name": "Vogelviertel Nord",
     "mission_count_all": 276,
     "mission_count_ems": 262,
     "mission_count_ems_critical": 217,
@@ -3751,7 +3376,6 @@
   },
   {
     "planning_room_id": 8401241,
-    "planning_room_name": "Blumenviertel",
     "mission_count_all": 911,
     "mission_count_ems": 873,
     "mission_count_ems_critical": 728,
@@ -3761,7 +3385,6 @@
   },
   {
     "planning_room_id": 8401242,
-    "planning_room_name": "Zittauer Straße",
     "mission_count_all": 729,
     "mission_count_ems": 692,
     "mission_count_ems_critical": 565,
@@ -3771,7 +3394,6 @@
   },
   {
     "planning_room_id": 8401243,
-    "planning_room_name": "Alt-Rudow",
     "mission_count_all": 1190,
     "mission_count_ems": 1109,
     "mission_count_ems_critical": 938,
@@ -3781,7 +3403,6 @@
   },
   {
     "planning_room_id": 8401244,
-    "planning_room_name": "Waßmannsdorfer Chaussee",
     "mission_count_all": 903,
     "mission_count_ems": 854,
     "mission_count_ems_critical": 696,
@@ -3791,7 +3412,6 @@
   },
   {
     "planning_room_id": 8401245,
-    "planning_room_name": "Frauenviertel",
     "mission_count_all": 412,
     "mission_count_ems": 400,
     "mission_count_ems_critical": 347,
@@ -3801,7 +3421,6 @@
   },
   {
     "planning_room_id": 8401246,
-    "planning_room_name": "Waltersdorfer Chaussee Ost",
     "mission_count_all": 866,
     "mission_count_ems": 817,
     "mission_count_ems_critical": 672,
@@ -3811,7 +3430,6 @@
   },
   {
     "planning_room_id": 9100101,
-    "planning_room_name": "Alt-Treptow",
     "mission_count_all": 1814,
     "mission_count_ems": 1675,
     "mission_count_ems_critical": 1314,
@@ -3821,7 +3439,6 @@
   },
   {
     "planning_room_id": 9100202,
-    "planning_room_name": "Plänterwald West",
     "mission_count_all": 499,
     "mission_count_ems": 455,
     "mission_count_ems_critical": 362,
@@ -3831,7 +3448,6 @@
   },
   {
     "planning_room_id": 9100203,
-    "planning_room_name": "Plänterwald Ost",
     "mission_count_all": 980,
     "mission_count_ems": 928,
     "mission_count_ems_critical": 784,
@@ -3841,7 +3457,6 @@
   },
   {
     "planning_room_id": 9100304,
-    "planning_room_name": "Baumschulenweg West",
     "mission_count_all": 1795,
     "mission_count_ems": 1708,
     "mission_count_ems_critical": 1373,
@@ -3851,7 +3466,6 @@
   },
   {
     "planning_room_id": 9100305,
-    "planning_room_name": "Baumschulenweg Ost",
     "mission_count_all": 564,
     "mission_count_ems": 540,
     "mission_count_ems_critical": 438,
@@ -3861,7 +3475,6 @@
   },
   {
     "planning_room_id": 9100306,
-    "planning_room_name": "Späthsfelde",
     "mission_count_all": 335,
     "mission_count_ems": 305,
     "mission_count_ems_critical": 259,
@@ -3871,7 +3484,6 @@
   },
   {
     "planning_room_id": 9100407,
-    "planning_room_name": "Johannisthal West",
     "mission_count_all": 1187,
     "mission_count_ems": 1114,
     "mission_count_ems_critical": 921,
@@ -3881,7 +3493,6 @@
   },
   {
     "planning_room_id": 9100408,
-    "planning_room_name": "Johannisthal Ost",
     "mission_count_all": 958,
     "mission_count_ems": 900,
     "mission_count_ems_critical": 745,
@@ -3891,7 +3502,6 @@
   },
   {
     "planning_room_id": 9100409,
-    "planning_room_name": "Landschaftspark Adlershof",
     "mission_count_all": 514,
     "mission_count_ems": 458,
     "mission_count_ems_critical": 379,
@@ -3901,7 +3511,6 @@
   },
   {
     "planning_room_id": 9200510,
-    "planning_room_name": "Helmholtz-Kiez",
     "mission_count_all": 1198,
     "mission_count_ems": 1096,
     "mission_count_ems_critical": 871,
@@ -3911,7 +3520,6 @@
   },
   {
     "planning_room_id": 9200511,
-    "planning_room_name": "Griechischer Park",
     "mission_count_all": 1425,
     "mission_count_ems": 1331,
     "mission_count_ems_critical": 1068,
@@ -3921,7 +3529,6 @@
   },
   {
     "planning_room_id": 9200512,
-    "planning_room_name": "Wuhlheide",
     "mission_count_all": 514,
     "mission_count_ems": 479,
     "mission_count_ems_critical": 345,
@@ -3931,7 +3538,6 @@
   },
   {
     "planning_room_id": 9200613,
-    "planning_room_name": "Bahnhof Schöneweide",
     "mission_count_all": 1790,
     "mission_count_ems": 1654,
     "mission_count_ems_critical": 1302,
@@ -3941,7 +3547,6 @@
   },
   {
     "planning_room_id": 9200614,
-    "planning_room_name": "Oberspree",
     "mission_count_all": 554,
     "mission_count_ems": 528,
     "mission_count_ems_critical": 449,
@@ -3951,7 +3556,6 @@
   },
   {
     "planning_room_id": 9200715,
-    "planning_room_name": "Wista",
     "mission_count_all": 766,
     "mission_count_ems": 649,
     "mission_count_ems_critical": 518,
@@ -3961,7 +3565,6 @@
   },
   {
     "planning_room_id": 9200716,
-    "planning_room_name": "Dörpfeldstraße West",
     "mission_count_all": 867,
     "mission_count_ems": 798,
     "mission_count_ems_critical": 642,
@@ -3971,7 +3574,6 @@
   },
   {
     "planning_room_id": 9200717,
-    "planning_room_name": "Dörpfeldstraße Ost",
     "mission_count_all": 1013,
     "mission_count_ems": 965,
     "mission_count_ems_critical": 762,
@@ -3981,7 +3583,6 @@
   },
   {
     "planning_room_id": 9200818,
-    "planning_room_name": "Spindlersfeld",
     "mission_count_all": 337,
     "mission_count_ems": 323,
     "mission_count_ems_critical": 259,
@@ -3991,7 +3592,6 @@
   },
   {
     "planning_room_id": 9200819,
-    "planning_room_name": "Köllnische Vorstadt",
     "mission_count_all": 1007,
     "mission_count_ems": 943,
     "mission_count_ems_critical": 757,
@@ -4001,7 +3601,6 @@
   },
   {
     "planning_room_id": 9300920,
-    "planning_room_name": "Dorf Altglienicke",
     "mission_count_all": 1160,
     "mission_count_ems": 1098,
     "mission_count_ems_critical": 927,
@@ -4011,7 +3610,6 @@
   },
   {
     "planning_room_id": 9300921,
-    "planning_room_name": "Preußen Siedlung",
     "mission_count_all": 216,
     "mission_count_ems": 206,
     "mission_count_ems_critical": 169,
@@ -4021,7 +3619,6 @@
   },
   {
     "planning_room_id": 9300922,
-    "planning_room_name": "Kosmos Viertel",
     "mission_count_all": 941,
     "mission_count_ems": 886,
     "mission_count_ems_critical": 739,
@@ -4031,7 +3628,6 @@
   },
   {
     "planning_room_id": 9300923,
-    "planning_room_name": "Kölner Viertel",
     "mission_count_all": 733,
     "mission_count_ems": 692,
     "mission_count_ems_critical": 576,
@@ -4041,7 +3637,6 @@
   },
   {
     "planning_room_id": 9301024,
-    "planning_room_name": "Falkenberg",
     "mission_count_all": 704,
     "mission_count_ems": 390,
     "mission_count_ems_critical": 318,
@@ -4051,7 +3646,6 @@
   },
   {
     "planning_room_id": 9301025,
-    "planning_room_name": "Alt-Bohnsdorf",
     "mission_count_all": 1293,
     "mission_count_ems": 1186,
     "mission_count_ems_critical": 933,
@@ -4061,7 +3655,6 @@
   },
   {
     "planning_room_id": 9301126,
-    "planning_room_name": "Grünau",
     "mission_count_all": 1102,
     "mission_count_ems": 1035,
     "mission_count_ems_critical": 850,
@@ -4071,7 +3664,6 @@
   },
   {
     "planning_room_id": 9301227,
-    "planning_room_name": "Karolinenhof",
     "mission_count_all": 182,
     "mission_count_ems": 175,
     "mission_count_ems_critical": 132,
@@ -4081,7 +3673,6 @@
   },
   {
     "planning_room_id": 9301228,
-    "planning_room_name": "Schmöckwitz/Rauchfangswerder",
     "mission_count_all": 316,
     "mission_count_ems": 286,
     "mission_count_ems_critical": 229,
@@ -4091,7 +3682,6 @@
   },
   {
     "planning_room_id": 9401329,
-    "planning_room_name": "Kietzer Feld/Nachtheide",
     "mission_count_all": 1364,
     "mission_count_ems": 1296,
     "mission_count_ems_critical": 1083,
@@ -4101,7 +3691,6 @@
   },
   {
     "planning_room_id": 9401330,
-    "planning_room_name": "Wendenschloß",
     "mission_count_all": 181,
     "mission_count_ems": 172,
     "mission_count_ems_critical": 141,
@@ -4111,7 +3700,6 @@
   },
   {
     "planning_room_id": 9401431,
-    "planning_room_name": "Allende I",
     "mission_count_all": 955,
     "mission_count_ems": 930,
     "mission_count_ems_critical": 788,
@@ -4121,7 +3709,6 @@
   },
   {
     "planning_room_id": 9401432,
-    "planning_room_name": "Siedlung Kämmereiheide",
     "mission_count_all": 197,
     "mission_count_ems": 186,
     "mission_count_ems_critical": 152,
@@ -4131,7 +3718,6 @@
   },
   {
     "planning_room_id": 9401433,
-    "planning_room_name": "Allende II",
     "mission_count_all": 966,
     "mission_count_ems": 617,
     "mission_count_ems_critical": 503,
@@ -4141,7 +3727,6 @@
   },
   {
     "planning_room_id": 9401534,
-    "planning_room_name": "Altstadt Köpenick",
     "mission_count_all": 1125,
     "mission_count_ems": 1063,
     "mission_count_ems_critical": 829,
@@ -4151,7 +3736,6 @@
   },
   {
     "planning_room_id": 9401635,
-    "planning_room_name": "Müggelheim",
     "mission_count_all": 579,
     "mission_count_ems": 528,
     "mission_count_ems_critical": 444,
@@ -4161,7 +3745,6 @@
   },
   {
     "planning_room_id": 9501736,
-    "planning_room_name": "Hirschgarten",
     "mission_count_all": 731,
     "mission_count_ems": 689,
     "mission_count_ems_critical": 558,
@@ -4171,7 +3754,6 @@
   },
   {
     "planning_room_id": 9501737,
-    "planning_room_name": "Alt-Friedrichshagen",
     "mission_count_all": 1934,
     "mission_count_ems": 1818,
     "mission_count_ems_critical": 1497,
@@ -4181,7 +3763,6 @@
   },
   {
     "planning_room_id": 9501838,
-    "planning_room_name": "Rahnsdorf",
     "mission_count_all": 1074,
     "mission_count_ems": 995,
     "mission_count_ems_critical": 819,
@@ -4191,7 +3772,6 @@
   },
   {
     "planning_room_id": 9501939,
-    "planning_room_name": "Bahnhofstraße",
     "mission_count_all": 1028,
     "mission_count_ems": 950,
     "mission_count_ems_critical": 781,
@@ -4201,7 +3781,6 @@
   },
   {
     "planning_room_id": 9501940,
-    "planning_room_name": "Güterbahnhof Köpenick",
     "mission_count_all": 341,
     "mission_count_ems": 314,
     "mission_count_ems_critical": 261,
@@ -4211,7 +3790,6 @@
   },
   {
     "planning_room_id": 9501941,
-    "planning_room_name": "Friedrichshagener Straße",
     "mission_count_all": 386,
     "mission_count_ems": 359,
     "mission_count_ems_critical": 275,
@@ -4221,7 +3799,6 @@
   },
   {
     "planning_room_id": 9502042,
-    "planning_room_name": "Mittelheide",
     "mission_count_all": 422,
     "mission_count_ems": 399,
     "mission_count_ems_critical": 336,
@@ -4231,7 +3808,6 @@
   },
   {
     "planning_room_id": 9502043,
-    "planning_room_name": "Dammheide",
     "mission_count_all": 1225,
     "mission_count_ems": 1164,
     "mission_count_ems_critical": 934,
@@ -4241,7 +3817,6 @@
   },
   {
     "planning_room_id": 10100101,
-    "planning_room_name": "Marzahn West",
     "mission_count_all": 697,
     "mission_count_ems": 651,
     "mission_count_ems_critical": 540,
@@ -4251,7 +3826,6 @@
   },
   {
     "planning_room_id": 10100102,
-    "planning_room_name": "Rosenbecker Straße",
     "mission_count_all": 531,
     "mission_count_ems": 496,
     "mission_count_ems_critical": 384,
@@ -4261,7 +3835,6 @@
   },
   {
     "planning_room_id": 10100103,
-    "planning_room_name": "Wittenberger Straße",
     "mission_count_all": 1210,
     "mission_count_ems": 1136,
     "mission_count_ems_critical": 942,
@@ -4271,7 +3844,6 @@
   },
   {
     "planning_room_id": 10100104,
-    "planning_room_name": "Golliner Straße",
     "mission_count_all": 834,
     "mission_count_ems": 766,
     "mission_count_ems_critical": 604,
@@ -4281,7 +3853,6 @@
   },
   {
     "planning_room_id": 10100205,
-    "planning_room_name": "Gewerbegebiet Bitterfelder Straße",
     "mission_count_all": 570,
     "mission_count_ems": 519,
     "mission_count_ems_critical": 382,
@@ -4291,7 +3862,6 @@
   },
   {
     "planning_room_id": 10100206,
-    "planning_room_name": "Wuhletalstraße",
     "mission_count_all": 1384,
     "mission_count_ems": 1283,
     "mission_count_ems_critical": 1045,
@@ -4301,7 +3871,6 @@
   },
   {
     "planning_room_id": 10100207,
-    "planning_room_name": "Ahrensfelder Berge",
     "mission_count_all": 931,
     "mission_count_ems": 865,
     "mission_count_ems_critical": 719,
@@ -4311,7 +3880,6 @@
   },
   {
     "planning_room_id": 10100208,
-    "planning_room_name": "Bürgerpark",
     "mission_count_all": 1612,
     "mission_count_ems": 1491,
     "mission_count_ems_critical": 1226,
@@ -4321,7 +3889,6 @@
   },
   {
     "planning_room_id": 10100209,
-    "planning_room_name": "Lea-Grundig-Straße",
     "mission_count_all": 1108,
     "mission_count_ems": 1049,
     "mission_count_ems_critical": 867,
@@ -4331,7 +3898,6 @@
   },
   {
     "planning_room_id": 10100210,
-    "planning_room_name": "Marzahner Promenade",
     "mission_count_all": 1562,
     "mission_count_ems": 1470,
     "mission_count_ems_critical": 1203,
@@ -4341,7 +3907,6 @@
   },
   {
     "planning_room_id": 10100311,
-    "planning_room_name": "Marzahner Chaussee",
     "mission_count_all": 903,
     "mission_count_ems": 783,
     "mission_count_ems_critical": 611,
@@ -4351,7 +3916,6 @@
   },
   {
     "planning_room_id": 10100312,
-    "planning_room_name": "Springpfuhl",
     "mission_count_all": 2152,
     "mission_count_ems": 2002,
     "mission_count_ems_critical": 1658,
@@ -4361,7 +3925,6 @@
   },
   {
     "planning_room_id": 10100313,
-    "planning_room_name": "Alt-Marzahn",
     "mission_count_all": 584,
     "mission_count_ems": 546,
     "mission_count_ems_critical": 456,
@@ -4371,7 +3934,6 @@
   },
   {
     "planning_room_id": 10100314,
-    "planning_room_name": "Auersbergstraße",
     "mission_count_all": 688,
     "mission_count_ems": 656,
     "mission_count_ems_critical": 550,
@@ -4381,7 +3943,6 @@
   },
   {
     "planning_room_id": 10100315,
-    "planning_room_name": "Bärenstein",
     "mission_count_all": 800,
     "mission_count_ems": 753,
     "mission_count_ems_critical": 612,
@@ -4391,7 +3952,6 @@
   },
   {
     "planning_room_id": 10100316,
-    "planning_room_name": "Landsberger Tor",
     "mission_count_all": 594,
     "mission_count_ems": 560,
     "mission_count_ems_critical": 464,
@@ -4401,7 +3961,6 @@
   },
   {
     "planning_room_id": 10200417,
-    "planning_room_name": "Zossener Straße",
     "mission_count_all": 925,
     "mission_count_ems": 859,
     "mission_count_ems_critical": 671,
@@ -4411,7 +3970,6 @@
   },
   {
     "planning_room_id": 10200418,
-    "planning_room_name": "Kyritzer Straße",
     "mission_count_all": 763,
     "mission_count_ems": 717,
     "mission_count_ems_critical": 594,
@@ -4421,7 +3979,6 @@
   },
   {
     "planning_room_id": 10200419,
-    "planning_room_name": "Havelländer Ring",
     "mission_count_all": 404,
     "mission_count_ems": 371,
     "mission_count_ems_critical": 309,
@@ -4431,7 +3988,6 @@
   },
   {
     "planning_room_id": 10200420,
-    "planning_room_name": "Gut Hellersdorf",
     "mission_count_all": 978,
     "mission_count_ems": 917,
     "mission_count_ems_critical": 735,
@@ -4441,7 +3997,6 @@
   },
   {
     "planning_room_id": 10200421,
-    "planning_room_name": "Helle Mitte",
     "mission_count_all": 602,
     "mission_count_ems": 537,
     "mission_count_ems_critical": 427,
@@ -4451,7 +4006,6 @@
   },
   {
     "planning_room_id": 10200422,
-    "planning_room_name": "Hellersdorfer Promenade",
     "mission_count_all": 888,
     "mission_count_ems": 841,
     "mission_count_ems_critical": 721,
@@ -4461,7 +4015,6 @@
   },
   {
     "planning_room_id": 10200423,
-    "planning_room_name": "Böhlener Straße",
     "mission_count_all": 672,
     "mission_count_ems": 625,
     "mission_count_ems_critical": 492,
@@ -4471,7 +4024,6 @@
   },
   {
     "planning_room_id": 10200524,
-    "planning_room_name": "Adele-Sandrock-Straße",
     "mission_count_all": 1304,
     "mission_count_ems": 1236,
     "mission_count_ems_critical": 1024,
@@ -4481,7 +4033,6 @@
   },
   {
     "planning_room_id": 10200525,
-    "planning_room_name": "Schleipfuhl",
     "mission_count_all": 586,
     "mission_count_ems": 557,
     "mission_count_ems_critical": 452,
@@ -4491,7 +4042,6 @@
   },
   {
     "planning_room_id": 10200526,
-    "planning_room_name": "Boulevard Kastanienallee",
     "mission_count_all": 691,
     "mission_count_ems": 627,
     "mission_count_ems_critical": 509,
@@ -4501,7 +4051,6 @@
   },
   {
     "planning_room_id": 10200627,
-    "planning_room_name": "Am Kienberg",
     "mission_count_all": 362,
     "mission_count_ems": 340,
     "mission_count_ems_critical": 277,
@@ -4511,7 +4060,6 @@
   },
   {
     "planning_room_id": 10200628,
-    "planning_room_name": "Neue Grottkauer Straße",
     "mission_count_all": 700,
     "mission_count_ems": 654,
     "mission_count_ems_critical": 543,
@@ -4521,7 +4069,6 @@
   },
   {
     "planning_room_id": 10200629,
-    "planning_room_name": "Teterower Ring",
     "mission_count_all": 1269,
     "mission_count_ems": 1208,
     "mission_count_ems_critical": 990,
@@ -4531,7 +4078,6 @@
   },
   {
     "planning_room_id": 10200630,
-    "planning_room_name": "Cecilienplatz",
     "mission_count_all": 840,
     "mission_count_ems": 790,
     "mission_count_ems_critical": 663,
@@ -4541,7 +4087,6 @@
   },
   {
     "planning_room_id": 10300731,
-    "planning_room_name": "Oberfeldstraße",
     "mission_count_all": 859,
     "mission_count_ems": 826,
     "mission_count_ems_critical": 680,
@@ -4551,7 +4096,6 @@
   },
   {
     "planning_room_id": 10300732,
-    "planning_room_name": "Buckower Ring",
     "mission_count_all": 1357,
     "mission_count_ems": 919,
     "mission_count_ems_critical": 777,
@@ -4561,7 +4105,6 @@
   },
   {
     "planning_room_id": 10300733,
-    "planning_room_name": "Alt-Biesdorf",
     "mission_count_all": 814,
     "mission_count_ems": 759,
     "mission_count_ems_critical": 629,
@@ -4571,7 +4114,6 @@
   },
   {
     "planning_room_id": 10300734,
-    "planning_room_name": "Biesdorf Süd",
     "mission_count_all": 1023,
     "mission_count_ems": 976,
     "mission_count_ems_critical": 818,
@@ -4581,7 +4123,6 @@
   },
   {
     "planning_room_id": 10400835,
-    "planning_room_name": "Kaulsdorf Nord",
     "mission_count_all": 582,
     "mission_count_ems": 539,
     "mission_count_ems_critical": 440,
@@ -4591,7 +4132,6 @@
   },
   {
     "planning_room_id": 10400836,
-    "planning_room_name": "Alt-Kaulsdorf",
     "mission_count_all": 910,
     "mission_count_ems": 635,
     "mission_count_ems_critical": 521,
@@ -4601,7 +4141,6 @@
   },
   {
     "planning_room_id": 10400837,
-    "planning_room_name": "Kaulsdorf Süd",
     "mission_count_all": 752,
     "mission_count_ems": 698,
     "mission_count_ems_critical": 603,
@@ -4611,7 +4150,6 @@
   },
   {
     "planning_room_id": 10400938,
-    "planning_room_name": "Mahlsdorf Nord",
     "mission_count_all": 842,
     "mission_count_ems": 799,
     "mission_count_ems_critical": 678,
@@ -4621,7 +4159,6 @@
   },
   {
     "planning_room_id": 10400939,
-    "planning_room_name": "Alt-Mahlsdorf",
     "mission_count_all": 536,
     "mission_count_ems": 498,
     "mission_count_ems_critical": 405,
@@ -4631,7 +4168,6 @@
   },
   {
     "planning_room_id": 10400940,
-    "planning_room_name": "Elsensee",
     "mission_count_all": 502,
     "mission_count_ems": 467,
     "mission_count_ems_critical": 387,
@@ -4641,7 +4177,6 @@
   },
   {
     "planning_room_id": 10400941,
-    "planning_room_name": "Pilgramer Straße",
     "mission_count_all": 618,
     "mission_count_ems": 577,
     "mission_count_ems_critical": 490,
@@ -4651,7 +4186,6 @@
   },
   {
     "planning_room_id": 11100101,
-    "planning_room_name": "Dörfer Malchow-Wartenberg",
     "mission_count_all": 407,
     "mission_count_ems": 361,
     "mission_count_ems_critical": 299,
@@ -4661,7 +4195,6 @@
   },
   {
     "planning_room_id": 11100102,
-    "planning_room_name": "Dorf Falkenberg",
     "mission_count_all": 359,
     "mission_count_ems": 345,
     "mission_count_ems_critical": 263,
@@ -4671,7 +4204,6 @@
   },
   {
     "planning_room_id": 11100203,
-    "planning_room_name": "Falkenberg Ost",
     "mission_count_all": 967,
     "mission_count_ems": 912,
     "mission_count_ems_critical": 760,
@@ -4681,7 +4213,6 @@
   },
   {
     "planning_room_id": 11100204,
-    "planning_room_name": "Falkenberg West",
     "mission_count_all": 934,
     "mission_count_ems": 862,
     "mission_count_ems_critical": 689,
@@ -4691,7 +4222,6 @@
   },
   {
     "planning_room_id": 11100205,
-    "planning_room_name": "Wartenberg Süd",
     "mission_count_all": 747,
     "mission_count_ems": 706,
     "mission_count_ems_critical": 570,
@@ -4701,7 +4231,6 @@
   },
   {
     "planning_room_id": 11100206,
-    "planning_room_name": "Wartenberg Nord",
     "mission_count_all": 955,
     "mission_count_ems": 895,
     "mission_count_ems_critical": 745,
@@ -4711,7 +4240,6 @@
   },
   {
     "planning_room_id": 11100307,
-    "planning_room_name": "Zingster Straße Ost",
     "mission_count_all": 1649,
     "mission_count_ems": 1551,
     "mission_count_ems_critical": 1257,
@@ -4721,7 +4249,6 @@
   },
   {
     "planning_room_id": 11100308,
-    "planning_room_name": "Zingster Straße West",
     "mission_count_all": 1234,
     "mission_count_ems": 1137,
     "mission_count_ems_critical": 924,
@@ -4731,7 +4258,6 @@
   },
   {
     "planning_room_id": 11100309,
-    "planning_room_name": "Mühlengrund",
     "mission_count_all": 820,
     "mission_count_ems": 779,
     "mission_count_ems_critical": 598,
@@ -4741,7 +4267,6 @@
   },
   {
     "planning_room_id": 11200410,
-    "planning_room_name": "Malchower Weg",
     "mission_count_all": 1195,
     "mission_count_ems": 1120,
     "mission_count_ems_critical": 902,
@@ -4751,7 +4276,6 @@
   },
   {
     "planning_room_id": 11200411,
-    "planning_room_name": "Hauptstraße",
     "mission_count_all": 1158,
     "mission_count_ems": 1052,
     "mission_count_ems_critical": 848,
@@ -4761,7 +4285,6 @@
   },
   {
     "planning_room_id": 11200512,
-    "planning_room_name": "Orankesee",
     "mission_count_all": 743,
     "mission_count_ems": 699,
     "mission_count_ems_critical": 564,
@@ -4771,7 +4294,6 @@
   },
   {
     "planning_room_id": 11200513,
-    "planning_room_name": "Große-Leege-Straße",
     "mission_count_all": 955,
     "mission_count_ems": 896,
     "mission_count_ems_critical": 732,
@@ -4781,7 +4303,6 @@
   },
   {
     "planning_room_id": 11200514,
-    "planning_room_name": "Landsberger Allee",
     "mission_count_all": 2038,
     "mission_count_ems": 1878,
     "mission_count_ems_critical": 1541,
@@ -4791,7 +4312,6 @@
   },
   {
     "planning_room_id": 11200515,
-    "planning_room_name": "Weiße Taube",
     "mission_count_all": 428,
     "mission_count_ems": 403,
     "mission_count_ems_critical": 335,
@@ -4801,7 +4321,6 @@
   },
   {
     "planning_room_id": 11300616,
-    "planning_room_name": "Hohenschönhausener Straße",
     "mission_count_all": 887,
     "mission_count_ems": 820,
     "mission_count_ems_critical": 675,
@@ -4811,7 +4330,6 @@
   },
   {
     "planning_room_id": 11300617,
-    "planning_room_name": "Fennpfuhlpark",
     "mission_count_all": 931,
     "mission_count_ems": 891,
     "mission_count_ems_critical": 706,
@@ -4821,7 +4339,6 @@
   },
   {
     "planning_room_id": 11300618,
-    "planning_room_name": "Storkower Bogen",
     "mission_count_all": 601,
     "mission_count_ems": 568,
     "mission_count_ems_critical": 473,
@@ -4831,7 +4348,6 @@
   },
   {
     "planning_room_id": 11300619,
-    "planning_room_name": "Rudolf-Seiffert-Park",
     "mission_count_all": 926,
     "mission_count_ems": 872,
     "mission_count_ems_critical": 702,
@@ -4841,7 +4357,6 @@
   },
   {
     "planning_room_id": 11300620,
-    "planning_room_name": "Fennpfuhl Ost",
     "mission_count_all": 1395,
     "mission_count_ems": 1318,
     "mission_count_ems_critical": 1082,
@@ -4851,7 +4366,6 @@
   },
   {
     "planning_room_id": 11300721,
-    "planning_room_name": "Herzbergstraße",
     "mission_count_all": 1736,
     "mission_count_ems": 1225,
     "mission_count_ems_critical": 954,
@@ -4861,7 +4375,6 @@
   },
   {
     "planning_room_id": 11300722,
-    "planning_room_name": "Rathaus Lichtenberg",
     "mission_count_all": 1817,
     "mission_count_ems": 1710,
     "mission_count_ems_critical": 1362,
@@ -4871,7 +4384,6 @@
   },
   {
     "planning_room_id": 11300723,
-    "planning_room_name": "Bornitzstraße",
     "mission_count_all": 285,
     "mission_count_ems": 233,
     "mission_count_ems_critical": 174,
@@ -4881,7 +4393,6 @@
   },
   {
     "planning_room_id": 11300724,
-    "planning_room_name": "Roedeliusplatz",
     "mission_count_all": 543,
     "mission_count_ems": 513,
     "mission_count_ems_critical": 406,
@@ -4891,7 +4402,6 @@
   },
   {
     "planning_room_id": 11300725,
-    "planning_room_name": "Nibelungenviertel",
     "mission_count_all": 1400,
     "mission_count_ems": 959,
     "mission_count_ems_critical": 774,
@@ -4901,7 +4411,6 @@
   },
   {
     "planning_room_id": 11300826,
-    "planning_room_name": "Frankfurter Allee Süd",
     "mission_count_all": 1610,
     "mission_count_ems": 1497,
     "mission_count_ems_critical": 1182,
@@ -4911,7 +4420,6 @@
   },
   {
     "planning_room_id": 11400927,
-    "planning_room_name": "Victoriastadt",
     "mission_count_all": 313,
     "mission_count_ems": 268,
     "mission_count_ems_critical": 207,
@@ -4921,7 +4429,6 @@
   },
   {
     "planning_room_id": 11400928,
-    "planning_room_name": "Nöldnerplatz",
     "mission_count_all": 271,
     "mission_count_ems": 245,
     "mission_count_ems_critical": 191,
@@ -4931,7 +4438,6 @@
   },
   {
     "planning_room_id": 11400929,
-    "planning_room_name": "Weitlingkiez",
     "mission_count_all": 1414,
     "mission_count_ems": 1311,
     "mission_count_ems_critical": 1012,
@@ -4941,7 +4447,6 @@
   },
   {
     "planning_room_id": 11400930,
-    "planning_room_name": "Zachertstraße",
     "mission_count_all": 441,
     "mission_count_ems": 417,
     "mission_count_ems_critical": 329,
@@ -4951,7 +4456,6 @@
   },
   {
     "planning_room_id": 11400931,
-    "planning_room_name": "Massower Straße",
     "mission_count_all": 833,
     "mission_count_ems": 780,
     "mission_count_ems_critical": 650,
@@ -4961,7 +4465,6 @@
   },
   {
     "planning_room_id": 11401032,
-    "planning_room_name": "Rosenfelder Ring",
     "mission_count_all": 953,
     "mission_count_ems": 892,
     "mission_count_ems_critical": 708,
@@ -4971,7 +4474,6 @@
   },
   {
     "planning_room_id": 11401033,
-    "planning_room_name": "Gensinger Straße",
     "mission_count_all": 726,
     "mission_count_ems": 679,
     "mission_count_ems_critical": 578,
@@ -4981,7 +4483,6 @@
   },
   {
     "planning_room_id": 11401034,
-    "planning_room_name": "Tierpark",
     "mission_count_all": 590,
     "mission_count_ems": 554,
     "mission_count_ems_critical": 448,
@@ -4991,7 +4492,6 @@
   },
   {
     "planning_room_id": 11401135,
-    "planning_room_name": "Dolgenseestraße",
     "mission_count_all": 1503,
     "mission_count_ems": 1398,
     "mission_count_ems_critical": 1147,
@@ -5001,7 +4501,6 @@
   },
   {
     "planning_room_id": 11401136,
-    "planning_room_name": "Volkradstraße",
     "mission_count_all": 1099,
     "mission_count_ems": 1062,
     "mission_count_ems_critical": 889,
@@ -5011,7 +4510,6 @@
   },
   {
     "planning_room_id": 11401137,
-    "planning_room_name": "Erieseering",
     "mission_count_all": 1212,
     "mission_count_ems": 1128,
     "mission_count_ems_critical": 919,
@@ -5021,7 +4519,6 @@
   },
   {
     "planning_room_id": 11501238,
-    "planning_room_name": "Rummelsburg",
     "mission_count_all": 607,
     "mission_count_ems": 530,
     "mission_count_ems_critical": 407,
@@ -5031,7 +4528,6 @@
   },
   {
     "planning_room_id": 11501339,
-    "planning_room_name": "Karlshorst West",
     "mission_count_all": 841,
     "mission_count_ems": 776,
     "mission_count_ems_critical": 639,
@@ -5041,7 +4537,6 @@
   },
   {
     "planning_room_id": 11501340,
-    "planning_room_name": "Karlshorst Nord",
     "mission_count_all": 1078,
     "mission_count_ems": 1018,
     "mission_count_ems_critical": 873,
@@ -5051,7 +4546,6 @@
   },
   {
     "planning_room_id": 11501341,
-    "planning_room_name": "Karlshorst Süd",
     "mission_count_all": 788,
     "mission_count_ems": 725,
     "mission_count_ems_critical": 577,
@@ -5061,7 +4555,6 @@
   },
   {
     "planning_room_id": 12100101,
-    "planning_room_name": "Letteplatz",
     "mission_count_all": 1400,
     "mission_count_ems": 1290,
     "mission_count_ems_critical": 1045,
@@ -5071,7 +4564,6 @@
   },
   {
     "planning_room_id": 12100102,
-    "planning_room_name": "Hausotterplatz",
     "mission_count_all": 1365,
     "mission_count_ems": 1303,
     "mission_count_ems_critical": 1099,
@@ -5081,7 +4573,6 @@
   },
   {
     "planning_room_id": 12100103,
-    "planning_room_name": "Breitkopfbecken",
     "mission_count_all": 1158,
     "mission_count_ems": 1094,
     "mission_count_ems_critical": 918,
@@ -5091,7 +4582,6 @@
   },
   {
     "planning_room_id": 12100204,
-    "planning_room_name": "Schäfersee",
     "mission_count_all": 1490,
     "mission_count_ems": 1357,
     "mission_count_ems_critical": 1125,
@@ -5101,7 +4591,6 @@
   },
   {
     "planning_room_id": 12100205,
-    "planning_room_name": "Teichstraße",
     "mission_count_all": 2429,
     "mission_count_ems": 2249,
     "mission_count_ems_critical": 1869,
@@ -5111,7 +4600,6 @@
   },
   {
     "planning_room_id": 12100206,
-    "planning_room_name": "Humboldtstraße",
     "mission_count_all": 509,
     "mission_count_ems": 488,
     "mission_count_ems_critical": 400,
@@ -5121,7 +4609,6 @@
   },
   {
     "planning_room_id": 12200307,
-    "planning_room_name": "Reinickes Hof",
     "mission_count_all": 483,
     "mission_count_ems": 459,
     "mission_count_ems_critical": 365,
@@ -5131,7 +4618,6 @@
   },
   {
     "planning_room_id": 12200308,
-    "planning_room_name": "Mellerbogen",
     "mission_count_all": 753,
     "mission_count_ems": 715,
     "mission_count_ems_critical": 611,
@@ -5141,7 +4627,6 @@
   },
   {
     "planning_room_id": 12200309,
-    "planning_room_name": "Scharnweberstraße",
     "mission_count_all": 1748,
     "mission_count_ems": 1631,
     "mission_count_ems_critical": 1310,
@@ -5151,7 +4636,6 @@
   },
   {
     "planning_room_id": 12200310,
-    "planning_room_name": "Klixstraße",
     "mission_count_all": 1032,
     "mission_count_ems": 972,
     "mission_count_ems_critical": 802,
@@ -5161,7 +4645,6 @@
   },
   {
     "planning_room_id": 12200411,
-    "planning_room_name": "Schumacher-Quartier",
     "mission_count_all": 81,
     "mission_count_ems": 70,
     "mission_count_ems_critical": 60,
@@ -5171,7 +4654,6 @@
   },
   {
     "planning_room_id": 12200412,
-    "planning_room_name": "Waldidyll/Flughafensee",
     "mission_count_all": 852,
     "mission_count_ems": 758,
     "mission_count_ems_critical": 607,
@@ -5181,7 +4663,6 @@
   },
   {
     "planning_room_id": 12200413,
-    "planning_room_name": "Tegel Süd",
     "mission_count_all": 907,
     "mission_count_ems": 853,
     "mission_count_ems_critical": 695,
@@ -5191,7 +4672,6 @@
   },
   {
     "planning_room_id": 12200414,
-    "planning_room_name": "TXL",
     "mission_count_all": 1182,
     "mission_count_ems": 1136,
     "mission_count_ems_critical": 901,
@@ -5201,7 +4681,6 @@
   },
   {
     "planning_room_id": 12200515,
-    "planning_room_name": "Alt-Tegel",
     "mission_count_all": 2540,
     "mission_count_ems": 2356,
     "mission_count_ems_critical": 1913,
@@ -5211,7 +4690,6 @@
   },
   {
     "planning_room_id": 12400616,
-    "planning_room_name": "Konradshöhe/Tegelort",
     "mission_count_all": 649,
     "mission_count_ems": 613,
     "mission_count_ems_critical": 514,
@@ -5221,7 +4699,6 @@
   },
   {
     "planning_room_id": 12400617,
-    "planning_room_name": "Alt-Heiligensee",
     "mission_count_all": 604,
     "mission_count_ems": 566,
     "mission_count_ems_critical": 460,
@@ -5231,7 +4708,6 @@
   },
   {
     "planning_room_id": 12400618,
-    "planning_room_name": "Heiligensee Nord",
     "mission_count_all": 469,
     "mission_count_ems": 437,
     "mission_count_ems_critical": 366,
@@ -5241,7 +4717,6 @@
   },
   {
     "planning_room_id": 12400619,
-    "planning_room_name": "Heiligensee",
     "mission_count_all": 784,
     "mission_count_ems": 742,
     "mission_count_ems_critical": 611,
@@ -5251,7 +4726,6 @@
   },
   {
     "planning_room_id": 12400720,
-    "planning_room_name": "Frohnau West",
     "mission_count_all": 816,
     "mission_count_ems": 765,
     "mission_count_ems_critical": 638,
@@ -5261,7 +4735,6 @@
   },
   {
     "planning_room_id": 12400721,
-    "planning_room_name": "Frohnau Ost",
     "mission_count_all": 845,
     "mission_count_ems": 798,
     "mission_count_ems_critical": 670,
@@ -5271,7 +4744,6 @@
   },
   {
     "planning_room_id": 12400722,
-    "planning_room_name": "Hermsdorf West",
     "mission_count_all": 1080,
     "mission_count_ems": 766,
     "mission_count_ems_critical": 629,
@@ -5281,7 +4753,6 @@
   },
   {
     "planning_room_id": 12400723,
-    "planning_room_name": "Hermsdorf Ost/Waldsee",
     "mission_count_all": 761,
     "mission_count_ems": 708,
     "mission_count_ems_critical": 583,
@@ -5291,7 +4762,6 @@
   },
   {
     "planning_room_id": 12500824,
-    "planning_room_name": "Ziekowstraße/Freie Scholle",
     "mission_count_all": 1251,
     "mission_count_ems": 1171,
     "mission_count_ems_critical": 962,
@@ -5301,7 +4771,6 @@
   },
   {
     "planning_room_id": 12500825,
-    "planning_room_name": "Borsigwalde",
     "mission_count_all": 908,
     "mission_count_ems": 817,
     "mission_count_ems_critical": 654,
@@ -5311,7 +4780,6 @@
   },
   {
     "planning_room_id": 12500926,
-    "planning_room_name": "Wittenau Süd",
     "mission_count_all": 1170,
     "mission_count_ems": 1111,
     "mission_count_ems_critical": 913,
@@ -5321,7 +4789,6 @@
   },
   {
     "planning_room_id": 12500927,
-    "planning_room_name": "Wittenau Nord",
     "mission_count_all": 1480,
     "mission_count_ems": 1039,
     "mission_count_ems_critical": 826,
@@ -5331,7 +4798,6 @@
   },
   {
     "planning_room_id": 12500928,
-    "planning_room_name": "Waidmannslust",
     "mission_count_all": 586,
     "mission_count_ems": 534,
     "mission_count_ems_critical": 456,
@@ -5341,7 +4807,6 @@
   },
   {
     "planning_room_id": 12500929,
-    "planning_room_name": "Lübars",
     "mission_count_all": 433,
     "mission_count_ems": 394,
     "mission_count_ems_critical": 326,
@@ -5351,7 +4816,6 @@
   },
   {
     "planning_room_id": 12500930,
-    "planning_room_name": "Wittenau Mitte",
     "mission_count_all": 1875,
     "mission_count_ems": 1795,
     "mission_count_ems_critical": 1414,
@@ -5361,7 +4825,6 @@
   },
   {
     "planning_room_id": 12601031,
-    "planning_room_name": "Lübarser Straße",
     "mission_count_all": 418,
     "mission_count_ems": 384,
     "mission_count_ems_critical": 324,
@@ -5371,7 +4834,6 @@
   },
   {
     "planning_room_id": 12601032,
-    "planning_room_name": "Rollbergesiedlung",
     "mission_count_all": 845,
     "mission_count_ems": 793,
     "mission_count_ems_critical": 647,
@@ -5381,7 +4843,6 @@
   },
   {
     "planning_room_id": 12601133,
-    "planning_room_name": "Treuenbrietzener Straße",
     "mission_count_all": 1572,
     "mission_count_ems": 1468,
     "mission_count_ems_critical": 1268,
@@ -5391,7 +4852,6 @@
   },
   {
     "planning_room_id": 12601134,
-    "planning_room_name": "Märkisches Zentrum",
     "mission_count_all": 2658,
     "mission_count_ems": 2488,
     "mission_count_ems_critical": 2097,
@@ -5401,7 +4861,6 @@
   },
   {
     "planning_room_id": 12601235,
-    "planning_room_name": "Dannenwalder Weg",
     "mission_count_all": 1193,
     "mission_count_ems": 1131,
     "mission_count_ems_critical": 940,
@@ -5411,22 +4870,11 @@
   },
   {
     "planning_room_id": 12601236,
-    "planning_room_name": "Schorfheidestraße",
     "mission_count_all": 377,
     "mission_count_ems": 358,
     "mission_count_ems_critical": 309,
     "mission_count_ems_critical_cpr": 6,
     "mission_count_fire": 4,
     "mission_count_technical_rescue": 15
-  },
-  {
-    "planning_room_id": "",
-    "planning_room_name": "",
-    "mission_count_all": "",
-    "mission_count_ems": "",
-    "mission_count_ems_critical": "",
-    "mission_count_ems_critical_cpr": "",
-    "mission_count_fire": "",
-    "mission_count_technical_rescue": ""
   }
 ]
