@@ -22,6 +22,9 @@ let dataSubsetToDisplay = "mission_count_all";
 let scene;
 
 let barGraph = true;
+let lineGraph = false;
+let sphereGraph = false;
+
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -217,7 +220,7 @@ async function visData() {
       mesh.castShadow = true;
       mesh.rotation.x = -(Math.PI / 2);
       scene.add(mesh);
-    } else {
+    } else if (lineGraph) {
       geoPointsArray.forEach((elem, index) => {
         if (index % 10 == 0) {
           let rand = Math.random() * (1.1 - 0.9) + 0.9;
@@ -229,14 +232,28 @@ async function visData() {
           pointsArray.push(vec3);
         }
       });
+    } else if (sphereGraph) {
+      outline.geometry.computeBoundingBox();
+      let centerVec3 = new THREE.Vector3(0, 0, 0);
+      outline.geometry.boundingBox.getCenter(centerVec3);
+      let spGeo = new THREE.SphereGeometry(extrudeSettings.depth / 10, 32, 16);
+            geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, exMaterial);
+            meshArray.push(sphere);
+      sphere.position.set(centerVec3.x, centerVec3.z, -centerVec3.y);
+
+      sphere.castShadow = true;
+      scene.add(sphere);
     }
   });
-  if (barGraph) {
+  if (lineGraph) {
     let pointGeometry = new THREE.BufferGeometry().setFromPoints(pointsArray);
+        geometryArray.push(pointGeometry);
     const pointLine = new THREE.Line(pointGeometry, materialLine);
     pointLine.rotation.x = -(Math.PI / 2);
     scene.add(pointLine);
     let points = new THREE.Points(pointGeometry, pointsMaterial);
+        meshArray.push(points);
     points.rotation.x = -(Math.PI / 2);
     scene.add(points);
   }
@@ -515,6 +532,41 @@ function changeYearData() {
       break;
     case "2018":
       berlinFwDataCurrentJson = berlinFwData2018Json;
+      break;
+    default:
+      break;
+  }
+}
+let graphStyle = {
+  style: "barGraph",
+};
+let graphStyleFolder = gui.addFolder("Graph Style");
+graphStyleFolder
+  .add(graphStyle, "style", {
+    Bargraph: "barGraph",
+    SphereGraph: "sphereGraph",
+    LineGraph: "lineGraph",
+  })
+  .onChange(function () {
+    changeBarStyle();
+  });
+
+function changeBarStyle() {
+  switch (graphStyle.style) {
+    case "barGraph":
+      barGraph = true;
+      lineGraph = false;
+      sphereGraph = false;
+      break;
+    case "sphereGraph":
+      barGraph = false;
+      lineGraph = false;
+      sphereGraph = true;
+      break;
+    case "lineGraph":
+      barGraph = false;
+      lineGraph = true;
+      sphereGraph = false;
       break;
     default:
       break;
