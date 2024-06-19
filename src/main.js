@@ -24,7 +24,8 @@ let scene;
 let barGraph = true;
 let lineGraph = false;
 let sphereGraph = false;
-
+let sphereGraphHeight = false;
+let sphereGraphLines = false;
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -91,6 +92,31 @@ function gpsToCart(lat, lon) {
     );
   return cart;
 }
+
+function colorPicker(value) {
+  if (value > 0.9) {
+    return 0xa10000;
+  } else if (value > 0.8) {
+    return 0xa13e00;
+  } else if (value > 0.7) {
+    return 0x838a01;
+  } else if (value > 0.6) {
+    return 0x4c8a01;
+  } else if (value > 0.5) {
+    return 0x0a8a01;
+  } else if (value > 0.4) {
+    return 0x018a41;
+  } else if (value > 0.3) {
+    return 0x018a85;
+  } else if (value > 0.2) {
+    return 0x9b78b3;
+  } else if (value > 0.1) {
+    return 0x03018a;
+  } else if (value > 0) {
+    return 0x3e007d;
+  }
+  return 0x000000;
+}
 let controls = {
   scale: 10,
   isTransparent: true,
@@ -130,8 +156,11 @@ let meshArray = [];
 
 let ambientLight;
 let directionalLight;
+
+//Function that builds the Objects zo Display
 async function visData() {
   materialLine = new THREE.LineBasicMaterial({
+    linewidth: 0.1,
     color: "black",
   });
 
@@ -171,6 +200,7 @@ async function visData() {
   };
 
   let pointsArray = [];
+  let spherePointArray = [];
   const centerInMercator = gpsToCart(centerLat, centerLon);
   berlinGeo.features.forEach((element) => {
     const geoPointsVec3 = [];
@@ -192,12 +222,18 @@ async function visData() {
     });
     let height = getDataFromLorMap(lor);
 
-    if (height) {
-      let depth = (height / maxValueToDivideBy) * controls.scale;
-      extrudeSettings.depth = depth;
-    } else {
-      extrudeSettings.depth = 0.1;
+    let depth;
+    depth = height / maxValueToDivideBy;
+
+    extrudeSettings.depth = depth * controls.scale;
+    let tempMaterial = exMaterial;
+    if (!(exMaterial instanceof THREE.MeshNormalMaterial)) {
+      let color = colorPicker(depth);
+      tempMaterial = exMaterial.clone();
+      tempMaterial.color.set(color);
+      exMaterial.color.set(color);
     }
+
     // let heightData = lorMap.get(lor);
     const geoGeometry = new THREE.BufferGeometry().setFromPoints(geoPointsVec3);
     geometryArray.push(geoGeometry);
@@ -215,7 +251,7 @@ async function visData() {
       );
       const geometry = new THREE.ExtrudeGeometry(polyShape, extrudeSettings);
       geometryArray.push(geometry);
-      const mesh = new THREE.Mesh(geometry, exMaterial);
+      const mesh = new THREE.Mesh(geometry, tempMaterial);
       meshArray.push(mesh);
       mesh.castShadow = true;
       mesh.rotation.x = -(Math.PI / 2);
@@ -237,25 +273,83 @@ async function visData() {
       let centerVec3 = new THREE.Vector3(0, 0, 0);
       outline.geometry.boundingBox.getCenter(centerVec3);
       let spGeo = new THREE.SphereGeometry(extrudeSettings.depth / 10, 32, 16);
-            geometryArray.push(spGeo);
-      let sphere = new THREE.Mesh(spGeo, exMaterial);
-            meshArray.push(sphere);
+      geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, tempMaterial);
+      meshArray.push(sphere);
       sphere.position.set(centerVec3.x, centerVec3.z, -centerVec3.y);
 
       sphere.castShadow = true;
       scene.add(sphere);
+    } else if (sphereGraphHeight) {
+      outline.geometry.computeBoundingBox();
+      let centerVec3 = new THREE.Vector3(0, 0, 0);
+      outline.geometry.boundingBox.getCenter(centerVec3);
+      let spGeo = new THREE.SphereGeometry(extrudeSettings.depth / 10, 32, 16);
+      geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, tempMaterial);
+      meshArray.push(sphere);
+      sphere.position.set(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
+
+      sphere.castShadow = true;
+      scene.add(sphere);
+        let lineArray = [];
+            lineArray.push(centerVec3);
+            let tempVec = new Vector3(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
+            lineArray.push(tempVec);
+    } else if (sphereGraphLines) {
+      outline.geometry.computeBoundingBox();
+      let centerVec3 = new THREE.Vector3(0, 0, 0);
+      outline.geometry.boundingBox.getCenter(centerVec3);
+      let spGeo = new THREE.SphereGeometry(0.3, 32, 16);
+      geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, tempMaterial);
+      meshArray.push(sphere);
+      sphere.position.set(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
+
+      sphere.castShadow = true;
+      let spherePosition = new THREE.Vector3(0, 0, 0);
+      spherePosition.x = centerVec3.x;
+      spherePosition.y = extrudeSettings.depth;
+      spherePosition.z = -centerVec3.y;
+      spherePointArray.push(spherePosition);
+    } else if (sphereGraphLines) {
+      outline.geometry.computeBoundingBox();
+      let centerVec3 = new THREE.Vector3(0, 0, 0);
+      outline.geometry.boundingBox.getCenter(centerVec3);
+      let spGeo = new THREE.SphereGeometry(0.3, 32, 16);
+      geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, tempMaterial);
+      meshArray.push(sphere);
+      sphere.position.set(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
+
+      sphere.castShadow = true;
     }
   });
   if (lineGraph) {
     let pointGeometry = new THREE.BufferGeometry().setFromPoints(pointsArray);
-        geometryArray.push(pointGeometry);
+    geometryArray.push(pointGeometry);
     const pointLine = new THREE.Line(pointGeometry, materialLine);
     pointLine.rotation.x = -(Math.PI / 2);
     scene.add(pointLine);
     let points = new THREE.Points(pointGeometry, pointsMaterial);
-        meshArray.push(points);
+    meshArray.push(points);
     points.rotation.x = -(Math.PI / 2);
     scene.add(points);
+  } else if (sphereGraphLines) {
+    for (let i = 0; i < spherePointArray.length; i++) {
+      for (let j = i + 1; j < spherePointArray.length; j++) {
+        if (j % i == 0 && j % 4 == 0) {
+          let twoPointsArray = [];
+          twoPointsArray.push(spherePointArray[i]);
+          twoPointsArray.push(spherePointArray[j]);
+          let lineGeometry = new THREE.BufferGeometry().setFromPoints(
+            twoPointsArray,
+          );
+          let line = new THREE.Line(lineGeometry, materialLine);
+          scene.add(line);
+        }
+      }
+    }
   }
 
   const geometry = new THREE.PlaneGeometry(250, 250);
@@ -545,7 +639,9 @@ graphStyleFolder
   .add(graphStyle, "style", {
     Bargraph: "barGraph",
     SphereGraph: "sphereGraph",
+    SphereGraphHeight: "sphereGraphHeight",
     LineGraph: "lineGraph",
+    sphereGraphLines: "sphereGraphLines",
   })
   .onChange(function () {
     changeBarStyle();
@@ -557,16 +653,36 @@ function changeBarStyle() {
       barGraph = true;
       lineGraph = false;
       sphereGraph = false;
+      sphereGraphHeight = false;
+      sphereGraphLines = false;
       break;
     case "sphereGraph":
       barGraph = false;
       lineGraph = false;
       sphereGraph = true;
+      sphereGraphHeight = false;
+      sphereGraphLines = false;
       break;
     case "lineGraph":
       barGraph = false;
       lineGraph = true;
       sphereGraph = false;
+      sphereGraphHeight = false;
+      sphereGraphLines = false;
+      break;
+    case "sphereGraphHeight":
+      barGraph = false;
+      lineGraph = false;
+      sphereGraph = false;
+      sphereGraphHeight = true;
+      sphereGraphLines = false;
+      break;
+    case "sphereGraphLines":
+      barGraph = false;
+      lineGraph = false;
+      sphereGraph = false;
+      sphereGraphHeight = false;
+      sphereGraphLines = true;
       break;
     default:
       break;
