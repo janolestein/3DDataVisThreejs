@@ -26,6 +26,7 @@ let lineGraph = false;
 let sphereGraph = false;
 let sphereGraphHeight = false;
 let sphereGraphLines = false;
+let sphereGraphWHeightLines = false;
 
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
@@ -95,25 +96,25 @@ function gpsToCart(lat, lon) {
 
 function colorPicker(value) {
   if (value > 0.9) {
-    return 0xa10000;
+    return 0xd20f39;
   } else if (value > 0.8) {
-    return 0xa13e00;
+    return 0xe64553;
   } else if (value > 0.7) {
-    return 0x838a01;
+    return 0xfe640b;
   } else if (value > 0.6) {
-    return 0x4c8a01;
+    return 0xdf8e1d;
   } else if (value > 0.5) {
-    return 0x0a8a01;
+    return 0x40a02b;
   } else if (value > 0.4) {
-    return 0x018a41;
+    return 0x179299;
   } else if (value > 0.3) {
-    return 0x018a85;
+    return 0x04a5e5;
   } else if (value > 0.2) {
-    return 0x9b78b3;
+    return 0x209fb5;
   } else if (value > 0.1) {
-    return 0x03018a;
+    return 0x1e66f5;
   } else if (value > 0) {
-    return 0x3e007d;
+    return 0x7287fd;
   }
   return 0x000000;
 }
@@ -159,6 +160,7 @@ let directionalLight;
 
 //Function that builds the Objects zo Display
 async function visData() {
+  let lineArray = [];
   materialLine = new THREE.LineBasicMaterial({
     linewidth: 0.1,
     color: "black",
@@ -292,10 +294,25 @@ async function visData() {
 
       sphere.castShadow = true;
       scene.add(sphere);
-        let lineArray = [];
-            lineArray.push(centerVec3);
-            let tempVec = new Vector3(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
-            lineArray.push(tempVec);
+    } else if (sphereGraphWHeightLines) {
+      outline.geometry.computeBoundingBox();
+      let centerVec3 = new THREE.Vector3(0, 0, 0);
+      outline.geometry.boundingBox.getCenter(centerVec3);
+      let spGeo = new THREE.SphereGeometry(extrudeSettings.depth / 10, 32, 16);
+      geometryArray.push(spGeo);
+      let sphere = new THREE.Mesh(spGeo, tempMaterial);
+      meshArray.push(sphere);
+      sphere.position.set(centerVec3.x, extrudeSettings.depth, -centerVec3.y);
+      sphere.castShadow = true;
+      scene.add(sphere);
+
+      lineArray.push(centerVec3);
+      let tempVec = new THREE.Vector3(
+        centerVec3.x,
+        extrudeSettings.depth,
+        -centerVec3.y,
+      );
+      lineArray.push(tempVec);
     } else if (sphereGraphLines) {
       outline.geometry.computeBoundingBox();
       let centerVec3 = new THREE.Vector3(0, 0, 0);
@@ -350,6 +367,20 @@ async function visData() {
         }
       }
     }
+  } else if (sphereGraphWHeightLines) {
+    for (let i = 0; i < lineArray.length - 2; i += 2) {
+
+      let twoPointsArray = [];
+      let elem1 = lineArray[i];
+      let elem2 = lineArray[i + 1];
+      twoPointsArray.push(elem1);
+      twoPointsArray.push(elem2);
+      let lineGeometry = new THREE.BufferGeometry().setFromPoints(
+        twoPointsArray,
+      );
+      let line = new THREE.Line(lineGeometry, materialLine);
+      scene.add(line);
+    }
   }
 
   const geometry = new THREE.PlaneGeometry(250, 250);
@@ -363,7 +394,7 @@ async function visData() {
   plane.receiveShadow = true;
   scene.add(plane);
   const ambientColor = 0xffffff;
-  const ambientIntensity = 0.2;
+  const ambientIntensity = 1;
   ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
   scene.add(ambientLight);
   directionalLight = new THREE.DirectionalLight(0xffffff, Math.PI);
@@ -487,7 +518,12 @@ function changeMaterial() {
       exMaterial = new THREE.MeshToonMaterial({ color: "lightblue" });
       break;
     case "physical":
-      exMaterial = new THREE.MeshPhysicalMaterial({});
+      exMaterial = new THREE.MeshPhysicalMaterial({
+        clearcoat: 1.0,
+        clearcoatRoughness: 1.0,
+        metalness: 1.0,
+        roughness: 0.5,
+      });
       break;
     case "standard":
       exMaterial = new THREE.MeshStandardMaterial({});
@@ -642,6 +678,7 @@ graphStyleFolder
     SphereGraphHeight: "sphereGraphHeight",
     LineGraph: "lineGraph",
     sphereGraphLines: "sphereGraphLines",
+    SphereWithLines: "sphereWithLines",
   })
   .onChange(function () {
     changeBarStyle();
@@ -655,6 +692,7 @@ function changeBarStyle() {
       sphereGraph = false;
       sphereGraphHeight = false;
       sphereGraphLines = false;
+      sphereGraphWHeightLines = false;
       break;
     case "sphereGraph":
       barGraph = false;
@@ -662,6 +700,7 @@ function changeBarStyle() {
       sphereGraph = true;
       sphereGraphHeight = false;
       sphereGraphLines = false;
+      sphereGraphWHeightLines = false;
       break;
     case "lineGraph":
       barGraph = false;
@@ -669,6 +708,7 @@ function changeBarStyle() {
       sphereGraph = false;
       sphereGraphHeight = false;
       sphereGraphLines = false;
+      sphereGraphWHeightLines = false;
       break;
     case "sphereGraphHeight":
       barGraph = false;
@@ -676,6 +716,7 @@ function changeBarStyle() {
       sphereGraph = false;
       sphereGraphHeight = true;
       sphereGraphLines = false;
+      sphereGraphWHeightLines = false;
       break;
     case "sphereGraphLines":
       barGraph = false;
@@ -683,6 +724,14 @@ function changeBarStyle() {
       sphereGraph = false;
       sphereGraphHeight = false;
       sphereGraphLines = true;
+      sphereGraphWHeightLines = false;
+    case "sphereWithLines":
+      barGraph = false;
+      lineGraph = false;
+      sphereGraph = false;
+      sphereGraphHeight = false;
+      sphereGraphLines = false;
+      sphereGraphWHeightLines = true;
       break;
     default:
       break;
