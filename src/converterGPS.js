@@ -1,3 +1,4 @@
+//Converter from EPSG:25833 the euro centric coordidante system to the world standard system WGS84
 var epsg = require('epsg');
 var r = require("reproject");
 var proj4 = require("proj4");

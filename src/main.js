@@ -1,3 +1,4 @@
+// All relevent logic for this project is found in this file
 import * as THREE from "three";
 import * as dat from "dat.gui";
 import Stats from "three/examples/jsm/libs/stats.module.js";
@@ -5,7 +6,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const gui = new dat.GUI();
 let stats = new Stats();
-
+// import of all the necesarry json, Geodata and Data to display
 const berlinJson = "../assets/planung_conv.geojson";
 const berlinFwData2018Json = "../assets/BFw_planning_room_data_2018.json";
 const berlinFwData2019Json = "../assets/BFw_planning_room_data_2019.json";
@@ -14,20 +15,21 @@ const berlinFwData2021Json = "../assets/BFw_planning_room_data_2021.json";
 const berlinFwData2022Json = "../assets/BFw_planning_room_data_2022.json";
 const berlinFwData2023Json = "../assets/BFw_planning_room_data_2023.json";
 const berlinFwData2024Json = "../assets/BFw_planning_room_data_2024.json";
+// global Variables used to determine the which Data to display; changed by the dat.gui element
 let berlinFwDataCurrentJson = berlinFwData2024Json;
 let berlinGeo;
 let fwData;
 let lorMap;
 let dataSubsetToDisplay = "mission_count_all";
 let scene;
-
+// same as above for which style of graph to display
 let barGraph = true;
 let lineGraph = false;
 let sphereGraph = false;
 let sphereGraphHeight = false;
 let sphereGraphLines = false;
 let sphereGraphWHeightLines = false;
-
+// saves the max values for the different Datasubsets, to later normalize the data against these values
 let mission_count_all_max = 0;
 let mission_count_ems_max = 0;
 let mission_count_ems_critical_max = 0;
@@ -35,9 +37,11 @@ let mission_count_ems_critical_cpr_max = 0;
 let mission_count_fire_max = 0;
 let mission_count_technical_rescue_max = 0;
 
-//global Data Variables
+// is set if the subdataset is changed to normalize against
 let maxValueToDivideBy;
 let whichMaxValue = "mission_count_all_max";
+// converts the datasets to a map with the LOR-ID as the key and the subsetdata as the values, this map is then used to lock up the values while drawing the graphs
+// it also sets the max values for each of the datasubsets
 async function convertJsonToMapWithLorKey(jsonData) {
     const lorKeyMap = new Map();
     jsonData.forEach((element) => {
@@ -83,7 +87,9 @@ async function convertJsonToMapWithLorKey(jsonData) {
     console.log(lorKeyMap);
     return lorKeyMap;
 }
+//helper function to convert values to radians
 const degreesToRads = (deg) => (deg * Math.PI) / 180.0;
+// function that takes Coordiantes in the WGS84 System and converts them to cartesian Coordiantes
 function gpsToCart(lat, lon) {
     const cart = { x: 0, y: 0 };
     const earthRad = 6378;
@@ -97,7 +103,7 @@ function gpsToCart(lat, lon) {
         );
     return cart;
 }
-
+// helper function that returns a color values as hex, based on a value between 0 and 1
 function colorPicker(value) {
     if (value > 0.9) {
         return 0xd20f39;
@@ -122,6 +128,7 @@ function colorPicker(value) {
     }
     return 0x000000;
 }
+// controls object used by the dat.gui
 let controls = {
     scale: 10,
     isTransparent: true,
@@ -129,12 +136,14 @@ let controls = {
     isWireframe: false,
     coloredGraph: true,
 };
+// Normal Material as Standard when the script is first loaded
 const meshNormal = new THREE.MeshNormalMaterial({
     transparent: controls.isTransparent,
     opacity: controls.opacity,
     wireframe: controls.isWireframe,
 });
 let materialLine;
+// variable changed by the dat.gui element and used to draw all objects
 let exMaterial = meshNormal;
 
 let pointsMaterial = new THREE.PointsMaterial({
@@ -142,13 +151,14 @@ let pointsMaterial = new THREE.PointsMaterial({
     size: 0.2,
     sizeAttenuation: true,
 });
-
+// because fetch and json parsing a async function is needed to await the operations
 async function fetchJSONData(inputJson) {
     const response = await fetch(inputJson);
     const resJson = await response.json();
 
     return resJson;
 }
+// three.js component Initialization
 const canvas = document.querySelector("#c");
 const gl = new THREE.WebGLRenderer({
     canvas,
@@ -156,14 +166,16 @@ const gl = new THREE.WebGLRenderer({
 });
 gl.shadowMap.enabled = true;
 gl.shadowMap.type = THREE.PCFSoftShadowMap;
-
+// arrays used to store all geometrys and materials to 
+// clean them up during a reload, clean up function is at the very end of the script
 let geometryArray = [];
 let meshArray = [];
-
+// global variables for the lights so they can also be cleaned up on reload
 let ambientLight;
 let directionalLight;
 
-//Function that builds the Objects zo Display
+//The Main Function that builds all the Objects to Display and adds 
+//them to the scene, this is run if graph Style or the Dataset is changed 
 async function visData() {
     let lineArray = [];
     materialLine = new THREE.LineBasicMaterial({
@@ -171,7 +183,7 @@ async function visData() {
         color: "black",
     });
 
-    stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
+    stats.showPanel(0); // Initialization of the FPS Panel
     document.body.appendChild(stats.dom);
     // create camera
     const angleOfView = 55;
@@ -193,9 +205,10 @@ async function visData() {
     console.log(fwData);
     console.log(berlinGeo);
     console.log(berlinGeo.features[0].geometry.coordinates);
-
+    // the center of berlin in WGS84 coordinates, these are used to center berlin at origin in the scene
     let centerLat = 52.51772;
     let centerLon = 13.399207;
+    // settings used for the extrude Material
     const extrudeSettings = {
         steps: 2,
         depth: 2,
@@ -205,10 +218,17 @@ async function visData() {
         bevelOffset: 1,
         bevelSegments: 1,
     };
-
+    // arrays in function scope so they can be filled in the following loop and then used outside of it 
     let pointsArray = [];
     let spherePointArray = [];
-    const centerInMercator = gpsToCart(centerLat, centerLon);
+    
+    const centerInMercator = gpsToCart(centerLat, centerLon); // converts the center of Berlin coordinates to cartesian coordinates
+
+    // Most of the logic for this Project is found in the following Loop. 
+    // From a top Level View: The first loop runs through the 542 "Planungsraume" that are displayed. 
+    // These are in the features Object of the geojson of berlin that is beeing worked with. 
+    // The nested loop then runs through all the coordinates that make up that section and converts all the WGS84-coordinates 
+    // to the cartesian System and substracts them from the center of berlin so that everything is centered at the world origin in three.js 
     berlinGeo.features.forEach((element) => {
         const geoPointsVec3 = [];
         const geoPointsArray = [];
@@ -218,45 +238,55 @@ async function visData() {
             let lat = elementNest[1];
             let lon = elementNest[0];
             let berlinGeoInMercator = gpsToCart(lat, lon);
+            // subtracting the center from the current coordinates to center them at the world origin
             let geoMinusCenter = {
                 x: berlinGeoInMercator.x - centerInMercator.x,
                 y: berlinGeoInMercator.y - centerInMercator.y,
             };
             let vec3 = new THREE.Vector3(geoMinusCenter.x, geoMinusCenter.y, 0);
+            // sometimes a Vector is needed and sometimes a array of coordinate tuple is enough to both are saved to arrays
             geoPointsVec3.push(vec3);
-
             geoPointsArray.push(geoMinusCenter);
         });
         let height = getDataFromLorMap(lor);
 
+        //used a the normalized height or size value of all the objects
         let depth;
         depth = height / maxValueToDivideBy;
 
+        // scales the depth value by the factor selected in the dat.gui element
         extrudeSettings.depth = depth * controls.scale;
+        // this checks if the graph should be colored based on the depth value
+        // is not executed if the boolean flag is not set or the normal Material is selected bacause it cannot be colored
         let tempMaterial = exMaterial;
         if (
             !(exMaterial instanceof THREE.MeshNormalMaterial) &&
             controls.coloredGraph
         ) {
+            // Material is cloned so that the color can be individually set. 
             let color = colorPicker(depth);
             tempMaterial = exMaterial.clone();
             tempMaterial.color.set(color);
             exMaterial.color.set(color);
         }
 
-        // let heightData = lorMap.get(lor);
+        // creates a BufferGeometry from the Vector array 
         const geoGeometry = new THREE.BufferGeometry().setFromPoints(
             geoPointsVec3,
         );
+        // and here its beeing pushed to the clean up array 
         geometryArray.push(geoGeometry);
 
+        // the outline of berlin is always created and drawn regardless of the graphstyle beeing used
         const outline = new THREE.Line(geoGeometry, materialLine);
         meshArray.push(outline);
+        // basically everything is rotated because of the way the coordinates are beeing worked with
         outline.rotation.x = -(Math.PI / 2);
         outline.castShadow = true;
-        // outline.scale.set(new THREE.Vector3(0.002, 0.002, 0.002));
-
         scene.add(outline);
+
+        // the following are the checks which graphstyle is selected and than the necesarry objects are Created and added to the scene.
+        // Dont forget this is still in the loop from above so this is run for every "Planungsraum" seperatly
         if (barGraph) {
             let polyShape = new THREE.Shape(
                 geoPointsArray.map(
@@ -370,6 +400,9 @@ async function visData() {
             spherePointArray.push(spherePosition);
         }
     });
+    // this checks are run after the loop above to mostly draw lines based on the arrays created in the forEach-Loop
+    // they are ether complete graph styles by themselves or add something to grapg already drawn in the forEach-Loop
+    // like the lines for the sphereGraphWHeightLines
     if (lineGraph) {
         let pointGeometry = new THREE.BufferGeometry().setFromPoints(
             pointsArray,
@@ -411,7 +444,7 @@ async function visData() {
             scene.add(line);
         }
     }
-
+    // adds a completly white plane so the shadow of the berlin map can be thrown onto it
     const geometry = new THREE.PlaneGeometry(250, 250);
     const planeMaterial = new THREE.MeshStandardMaterial({
         color: 0xffffff,
@@ -422,15 +455,20 @@ async function visData() {
     plane.position.set(0, -25, 0);
     plane.receiveShadow = true;
     scene.add(plane);
+
+    // simple ambient light to light everything 
     const ambientColor = 0xffffff;
     const ambientIntensity = 1;
     ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
     scene.add(ambientLight);
+
+    // directional Light that points down from above the drawn map so that the map can throw a shadow onto the plane
     directionalLight = new THREE.DirectionalLight(0xffffff, Math.PI);
     directionalLight.castShadow = true;
 
     directionalLight.shadow.mapSize.width = 2048;
     directionalLight.shadow.mapSize.height = 2048;
+    // custom Camera that used by the directionalLight, it needed to be a lot bigger to cover the whole drawn map
     directionalLight.shadow.camera = new THREE.OrthographicCamera(
         -100,
         100,
@@ -448,6 +486,7 @@ async function visData() {
 
     const orbitControls = new OrbitControls(camera, gl.domElement);
 
+    // three.js draw function that is run every frame
     function draw() {
         if (resizeGLToDisplaySize(gl)) {
             const canvas = gl.domElement;
@@ -476,6 +515,7 @@ function resizeGLToDisplaySize(gl) {
     return needResize;
 }
 
+// entry point to the script
 async function main() {
     berlinGeo = await fetchJSONData(berlinJson);
 
@@ -485,11 +525,13 @@ async function main() {
     visData();
 }
 main();
-
+// event listener for the reload button
 document.getElementById("reloadButton").addEventListener("click", () => {
     clearGeometries();
     main();
 });
+
+// The rest of the script are the helper function for the dat.gui element to switch all the Options 
 let materials = {
     material: "normal",
 };

@@ -1,3 +1,4 @@
+//converter from csv to json 
 let csvToJson = require('convert-csv-to-json');
 
 let fileInputName = '../assets/BFw_planning_room_data_2024.csv'; 
