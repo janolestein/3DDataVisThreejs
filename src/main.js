@@ -1,4 +1,4 @@
-// All relevent logic for this project is found in this file
+// All relevant logic for this project is found in this file
 import * as THREE from "three";
 import * as dat from "dat.gui";
 import Stats from "three/examples/jsm/libs/stats.module.js";
@@ -166,7 +166,7 @@ const gl = new THREE.WebGLRenderer({
 });
 gl.shadowMap.enabled = true;
 gl.shadowMap.type = THREE.PCFSoftShadowMap;
-// arrays used to store all geometrys and materials to 
+// arrays used to store all geometrys and materials to
 // clean them up during a reload, clean up function is at the very end of the script
 let geometryArray = [];
 let meshArray = [];
@@ -174,8 +174,8 @@ let meshArray = [];
 let ambientLight;
 let directionalLight;
 
-//The Main Function that builds all the Objects to Display and adds 
-//them to the scene, this is run if graph Style or the Dataset is changed 
+//The Main Function that builds all the Objects to Display and adds
+//them to the scene, this is run if graph Style or the Dataset is changed
 async function visData() {
     let lineArray = [];
     materialLine = new THREE.LineBasicMaterial({
@@ -196,7 +196,7 @@ async function visData() {
         nearPlane,
         farPlane,
     );
-    camera.position.set(0, 200, 120);
+    camera.position.set(0, 100, 120);
 
     // create the scene
     scene = new THREE.Scene();
@@ -218,17 +218,17 @@ async function visData() {
         bevelOffset: 1,
         bevelSegments: 1,
     };
-    // arrays in function scope so they can be filled in the following loop and then used outside of it 
+    // arrays in function scope so they can be filled in the following loop and then used outside of it
     let pointsArray = [];
     let spherePointArray = [];
-    
+
     const centerInMercator = gpsToCart(centerLat, centerLon); // converts the center of Berlin coordinates to cartesian coordinates
 
-    // Most of the logic for this Project is found in the following Loop. 
-    // From a top Level View: The first loop runs through the 542 "Planungsraume" that are displayed. 
-    // These are in the features Object of the geojson of berlin that is beeing worked with. 
-    // The nested loop then runs through all the coordinates that make up that section and converts all the WGS84-coordinates 
-    // to the cartesian System and substracts them from the center of berlin so that everything is centered at the world origin in three.js 
+    // Most of the logic for this Project is found in the following Loop.
+    // From a top Level View: The first loop runs through the 542 "Planungsraume" that are displayed.
+    // These are in the features Object of the geojson of berlin that is beeing worked with.
+    // The nested loop then runs through all the coordinates that make up that section and converts all the WGS84-coordinates
+    // to the cartesian System and substracts them from the center of berlin so that everything is centered at the world origin in three.js
     berlinGeo.features.forEach((element) => {
         const geoPointsVec3 = [];
         const geoPointsArray = [];
@@ -263,18 +263,18 @@ async function visData() {
             !(exMaterial instanceof THREE.MeshNormalMaterial) &&
             controls.coloredGraph
         ) {
-            // Material is cloned so that the color can be individually set. 
+            // Material is cloned so that the color can be individually set.
             let color = colorPicker(depth);
             tempMaterial = exMaterial.clone();
             tempMaterial.color.set(color);
             exMaterial.color.set(color);
         }
 
-        // creates a BufferGeometry from the Vector array 
+        // creates a BufferGeometry from the Vector array
         const geoGeometry = new THREE.BufferGeometry().setFromPoints(
             geoPointsVec3,
         );
-        // and here its beeing pushed to the clean up array 
+        // and here its beeing pushed to the clean up array
         geometryArray.push(geoGeometry);
 
         // the outline of berlin is always created and drawn regardless of the graphstyle beeing used
@@ -456,7 +456,7 @@ async function visData() {
     plane.receiveShadow = true;
     scene.add(plane);
 
-    // simple ambient light to light everything 
+    // simple ambient light to light everything
     const ambientColor = 0xffffff;
     const ambientIntensity = 1;
     ambientLight = new THREE.AmbientLight(ambientColor, ambientIntensity);
@@ -514,29 +514,31 @@ function resizeGLToDisplaySize(gl) {
     }
     return needResize;
 }
-
-// entry point to the script
-async function main() {
-    berlinGeo = await fetchJSONData(berlinJson);
-
+// reload function that is called if something is changed in the dat.gui element
+async function reload() {
+    clearGeometries();
     fwData = await fetchJSONData(berlinFwDataCurrentJson);
     lorMap = await convertJsonToMapWithLorKey(fwData);
     setMaxValueToDivideBy();
     visData();
 }
+// entry point to the script
+async function main() {
+    berlinGeo = await fetchJSONData(berlinJson);
+    reload();
+}
 main();
-// event listener for the reload button
-document.getElementById("reloadButton").addEventListener("click", () => {
-    clearGeometries();
-    main();
-});
 
-// The rest of the script are the helper function for the dat.gui element to switch all the Options 
+// The rest of the script are the helper function for the dat.gui element to switch all the Options
 let materials = {
     material: "normal",
 };
 
-gui.add(controls, "scale", 1, 100);
+gui.add(controls, "scale", 1, 100)
+    .listen()
+    .onChange(function () {
+        reload();
+    });
 gui.add(controls, "isTransparent")
     .listen()
     .onChange(function () {
@@ -552,7 +554,11 @@ gui.add(controls, "opacity", 0.0, 1.0)
     .onChange(function () {
         exMaterial.opacity = controls.opacity;
     });
-gui.add(controls, "coloredGraph");
+gui.add(controls, "coloredGraph")
+    .listen()
+    .onChange(function () {
+        reload();
+    });
 let folderMaterial = gui.addFolder("Material");
 folderMaterial
     .add(materials, "material", {
@@ -564,6 +570,7 @@ folderMaterial
     })
     .onChange(function () {
         changeMaterial();
+        reload();
     });
 
 function changeMaterial() {
@@ -617,6 +624,7 @@ dataSubsetFolder
     })
     .onChange(function () {
         changeSubData();
+        reload();
     });
 
 function changeSubData() {
@@ -707,6 +715,7 @@ dataYearFolder
     })
     .onChange(function () {
         changeYearData();
+        reload();
     });
 
 function changeYearData() {
@@ -752,6 +761,7 @@ graphStyleFolder
     })
     .onChange(function () {
         changeBarStyle();
+        reload();
     });
 
 function changeBarStyle() {
@@ -826,5 +836,4 @@ function clearGeometries() {
         elem.dispose();
     });
     geometryArray = [];
-    materialLine.dispose();
 }
