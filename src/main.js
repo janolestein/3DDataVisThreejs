@@ -6,7 +6,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const gui = new dat.GUI();
 let stats = new Stats();
-// import of all the necesarry json, Geodata and Data to display
+// import of all the necesarry Geodata and Data to display as json
 const berlinJson = "../assets/planung_conv.geojson";
 const berlinFwData2018Json = "../assets/BFw_planning_room_data_2018.json";
 const berlinFwData2019Json = "../assets/BFw_planning_room_data_2019.json";
@@ -15,7 +15,7 @@ const berlinFwData2021Json = "../assets/BFw_planning_room_data_2021.json";
 const berlinFwData2022Json = "../assets/BFw_planning_room_data_2022.json";
 const berlinFwData2023Json = "../assets/BFw_planning_room_data_2023.json";
 const berlinFwData2024Json = "../assets/BFw_planning_room_data_2024.json";
-// global Variables used to determine the which Data to display; changed by the dat.gui element
+// global Variables used to determine which Data to display; changed by the dat.gui element
 let berlinFwDataCurrentJson = berlinFwData2024Json;
 let berlinGeo;
 let fwData;
@@ -40,7 +40,8 @@ let mission_count_technical_rescue_max = 0;
 // is set if the subdataset is changed to normalize against
 let maxValueToDivideBy;
 let whichMaxValue = "mission_count_all_max";
-// converts the datasets to a map with the LOR-ID as the key and the subsetdata as the values, this map is then used to lock up the values while drawing the graphs
+// converts the datasets to a map with the LOR-ID as the key and the subsetdata as the values,
+// this map is then used to lock up the values while drawing the graphs
 // it also sets the max values for each of the datasubsets
 async function convertJsonToMapWithLorKey(jsonData) {
     const lorKeyMap = new Map();
@@ -151,7 +152,7 @@ let pointsMaterial = new THREE.PointsMaterial({
     size: 0.2,
     sizeAttenuation: true,
 });
-// because fetch and json parsing a async function is needed to await the operations
+// because fetch and json parsing are async functions, an async function is also needed to await the operations
 async function fetchJSONData(inputJson) {
     const response = await fetch(inputJson);
     const resJson = await response.json();
@@ -222,7 +223,9 @@ async function visData() {
     let pointsArray = [];
     let spherePointArray = [];
 
-    const centerInMercator = gpsToCart(centerLat, centerLon); // converts the center of Berlin coordinates to cartesian coordinates
+    // converts the center of Berlin coordinates to cartesian coordinates in the mercator projection
+    const centerInMercator = gpsToCart(centerLat, centerLon);
+
 
     // Most of the logic for this Project is found in the following Loop.
     // From a top Level View: The first loop runs through the 542 "Planungsraume" that are displayed.
@@ -244,10 +247,11 @@ async function visData() {
                 y: berlinGeoInMercator.y - centerInMercator.y,
             };
             let vec3 = new THREE.Vector3(geoMinusCenter.x, geoMinusCenter.y, 0);
-            // sometimes a Vector is needed and sometimes a array of coordinate tuple is enough to both are saved to arrays
+            // sometimes a Vector is needed and sometimes a array of coordinate tuple is enough so both are saved to arrays
             geoPointsVec3.push(vec3);
             geoPointsArray.push(geoMinusCenter);
         });
+        // gets the datapoint for the current "Planungsraum" from the lorMap
         let height = getDataFromLorMap(lor);
 
         //used a the normalized height or size value of all the objects
@@ -257,7 +261,7 @@ async function visData() {
         // scales the depth value by the factor selected in the dat.gui element
         extrudeSettings.depth = depth * controls.scale;
         // this checks if the graph should be colored based on the depth value
-        // is not executed if the boolean flag is not set or the normal Material is selected bacause it cannot be colored
+        // is not executed if the boolean flag is not set or the normal Material is selected because it cannot be colored
         let tempMaterial = exMaterial;
         if (
             !(exMaterial instanceof THREE.MeshNormalMaterial) &&
@@ -306,6 +310,7 @@ async function visData() {
         } else if (lineGraph) {
             geoPointsArray.forEach((elem, index) => {
                 if (index % 10 == 0) {
+                    // this was supposed to add some jitter to the datapoints, but its not realy working 
                     let rand = Math.random() * (1.1 - 0.9) + 0.9;
                     let vec3 = new THREE.Vector3(
                         elem.x * rand,
@@ -401,7 +406,7 @@ async function visData() {
         }
     });
     // this checks are run after the loop above to mostly draw lines based on the arrays created in the forEach-Loop
-    // they are ether complete graph styles by themselves or add something to grapg already drawn in the forEach-Loop
+    // they are ether complete graph styles by themselves or add something to graph already drawn in the forEach-Loop,
     // like the lines for the sphereGraphWHeightLines
     if (lineGraph) {
         let pointGeometry = new THREE.BufferGeometry().setFromPoints(
@@ -468,7 +473,7 @@ async function visData() {
 
     directionalLight.shadow.mapSize.width = 2048;
     directionalLight.shadow.mapSize.height = 2048;
-    // custom Camera that used by the directionalLight, it needed to be a lot bigger to cover the whole drawn map
+    // custom Camera used by the directionalLight, it needed to be a lot bigger to cover the whole drawn map
     directionalLight.shadow.camera = new THREE.OrthographicCamera(
         -100,
         100,
